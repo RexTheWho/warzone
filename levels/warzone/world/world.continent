@@ -3,60 +3,39 @@
 	<instances/>
 	<statics>
 		<table>
-			<unit_data _prev_pos="-11522.8 -11633 1385.83" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_shoutout_raid/vehicles/fps_vehicle_muscle_1/fps_vehicle_muscle_1" name_id="fps_vehicle_muscle_1_001" position="-11522.8 -11633 1385.83" projection_light="light_head_projection" rotation="0 0 0.707107 -0.707107" unit_id="100625"/>
+			<unit_data _prev_pos="-11532 -11638.6 2774.49" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="1629.1 -812.899 -2.83008" local_rot="0 0 0 1" name="units/pd2_dlc_shoutout_raid/vehicles/fps_vehicle_muscle_1/fps_vehicle_muscle_1" name_id="fps_vehicle_muscle_1_001" position="-11532 -11638.6 2774.49" projection_light="light_head_projection" rotation="0 0 0.707107 -0.707107" unit_id="100625"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-10075 -10700 1400" _prev_rot="0 0 1 4.37114e-008" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="state_enabled" name="units/pd2_mod_wz/buildings/bld_store/bld_store" name_id="bld_store_001" position="-10075 -10700 1400" rotation="0 0 1 -4.37114e-008" unit_id="100000">
+			<unit_data _prev_pos="-10084.2 -10705.6 2788.66" _prev_rot="0 0 1 -4.37114e-008" continent="world" local_pos="696.1 634.9 11.3398" local_rot="0 0 -0.707107 0.707107" mesh_variation="state_enabled" name="units/pd2_mod_wz/buildings/bld_store/bld_store" name_id="bld_store_001" position="-10084.2 -10705.6 2788.66" rotation="0 0 1 -4.37114e-008" unit_id="100000">
 				<ladder height="375" width="80"/>
 			</unit_data>
 		</table>
 		<table>
-			<unit_data _prev_pos="-9100 -10800 1400" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_wz/buildings/bld_radio_tower/bld_radio_tower" name_id="bld_radio_tower_001" position="-9100 -10800 1400" rotation="0 0 0 -1" unit_id="100001"/>
+			<unit_data _prev_pos="-9109.2 -10805.6 2788.66" _prev_rot="0 0 0 -1" continent="world" local_pos="796.1 1609.9 11.3398" local_rot="0 0 0.707107 0.707107" name="units/pd2_mod_wz/buildings/bld_radio_tower/bld_radio_tower" name_id="bld_radio_tower_001" position="-9109.2 -10805.6 2788.66" rotation="0 0 0 -1" unit_id="100001"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-10144.1 -11011.8 1500" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="core/units/light_omni/light_omni" name_id="light_omni_001" only_visible_in_editor="true" position="-10141.1 -11011.8 1628" rotation="0 0 0 -1" unit_id="100002">
-				<lights>
-					<table clipping_values="10000 -10000 0" color="1 1 1" enabled="true" falloff_exponent="1" far_range="200" multiplier="@IDbca13ba1d306f87b@" name="lo_omni" near_range="80" spot_angle_end="-1" spot_angle_start="-1"/>
-				</lights>
-			</unit_data>
+			<unit_data _prev_pos="-9793.2 -11311.6 2763.66" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="1302.1 925.9 -13.6602" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_mod_wz/props/fences/fence_post_rusty_02" name_id="fence_post_rusty_02_001" position="-9793.2 -11311.6 2763.66" rotation="0 0 0.707107 -0.707107" unit_id="100003"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-9800 -11300 1375" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_mod_wz/props/fences/fence_post_rusty_02" name_id="fence_post_rusty_02_001" position="-9784 -11306 1375" rotation="0 0 0.707107 -0.707107" unit_id="100003"/>
+			<unit_data _prev_pos="-9792.05 -11928.3 2769.51" _prev_rot="0 0 1 -0" continent="world" local_pos="1918.8 927.051 -7.81006" local_rot="0 0 -0.707107 0.707107" name="units/pd2_mod_wz/props/fences/fence_post_rusty_02" name_id="fence_post_rusty_02_002" position="-9792.05 -11928.3 2769.51" rotation="0 0 1 -0" unit_id="100004"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-9782.85 -11922.7 1380.85" _prev_rot="0 0 1 -0" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_wz/props/fences/fence_post_rusty_02" name_id="fence_post_rusty_02_002" position="-9782.85 -11922.7 1380.85" rotation="0 0 1 -0" unit_id="100004"/>
+			<unit_data _prev_pos="-10376.2 -11313.6 2770.03" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="1304.1 342.9 -7.29004" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_mod_wz/props/fences/fence_post_rusty_01" name_id="fence_post_rusty_01_001" position="-10376.2 -11313.6 2770.03" rotation="0 0 0.707107 -0.707107" unit_id="100005"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-10367 -11308 1381.37" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_mod_wz/props/fences/fence_post_rusty_01" name_id="fence_post_rusty_01_001" position="-10367 -11308 1381.37" rotation="0 0 0.707107 -0.707107" unit_id="100005"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="32800 -51100 10000" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="state_enabled" name="units/pd2_mod_wz/buildings/bld_store/bld_store" name_id="bld_store_002" position="32800 -51100 9933" rotation="0 0 0.707107 -0.707107" unit_id="100006">
-				<ladder height="375" width="80"/>
-			</unit_data>
-		</table>
-		<table>
-			<unit_data _prev_pos="32711.7 -49449.2 10042.7" _prev_rot="0 0 0.422618 -0.906308" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_wz/props/fences/fence_post_rusty_02" name_id="fence_post_rusty_02_003" position="32711.7 -49449.2 10042.7" rotation="-0.0331583 -0.0711081 0.421316 -0.903514" unit_id="100007"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="33109.7 -49923.6 9944.65" _prev_rot="-0.026873 -0.0163476 0.422823 -0.905666" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_wz/props/fences/fence_post_rusty_02" name_id="fence_post_rusty_02_004" position="33109.7 -49923.6 9944.65" rotation="-0.026873 -0.0163476 0.422823 -0.905666" unit_id="100008"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="33509.6 -50400.2 9912.04" _prev_rot="-0.0326421 -0.0249441 0.507417 -0.860721" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_wz/props/fences/fence_post_rusty_02" name_id="fence_post_rusty_02_005" position="33509.6 -50400.2 9912.04" rotation="-0.0326421 -0.0249441 0.507417 -0.860721" unit_id="100009"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="33988 -51552.8 9862.66" _prev_rot="-0.00810352 -0.00106209 0.609184 -0.792986" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_wz/props/fences/fence_post_rusty_02" name_id="fence_post_rusty_02_007" position="33988 -51552.8 9862.66" rotation="0.00252945 0.0127776 0.609233 -0.792884" unit_id="100011"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="33825.3 -50943.1 9869.95" _prev_rot="-0.00810045 -0.00106213 0.609183 -0.792988" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_mod_wz/props/fences/fence_post_rusty_01" name_id="fence_post_rusty_02_006" position="33825.3 -50943.1 9869.95" rotation="-0.00810045 -0.00106213 0.609183 -0.792988" unit_id="100010"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="-10709.9 -10003.9 1388.66" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_wz/equipment/munition_crate/munition_crate" name_id="munition_crate_001" position="-10709.9 -10003.9 1388.66" rotation="0 0 0.707107 -0.707107" unit_id="100012"/>
+			<unit_data _prev_pos="-10719.1 -10009.5 2777.32" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_wz/equipment/munition_crate/munition_crate" name_id="munition_crate_001" position="-10719.1 -10009.5 2777.32" rotation="0 0 0.707107 -0.707107" unit_id="100012"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="0 0 0" _prev_rot="-0 0 -0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_wz/terrain/landscape/landscape_04_04" name_id="landscape_04_04_001" position="0 0 0" rotation="-0 0 -0 -1" unit_id="100013"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="0 0 0" _prev_rot="-0 0 -0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_wz/terrain/landscape/landscape_05_04" name_id="landscape_05_04_001" position="0 0 0" rotation="-0 0 -0 -1" unit_id="100014"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-1100 -2900 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_wz/terrain/landscape/landscape_06_06" name_id="landscape_06_06_001" position="0 0 0" rotation="-0 0 -0 -1" unit_id="100015"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="25820.1 24852.9 3125.35" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_shoutout_raid/vehicles/fps_vehicle_muscle_1/fps_vehicle_muscle_1" name_id="fps_vehicle_muscle_1_002" position="25820.1 24852.9 3125.35" projection_light="light_head_projection" rotation="0 0 0.861629 -0.507538" unit_id="100016"/>
 		</table>
 	</statics>
 	<values>

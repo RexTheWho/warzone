@@ -12,9 +12,10 @@
 	</decal_surfaces>
 	
     <graphics>
-		<lod_object name="z_05_04">
-				<object name="g_landscape_05_04_lod0"	enabled="true"  max_distance="36000"  max_draw_lod="0" />
-				<object name="g_landscape_05_04_lod1"	enabled="true"  lod="1" />
-		</lod_object>
+		<object name="g_landscape_05_04_lod0"	enabled="true" />
+		<!-- <lod_object name="z_05_04"> -->
+				<!-- <object name="g_landscape_05_04_lod0"	enabled="true"  max_distance="36000"  max_draw_lod="0" /> -->
+				<!-- <object name="g_landscape_05_04_lod1"	enabled="true"  lod="1" /> -->
+		<!-- </lod_object> -->
     </graphics>
 </dynamic_object>
