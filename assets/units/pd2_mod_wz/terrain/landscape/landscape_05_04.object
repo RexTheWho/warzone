@@ -1,0 +1,20 @@
+<dynamic_object>
+    <diesel materials="units/pd2_mod_wz/terrain/landscape/landscape_main" orientation_object="rp_landscape" />
+
+    <bodies>
+        <body name="static_body" enabled="true" template="static">
+            <object name="g_landscape_05_04_lod0" collision_type="mesh_mopp" />
+        </body>
+    </bodies>
+	
+	<decal_surfaces default_material="sand" static="true">
+		<decal_mesh name="g_landscape_05_04_lod0" enabled="true" material="sand" />
+	</decal_surfaces>
+	
+    <graphics>
+		<lod_object name="z_05_04">
+				<object name="g_landscape_05_04_lod0"	enabled="true"  max_distance="36000"  max_draw_lod="0" />
+				<object name="g_landscape_05_04_lod1"	enabled="true"  lod="1" />
+		</lod_object>
+    </graphics>
+</dynamic_object>

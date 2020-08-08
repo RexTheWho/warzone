@@ -1,0 +1,6 @@
+<unit type="gen" slot="1" >
+    <object file="units/pd2_mod_wz/equipment/munition_crate/munition_crate" />
+	<extensions>
+		<extension name="unit_data" class="ScriptUnitData" />
+	</extensions>
+</unit>

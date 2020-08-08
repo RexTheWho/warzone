@@ -1,0 +1,100 @@
+<table name="warzone">
+	<AddFiles directory="assets">
+		<texture force="true" load="true" path="units/pd2_mod_wz/gui/crimenet/warzone"/>
+	</AddFiles>
+	<Localization default="english.txt" directory="loc">
+		<loc file="english.txt" language="english"/>
+	</Localization>
+	<level ai_group_type="america" id="warzone" max_bags="54">
+		<add file="levels/warzone/add.xml"/>
+		<hooks directory="hooks">
+			<hook file="InteractionTweakData.lua" source_file="lib/tweak_data/interactiontweakdata"/>
+			<hook file="CarryTweakData.lua" source_file="lib/tweak_data/carrytweakdata"/>
+			<hook file="EnvEffectTweakData.lua" source_file="lib/tweak_data/enveffecttweakdata"/>
+			<hook file="EnvEffectTweakData.lua" source_file="lib/managers/environmenteffectsmanager"/>
+		</hooks>
+		<include directory="levels/warzone">
+			<file file="world.world" type="generic_xml"/>
+			<file file="continents.continents" type="custom_xml"/>
+			<file file="mission.mission" type="custom_xml"/>
+			<file file="nav_manager_data.nav_data" type="generic_xml"/>
+			<file file="world_sounds.world_sounds" type="generic_xml"/>
+			<file file="world_cameras.world_cameras" type="custom_xml"/>
+			<file file="world/world.continent" type="custom_xml"/>
+			<file file="world/world.mission" type="generic_xml"/>
+			<file file="mockup_only/mockup_only.continent" type="custom_xml"/>
+			<file file="mockup_only/mockup_only.mission" type="generic_xml"/>
+			<file file="editor_only/editor_only.continent" type="custom_xml"/>
+			<file file="editor_only/editor_only.mission" type="generic_xml"/>
+			<file file="cover_data.cover_data" type="custom_xml"/>
+			<file file="environments/wz_t1200.environment" type="custom_xml"/>
+			<file file="environments/default.environment" type="custom_xml"/>
+		</include>
+		<packages>
+			<value_node value="levels/instances/unique/sub_sewer_sidespawn/world/world"/>
+			<value_node value="levels/narratives/vlad/peta/stage2/world/world"/>
+			<value_node value="levels/narratives/locke/mex/world"/>
+		</packages>
+		<script_data_mods directory="scriptdata">
+			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">
+				<options merge_mode="add" mode="add"/>
+			</mod>
+		</script_data_mods>
+	</level>
+	<narrative contact="custom" icon="units/pd2_mod_wz/gui/crimenet/warzone" id="warzone">
+		<chain>
+			<table level_id="warzone" type="d" type_id="heist_type_assault"/>
+		</chain>
+		<contract_cost>
+			<value_node value="4000"/>
+			<value_node value="8000"/>
+			<value_node value="20000"/>
+			<value_node value="40000"/>
+			<value_node value="100000"/>
+			<value_node value="100000"/>
+			<value_node value="100000"/>
+		</contract_cost>
+		<crimenet_callouts>
+			<value_node value="nothing"/>
+		</crimenet_callouts>
+		<crimenet_videos>
+			<value_node value="cn_branchbank2"/>
+		</crimenet_videos>
+		<experience_mul>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="3"/>
+			<value_node value="3"/>
+			<value_node value="3"/>
+		</experience_mul>
+		<max_mission_xp>
+			<value_node value="8000"/>
+			<value_node value="8000"/>
+			<value_node value="8000"/>
+			<value_node value="8000"/>
+			<value_node value="8000"/>
+			<value_node value="8000"/>
+			<value_node value="8000"/>
+		</max_mission_xp>
+		<min_mission_xp>
+			<value_node value="2000"/>
+			<value_node value="2000"/>
+			<value_node value="2000"/>
+			<value_node value="2000"/>
+			<value_node value="2000"/>
+			<value_node value="2000"/>
+			<value_node value="2000"/>
+		</min_mission_xp>
+		<payout>
+			<value_node value="6000"/>
+			<value_node value="12000"/>
+			<value_node value="30000"/>
+			<value_node value="50000"/>
+			<value_node value="60000"/>
+			<value_node value="60000"/>
+			<value_node value="60000"/>
+		</payout>
+	</narrative>
+</table>

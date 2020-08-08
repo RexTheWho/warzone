@@ -1,0 +1,22 @@
+{
+
+"heist_warzone_name":				"Warzone",
+"heist_warzone_brief":				"---",
+
+"wz_find_something_to_do":			"No active objective",
+"wz_find_something_to_do_desc":		"No active objective, Find something to do.",
+
+"hud_int_hold_grab_munitions":		"Munitions",
+"hud_action_grabbing_munitions":	"Munitions",
+"hud_int_hold_grab_rations":		"Rations",
+"hud_action_grabbing_rations":		"Rations",
+"hud_int_hold_grab_scrap":			"Scrap",
+"hud_action_grabbing_scrap":		"Scrap",
+
+"hud_carry_wz_supply_ration":		"Rations",
+"hud_carry_wz_supply_scrap":		"Scrap Parts",
+"hud_carry_wz_supply_munition":		"Munitions",
+
+
+"":""
+}

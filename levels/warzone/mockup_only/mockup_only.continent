@@ -1,0 +1,20 @@
+<table>
+	<editor_groups/>
+	<statics>
+		<table>
+			<unit_data _prev_pos="0 0 1800" _prev_rot="-0 0 -0 -1" continent="mockup_only" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/mkp/mkp_int_pillar_025m_b" name_id="mkp_int_pillar_025m_b_001" position="0 0 1800" rotation="-0 0 -0 -1" unit_id="300000"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-20000 0 1800" _prev_rot="0 0 0 -1" continent="mockup_only" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-20000 0 0" local_rot="-0 0 0 1" name="units/payday2/architecture/mkp/mkp_int_pillar_025m_b" name_id="mkp_int_pillar_025m_b_002" position="-20000 0 1800" rotation="0 0 0 -1" unit_id="300001"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="0 -20000 3100" _prev_rot="-0 0 -0 -1" continent="mockup_only" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/mkp/mkp_int_pillar_025m_b" name_id="mkp_int_pillar_025m_b_003" position="0 -20000 3100" rotation="-0 0 -0 -1" unit_id="300002"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-20000 -20000 3100" _prev_rot="0 0 0 -1" continent="mockup_only" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/mkp/mkp_int_pillar_025m_b" name_id="mkp_int_pillar_025m_b_004" position="-20000 -20000 3100" rotation="0 0 0 -1" unit_id="300003"/>
+		</table>
+	</statics>
+	<values>
+		<workviews/>
+	</values>
+</table>

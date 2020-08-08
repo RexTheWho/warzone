@@ -1,0 +1,4 @@
+<?xml version="1.0" ?>
+<modelscript>
+    <import file="fence_post_rusty_01.gltf" type="gltf" create_objects="true"/>
+</modelscript>

@@ -1,0 +1,6 @@
+<unit type="gen" slot="1" >
+    <object file="units/pd2_mod_wz/buildings/bld_radio_tower/bld_radio_tower" />
+	<extensions>
+		<extension name="unit_data" class="ScriptUnitData" />
+	</extensions>
+</unit>

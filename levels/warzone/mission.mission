@@ -1,0 +1,5 @@
+<table>
+	<editor_only file="editor_only/editor_only"/>
+	<mockup_only file="mockup_only/mockup_only"/>
+	<world file="world/world"/>
+</table>

@@ -1,0 +1,21 @@
+<materials version="3">
+
+    <material name="mat_metal" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:GSMA_TEXTURE:VERTEX_COLOR" version="2">
+        <diffuse_texture	file="units/pd2_dlc_uno/architecture/tiling_textures/rusty_metal/uno_rusymetal_df"/>
+        <material_texture	file="units/pd2_dlc_uno/architecture/tiling_textures/rusty_metal/uno_rusymetal_gsma"/>
+        <reflection_texture type="cube" global_texture="current_global_texture"/>
+    </material>
+		
+    <material name="mat_chainlink" render_template="generic:ALPHA_MASKED:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:NORMALMAP" version="2">
+        <diffuse_texture		file="units/world/props/shared_textures/fence_tile_df"/>
+        <bump_normal_texture	file="units/world/props/shared_textures/fence_tile_nm"/>
+        <variable value="0.06" type="scalar" name="alpha_ref"/>
+    </material>
+	
+    <material name="mat_corrugated_sheet" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:GSMA_TEXTURE" version="2">
+        <diffuse_texture		file="units/pd2_dlc_mad/architecture/mad_sawmill/mad_metal_corrugated_01_df"/>
+        <material_texture		file="units/pd2_dlc_mad/architecture/mad_sawmill/mad_metal_corrugated_01_gsma"/>
+        <bump_normal_texture	file="units/pd2_dlc_mad/architecture/mad_sawmill/mad_metal_corrugated_01_nm"/>
+    </material>
+	
+</materials>

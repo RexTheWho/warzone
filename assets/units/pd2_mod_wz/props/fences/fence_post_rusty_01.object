@@ -1,0 +1,23 @@
+<dynamic_object>
+    <diesel materials="units/pd2_mod_wz/props/fences/fence_post_rusty_01" orientation_object="rp_fence" />
+	<sequence_manager file="units/pd2_mod_wz/props/fences/fence_post_rusty_01" />
+	
+    <bodies>
+        <body name="static_post_001" enabled="true" template="static">
+            <object name="g_post_001" collision_type="box" padding="-2.5" />
+        </body>
+        <body name="static_chain_001" enabled="true" template="fence">
+            <object name="g_chain_001" collision_type="mesh_mopp" />
+        </body>
+        <body name="static_post_002" enabled="true" template="static">
+            <object name="g_post_002" collision_type="box" padding="-2.5" />
+        </body>
+    </bodies>
+	
+    <graphics>
+        <object enabled="true" name="g_post_001" shadow_caster="true"/>
+        <object enabled="true" name="g_chain_001" shadow_caster="true"/>
+        <object enabled="true" name="g_post_002" shadow_caster="true"/>
+    </graphics>
+	
+</dynamic_object>

@@ -1,0 +1,85 @@
+<table directory="assets">
+
+	<!--EFFECTS-->
+	<add unload_on_restart="true">
+		<effect path="units/pd2_mod_wz/effects/environment/windy_desert" unload="true" load="true" />
+		<effect path="units/pd2_mod_wz/effects/environment/windy_desert_leafy" unload="true" load="true" />
+	</add>
+	
+	<!--TERRAIN-->
+	<add unload_on_restart="true">
+
+		<texture			path="units/pd2_mod_wz/terrain/terrain_test1/terrain_test_df" unload="true"/>
+		<texture			path="units/pd2_mod_wz/terrain/terrain_test1/terrain_test_mask" unload="true"/>
+		
+		<material_config	path="units/pd2_mod_wz/terrain/landscape/landscape_main" unload="true"/>
+		<unit				path="units/pd2_mod_wz/terrain/landscape/landscape_04_04" unload="true" load="true" />
+		<object				path="units/pd2_mod_wz/terrain/landscape/landscape_04_04" unload="true"/>
+		<model				path="units/pd2_mod_wz/terrain/landscape/landscape_04_04" unload="true"/>
+		<unit				path="units/pd2_mod_wz/terrain/landscape/landscape_05_04" unload="true" load="true" />
+		<object				path="units/pd2_mod_wz/terrain/landscape/landscape_05_04" unload="true"/>
+		<model				path="units/pd2_mod_wz/terrain/landscape/landscape_05_04" unload="true"/>
+	</add>
+	
+	<add unload_on_restart="true">
+		<unit				path="units/pd2_mod_wz/buildings/bld_store/bld_store" unload="true" load="true" />
+		<object				path="units/pd2_mod_wz/buildings/bld_store/bld_store" unload="true"/>
+		<model				path="units/pd2_mod_wz/buildings/bld_store/bld_store" unload="true"/>
+		<material_config	path="units/pd2_mod_wz/buildings/bld_store/bld_store" unload="true"/>
+		<sequence_manager	path="units/pd2_mod_wz/buildings/bld_store/bld_store" unload="true"/>
+		<unit				path="units/pd2_mod_wz/buildings/bld_radio_tower/bld_radio_tower" unload="true" load="true" />
+		<object				path="units/pd2_mod_wz/buildings/bld_radio_tower/bld_radio_tower" unload="true"/>
+		<model				path="units/pd2_mod_wz/buildings/bld_radio_tower/bld_radio_tower" unload="true"/>
+		<material_config	path="units/pd2_mod_wz/buildings/bld_radio_tower/bld_radio_tower" unload="true"/>
+	</add>
+	
+	<add unload_on_restart="true">
+		<unit				path="units/pd2_mod_wz/supplies/wz_supply_ration/wz_supply_ration" unload="true" load="true" />
+		<object				path="units/pd2_mod_wz/supplies/wz_supply_ration/wz_supply_ration" unload="true"/>
+		<model				path="units/pd2_mod_wz/supplies/wz_supply_ration/wz_supply_ration" unload="true"/>
+		<material_config	path="units/pd2_mod_wz/supplies/wz_supply_ration/wz_supply_ration" unload="true"/>
+		<sequence_manager	path="units/pd2_mod_wz/supplies/wz_supply_ration/wz_supply_ration" unload="true"/>
+		<unit				path="units/pd2_mod_wz/supplies/wz_supply_ration/wz_supply_ration_acc" unload="true" load="true" />
+		<object				path="units/pd2_mod_wz/supplies/wz_supply_ration/wz_supply_ration_acc" unload="true"/>
+		<model				path="units/pd2_mod_wz/supplies/wz_supply_ration/wz_supply_ration_acc" unload="true"/>
+		<material_config	path="units/pd2_mod_wz/supplies/wz_supply_ration/wz_supply_ration_acc" unload="true"/>
+		<unit				path="units/pd2_mod_wz/supplies/wz_supply_munition/wz_supply_munition" unload="true" load="true" />
+		<object				path="units/pd2_mod_wz/supplies/wz_supply_munition/wz_supply_munition" unload="true"/>
+		<model				path="units/pd2_mod_wz/supplies/wz_supply_munition/wz_supply_munition" unload="true"/>
+		<material_config	path="units/pd2_mod_wz/supplies/wz_supply_munition/wz_supply_munition" unload="true"/>
+		<sequence_manager	path="units/pd2_mod_wz/supplies/wz_supply_munition/wz_supply_munition" unload="true"/>
+		<unit				path="units/pd2_mod_wz/supplies/wz_supply_munition/wz_supply_munition_acc" unload="true" load="true" />
+		<object				path="units/pd2_mod_wz/supplies/wz_supply_munition/wz_supply_munition_acc" unload="true"/>
+		<model				path="units/pd2_mod_wz/supplies/wz_supply_munition/wz_supply_munition_acc" unload="true"/>
+		<material_config	path="units/pd2_mod_wz/supplies/wz_supply_munition/wz_supply_munition_acc" unload="true"/>
+		<unit				path="units/pd2_mod_wz/supplies/wz_supply_scrap/wz_supply_scrap" unload="true" load="true" />
+		<object				path="units/pd2_mod_wz/supplies/wz_supply_scrap/wz_supply_scrap" unload="true"/>
+		<model				path="units/pd2_mod_wz/supplies/wz_supply_scrap/wz_supply_scrap" unload="true"/>
+		<material_config	path="units/pd2_mod_wz/supplies/wz_supply_scrap/wz_supply_scrap" unload="true"/>
+		<sequence_manager	path="units/pd2_mod_wz/supplies/wz_supply_scrap/wz_supply_scrap" unload="true"/>
+		<unit				path="units/pd2_mod_wz/supplies/wz_supply_scrap/wz_supply_scrap_acc" unload="true" load="true" />
+		<object				path="units/pd2_mod_wz/supplies/wz_supply_scrap/wz_supply_scrap_acc" unload="true"/>
+		<model				path="units/pd2_mod_wz/supplies/wz_supply_scrap/wz_supply_scrap_acc" unload="true"/>
+		<material_config	path="units/pd2_mod_wz/supplies/wz_supply_scrap/wz_supply_scrap_acc" unload="true"/>
+	</add>
+	
+	<!--EQUIPMENT-->
+	<add unload_on_restart="true">
+		<material_config	path="units/pd2_mod_wz/equipment/munition_crate/munition_crate" unload="true"/>
+		<sequence_manager	path="units/pd2_mod_wz/equipment/munition_crate/munition_crate" unload="true"/>
+		<unit				path="units/pd2_mod_wz/equipment/munition_crate/munition_crate" unload="true" load="true" />
+		<object				path="units/pd2_mod_wz/equipment/munition_crate/munition_crate" unload="true"/>
+		<model				path="units/pd2_mod_wz/equipment/munition_crate/munition_crate" unload="true"/>
+	</add>
+	
+	<add unload_on_restart="true">
+		<material_config	path="units/pd2_mod_wz/props/fences/fence_post_rusty_01" unload="true"/>
+		<sequence_manager	path="units/pd2_mod_wz/props/fences/fence_post_rusty_01" unload="true"/>
+		<unit				path="units/pd2_mod_wz/props/fences/fence_post_rusty_01" unload="true" load="true" />
+		<object				path="units/pd2_mod_wz/props/fences/fence_post_rusty_01" unload="true"/>
+		<model				path="units/pd2_mod_wz/props/fences/fence_post_rusty_01" unload="true"/>
+		<unit				path="units/pd2_mod_wz/props/fences/fence_post_rusty_02" unload="true" load="true" />
+		<object				path="units/pd2_mod_wz/props/fences/fence_post_rusty_02" unload="true"/>
+		<model				path="units/pd2_mod_wz/props/fences/fence_post_rusty_02" unload="true"/>
+	</add>
+</table>

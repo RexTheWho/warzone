@@ -1,0 +1,20 @@
+<dynamic_object>
+    <diesel materials="units/pd2_mod_wz/buildings/bld_radio_tower/bld_radio_tower" orientation_object="rp_tower" />
+
+	
+    <bodies>
+        <body name="static_body" enabled="true" template="static">
+            <object name="g_tower" collision_type="mesh_mopp" />
+        </body>
+    </bodies>
+	
+    <graphics>
+        <object enabled="true" name="g_tower" shadow_caster="true"/>
+<!-- 		
+		<lod_object name="lod_group">
+				<object name="g_bld_radio_tower"		enabled="true"  max_distance="1600"  max_draw_lod="0" />
+				<object name="g_bld_radio_tower_lod1"	enabled="true"  lod="1" />
+		</lod_object>
+		 -->
+    </graphics>
+</dynamic_object>

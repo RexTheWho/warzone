@@ -1,0 +1,47 @@
+<table>
+	<unit>
+	
+		<proximities>
+			<proximity enabled="false" interval="1" name="'prox_bld'" ref_object="'prox_bld'" type="'players'">
+				<outside range="1600">
+					<run_sequence name="'close_bld_door'"/>
+				</outside>
+			</proximity>
+		</proximities>
+		
+		<sequence editable_state="true" name="'state_enabled'" triggable="true">
+			<interaction enabled="true"/>
+		</sequence>
+		<sequence editable_state="true" name="'state_disabled'" triggable="true">
+			<interaction enabled="false"/>
+		</sequence>
+		
+		
+		<sequence editable_state="true" name="'interact'" triggable="true">
+			<animation_group enabled="true" name="'anim_open_close_store'" from="0/30" to="15/30" speed="0.3"/>
+			<set_proximity enabled="true" name="'prox_bld'"/>
+			<sound action="'play'" event="'generic_door_wood_open'" object="'anim_store_door_open_close'"/>
+			<run_sequence name="'show_interior'"/>
+		</sequence>
+		
+		<sequence editable_state="true" name="'close_bld_door'" triggable="true">
+			<set_proximity enabled="false" name="'prox_bld'"/>
+			<animation_group enabled="true" name="'anim_open_close_store'" from="15/30" to="30/30" speed="0.5"/>
+			<interaction enabled="true" />
+			<run_sequence name="'hide_interior'" start_time="2"/>
+		</sequence>
+		
+		<sequence editable_state="false" name="'hide_interior'" triggable="false">
+			<graphic_group visibility="false" name="'grp_interior'"/>
+			<light enabled="false" name="'lo_store_001'"/>
+			<light enabled="false" name="'lo_store_002'"/>
+		</sequence>
+		
+		<sequence editable_state="false" name="'show_interior'" triggable="false">
+			<graphic_group visibility="true" name="'grp_interior'"/>
+			<light enabled="true" name="'lo_store_001'"/>
+			<light enabled="true" name="'lo_store_002'"/>
+		</sequence>
+		
+	</unit>
+</table>

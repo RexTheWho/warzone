@@ -1,0 +1,19 @@
+<unit type="gen" slot="1" >
+    <object file="units/pd2_mod_wz/buildings/bld_store/bld_store" />
+	<extensions>
+		<extension name="unit_data" class="ScriptUnitData" />
+		<extension name="damage" class="UnitDamage" />
+		<extension class="Ladder" name="ladder" >
+			<var name="_ladder_orientation_obj_name" value="ladder" />
+			<var name="_height" value="375" />
+			<var name="_width" value="80" />
+			<var name="normal_axis" value="y" />
+			<var name="invert_normal_axis" value="true" />
+			<var name="up_axis" value="z" />
+		</extension>
+		<extension name="interaction" class="UseInteractionExt">
+			<var name="tweak_data" value="open_door" />
+			<var name="_interact_object" value="intreract_door"/>
+		</extension>
+	</extensions>
+</unit>

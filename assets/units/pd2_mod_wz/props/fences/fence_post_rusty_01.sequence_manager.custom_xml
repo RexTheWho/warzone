@@ -1,0 +1,70 @@
+<table>
+	<unit>
+	
+		<body name="'static_post_001'">
+			<endurance collision="3" explosion="50">
+				<run_sequence name="'break_static_post_001'"/>
+			</endurance>
+		</body>
+		<sequence editable_state="true" name="'break_static_post_001'" triggable="true">
+			<body enabled="false" name="'static_post_001'" />
+			<object enabled="false" name="'g_post_001'" />
+			<set_damage collision="0"/>
+			<set_damage explosion="0"/>
+			<effect align="dest_normal" name="'effects/payday2/particles/impacts/concrete_explosion_impact_pd2'" parent="object('rp_fence')" position="pos - object_pos('rp_fence')"/>
+		</sequence>
+	
+		<body name="'static_chain_001'">
+			<endurance collision="2" explosion="35">
+				<run_sequence name="'break_static_chain_001'"/>
+			</endurance>
+		</body>
+		<sequence editable_state="true" name="'break_static_chain_001'" triggable="true">
+			<body enabled="false" name="'static_chain_001'" />
+			<object enabled="false" name="'g_chain_001'" />
+			<set_damage collision="0"/>
+			<set_damage explosion="0"/>
+			<effect align="dest_normal" name="'effects/payday2/particles/impacts/concrete_explosion_impact_pd2'" parent="object('rp_fence')" position="pos - object_pos('rp_fence')"/>
+		</sequence>
+	
+		<body name="'static_post_002'">
+			<endurance collision="3" explosion="50">
+				<run_sequence name="'break_static_post_002'"/>
+			</endurance>
+		</body>
+		<sequence editable_state="true" name="'break_static_post_002'" triggable="true">
+			<body enabled="false" name="'static_post_002'" />
+			<object enabled="false" name="'g_post_002'" />
+			<set_damage collision="0"/>
+			<set_damage explosion="0"/>
+			<effect align="dest_normal" name="'effects/payday2/particles/impacts/concrete_explosion_impact_pd2'" parent="object('rp_fence')" position="pos - object_pos('rp_fence')"/>
+		</sequence>
+	
+		<body name="'static_chain_002'">
+			<endurance collision="2" explosion="35">
+				<run_sequence name="'break_static_chain_002'"/>
+			</endurance>
+		</body>
+		<sequence editable_state="true" name="'break_static_chain_002'" triggable="true">
+			<body enabled="false" name="'static_chain_002'" />
+			<object enabled="false" name="'g_chain_002'" />
+			<set_damage collision="0"/>
+			<set_damage explosion="0"/>
+			<effect align="dest_normal" name="'effects/payday2/particles/impacts/concrete_explosion_impact_pd2'" parent="object('rp_fence')" position="pos - object_pos('rp_fence')"/>
+		</sequence>
+	
+		<body name="'static_post_003'">
+			<endurance collision="3" explosion="50">
+				<run_sequence name="'break_static_post_003'"/>
+			</endurance>
+		</body>
+		<sequence editable_state="true" name="'break_static_post_003'" triggable="true">
+			<body enabled="false" name="'static_post_003'" />
+			<object enabled="false" name="'g_post_003'" />
+			<set_damage collision="0"/>
+			<set_damage explosion="0"/>
+			<effect align="dest_normal" name="'effects/payday2/particles/impacts/concrete_explosion_impact_pd2'" parent="object('rp_fence')" position="pos - object_pos('rp_fence')"/>
+		</sequence>
+		
+	</unit>
+</table>

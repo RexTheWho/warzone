@@ -1,0 +1,6 @@
+<unit type="tst" slot="1">
+	<object file="units/pd2_mod_wz/supplies/wz_supply_munition/wz_supply_munition_acc" />
+	<extensions>
+		<extension name="unit_data" class="ScriptUnitData" />
+	</extensions>
+</unit>

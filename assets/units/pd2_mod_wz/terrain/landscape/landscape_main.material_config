@@ -1,0 +1,34 @@
+<materials version="3">
+<!-- 
+	<material name="mat_mat" render_template="generic:BLEND_DIFFUSE:BLEND_GSMA:BLEND_MASK_CONTROL:BLEND_MASK_CROSSBLEND:BLEND_NORMAL:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:GLOSS_BLURS_CUBEMAP:GSMA_TEXTURE:NORMALMAP:WORLD_UP_BLEND" version="2">
+		<diffuse_texture		file="units/pd2_dlc_mex/terrain/mex_terrain_textures/mex_soil_large_pebbles_df"/>
+		<material_texture		file="units/pd2_dlc_mex/terrain/mex_terrain_textures/mex_soil_large_pebbles_gsma"/>
+		<bump_normal_texture	file="units/pd2_dlc_mex/terrain/mex_terrain_textures/mex_soil_large_pebbles_nm"/>
+		<diffuse_layer0_texture	file="units/pd2_dlc_mex/terrain/mex_terrain_textures/mex_soil_small_pebbles_df"/>
+		<diffuse_layer2_texture	file="units/pd2_dlc_mex/terrain/mex_terrain_textures/mex_soil_small_pebbles_gsma"/>
+		<normal_layer0_texture	file="units/pd2_dlc_mex/terrain/mex_terrain_textures/mex_soil_small_pebbles_nm"/>
+        <variable type="scalar" name="world_up_blend_bias" value="0.3"/>
+        <variable type="vector3" name="blend_control" value="0.1 0.5 0"/>
+	</material>
+	 -->
+    <material name="mat_mat" render_template="landscape:BLEND_MASKS:MAT0:MAT0_BLEND_WORLD_MASK:MAT0_NM:MAT0_W_UV_A:MAT1:MAT1_BLEND_WORLD_MASK:MAT1_NM:MAT1_W_UV_A:MAT2:MAT2_BLEND_WORLD_MASK:MAT2_NM:MAT2_W_UV_A:MAT3:MAT3_BLEND_WORLD_MASK:MAT3_NM:MAT3_W_UV_A:OVERLAY_OVER_DETAIL:WORLD_MASK_A_WETNESS:WORLD_NM:WORLD_OVERLAY_MASK_TEXTURE:WORLD_OVERLAY_TEXTURE:WORLD_TEX_UV1" version="2">
+        <diffuse_layer0_texture		file="units/pd2_dlc_mex/terrain/mex_terrain_textures/mex_soil_dead_shrubs_df"/> <!--BLACK-->
+        <normal_layer0_texture		file="units/pd2_dlc_mex/terrain/mex_terrain_textures/mex_soil_dead_shrubs_nm"/>
+        <diffuse_layer1_texture		file="units/pd2_dlc_peta/terrain/pta_rock_smooth_df"/> <!--RED-->
+        <normal_layer1_texture		file="units/pd2_dlc_peta/terrain/pta_rock_smooth_nm"/>
+        <diffuse_layer2_texture		file="units/pd2_dlc_mex/terrain/mex_terrain_textures/mex_dry_soil_df"/> <!--GREEN-->
+        <normal_layer2_texture		file="units/pd2_dlc_mex/terrain/mex_terrain_textures/mex_dry_soil_nm"/>
+        <diffuse_layer3_texture		file="units/pd2_dlc_peta/terrain/pta_terrain_rocky_ground_df"/> <!--BLUE-->
+        <normal_layer3_texture		file="units/pd2_dlc_peta/terrain/pta_terrain_rocky_ground_nm"/>
+		
+        <world_overlay_texture		file="units/pd2_mod_wz/terrain/terrain_test1/terrain_test_df"/>
+        <bump_normal_texture		file="units/pd2_dlc_mex/terrain/mex_terrain_textures/mex_dry_soil_nm"/>
+		<world_overlay_mask_texture	file="units/pd2_mod_wz/terrain/terrain_test1/terrain_test_mask"/>
+
+        <variable type="vector3" name="detail_scale" value="200 200 0"/>
+        <variable type="vector3" name="detail_fadeout" value="2400 10000 0"/>
+        <variable type="vector3" name="detail_fadeout" value="1 48000 0"/>
+        <variable type="vector3" name="mask_weight" value="1 1 0.5"/>
+        <variable type="scalar" name="specular_power" value="0"/>
+    </material>
+</materials>
