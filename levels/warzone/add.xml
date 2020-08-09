@@ -6,12 +6,18 @@
 		<effect path="units/pd2_mod_wz/effects/environment/windy_desert_leafy" unload="true" load="true" />
 	</add>
 	
+	<!--ENV-->
+	<add unload_on_restart="true">
+		<scene				path="units/pd2_mod_wz/environments/sky_1945_sunset/sky_1945_sunset" unload="true" load="true" />
+		<material_config	path="units/pd2_mod_wz/environments/sky_1945_sunset/sky_1945_sunset" unload="true" load="true" />
+		<model				path="units/pd2_mod_wz/environments/sky_1945_sunset/sky_1945_sunset" unload="true" load="true" />
+	</add>
+	
 	<!--TERRAIN-->
 	<add unload_on_restart="true">
-
-		<texture			path="units/pd2_mod_wz/terrain/terrain_test1/terrain_test_df" unload="true"/>
-		<texture			path="units/pd2_mod_wz/terrain/terrain_test1/terrain_test_mask" unload="true"/>
 		
+		<texture			path="units/pd2_mod_wz/terrain/landscape/landscape_main_df" unload="true"/>
+		<texture			path="units/pd2_mod_wz/terrain/landscape/landscape_main_nm" unload="true"/>
 		<texture			path="units/pd2_mod_wz/terrain/landscape/landscape_main_mask" unload="true"/>
 		<material_config	path="units/pd2_mod_wz/terrain/landscape/landscape_main" unload="true"/>
 		<unit				path="units/pd2_mod_wz/terrain/landscape/landscape_04_04" unload="true" load="true" />

@@ -61,7 +61,7 @@
 		</sequence>
 		
 		<sequence name=" 'explode' ">
-			<function extension="'base'" function="'detonate'" param1="object_pos( 'rp_loot_bag' )" param2="700" param3="250" param4="5"/>
+			<function extension="'base'" function="'detonate'" param1="object_pos( 'rp_loot_bag' )" param2="500" param3="50" param4="150"/>
 			<slot slot="0"/> <!--DELETE UNIT-->
 		</sequence>
 		

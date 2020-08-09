@@ -1,0 +1,206 @@
+{
+  "asset": {
+    "copyright": "",
+    "generator": "SharpGLTF 1.0.0-alpha0014",
+    "version": "2.0"
+  },
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 620,
+      "max": [
+        2150.997802734375,
+        2150.997802734375,
+        1877.679443359375
+      ],
+      "min": [
+        -2150.997802734375,
+        -2150.998046875,
+        -1877.679443359375
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 620,
+      "max": [
+        0.98824226856231689,
+        0.983095109462738,
+        1.0
+      ],
+      "min": [
+        -0.98258751630783081,
+        -0.98768985271453857,
+        -1.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 620,
+      "max": [
+        0.99560213088989258,
+        0.99100518226623535
+      ],
+      "min": [
+        0.0030502676963806152,
+        0.0044388771057128906
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 620,
+      "max": [
+        1.0000002384185791,
+        2.0018463134765625
+      ],
+      "min": [
+        5.9604644775390625E-08,
+        1.003826379776001
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5123,
+      "count": 2994,
+      "type": "SCALAR"
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 7440,
+      "byteStride": 12,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 7440,
+      "byteOffset": 7440,
+      "byteStride": 12,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 7440,
+      "byteOffset": 14880,
+      "byteStride": 12,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 7440,
+      "byteOffset": 22320,
+      "byteStride": 12,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 5988,
+      "byteOffset": 29760,
+      "target": 34963
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 35748,
+      "uri": "sky_1945_sunset.bin"
+    }
+  ],
+  "materials": [
+    {
+      "name": "sky"
+    },
+    {
+      "name": "Material: Default Material"
+    }
+  ],
+  "meshes": [
+    {
+      "name": "g_sky",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2,
+            "TEXCOORD_1": 3
+          },
+          "indices": 4,
+          "material": 0
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "name": "rp_skydome",
+      "children": [
+        1,
+        2
+      ]
+    },
+    {
+      "name": "g_sky",
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        -0.0003940353,
+        -6.263996E-05,
+        268.431549,
+        1.0
+      ],
+      "mesh": 0
+    },
+    {
+      "name": "d_sun",
+      "matrix": [
+        0.150041834,
+        -0.0263045374,
+        0.988329649,
+        0.0,
+        -0.188930452,
+        -0.9819872,
+        0.00254646922,
+        0.0,
+        0.970460057,
+        -0.187107638,
+        -0.152308881,
+        0.0,
+        -2108.65381,
+        415.594055,
+        233.7177,
+        1.0
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "extras": {
+        "glTF2ExportSettings": {
+          "export_extras": 1,
+          "export_lights": 1
+        }
+      },
+      "nodes": [
+        0
+      ]
+    }
+  ]
+}
