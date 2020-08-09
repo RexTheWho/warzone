@@ -8,7 +8,7 @@
 		<others>
 			<param key="sky_texture" value=""/>
 			<param key="global_world_overlay_mask_texture" value=""/>
-			<param key="underlay" value="units/pd2_mod_wz/environments/sky_1945_sunset/sky_1945_sunset"/>
+			<param key="underlay" value="core/environments/skies/default/default"/>
 			<param key="sun_ray_color_scale" value="4"/>
 			<param key="global_world_overlay_texture" value=""/>
 			<param key="sun_ray_color" value="1 0.55686277151108 0.46666666865349"/>

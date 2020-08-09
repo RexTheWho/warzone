@@ -37,6 +37,7 @@
 			<value_node value="levels/instances/unique/sub_sewer_sidespawn/world/world"/>
 			<value_node value="levels/narratives/vlad/peta/stage2/world/world"/>
 			<value_node value="levels/narratives/locke/mex/world"/>
+			<value_node value="levels/narratives/locke/bph/backdrop/backdrop"/>
 		</packages>
 		<script_data_mods directory="scriptdata">
 			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">
