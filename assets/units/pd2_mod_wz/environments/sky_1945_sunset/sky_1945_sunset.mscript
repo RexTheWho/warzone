@@ -1,0 +1,5 @@
+<?xml version="1.0" ?>
+<modelscript>
+    <import file="sky_1945_sunset.gltf" type="gltf" create_objects="true"/>
+	<animation file="sky_1945_sunset.animation"/>
+</modelscript>

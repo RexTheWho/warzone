@@ -2,13 +2,6 @@
     <diesel materials="units/pd2_mod_wz/buildings/bld_store/bld_store" orientation_object="rp_bld_store" />
 	<sequence_manager file="units/pd2_mod_wz/buildings/bld_store/bld_store" />
 
-	<animations>
-		<animation_group name="anim_open_close_store" >
-			<object name="anim_store_door_open_close" />
-		</animation_group>
-	</animations>
-
-	
     <bodies>
         <body name="static_body" enabled="true" template="static">
             <object name="g_bld_store" collision_type="mesh_mopp" />
@@ -18,6 +11,7 @@
             <object name="g_ext_front" collision_type="mesh_mopp" />
         </body>
         <body name="animated_door" enabled="true" template="animated">
+			<object name="anim_store_door_open_close" />
             <object name="c_door" collision_type="box" padding="-2.5" />
         </body>
     </bodies>
