@@ -113,7 +113,7 @@
 			<unit_data _prev_pos="0 0 0" _prev_rot="-0 0 -0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_wz/terrain/landscape/landscape_10_09" name_id="landscape_10_09_001" position="0 0 0" rotation="-0 0 -0 -1" unit_id="100048"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="0 0 0" _prev_rot="-0 0 -0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_wz/terrain/landscape/landscape_09_09" name_id="landscape_09_09_001" position="0 0 0" rotation="-0 0 -0 -1" unit_id="100057"/>
+			<unit_data _prev_pos="0 0 0" _prev_rot="0 0 0 -1" continent="world" disable_on_ai_graph="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_wz/terrain/landscape/landscape_09_09" name_id="landscape_09_09_001" position="0 0 0" rotation="-0 0 -0 -1" unit_id="100057"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="-6787.94 -9961.28 2895.69" _prev_rot="0.623565 0.54526 -0.467143 0.30925" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_bph/terrain/bph_rocks/bph_rock_big_02" name_id="bph_rock_big_02_008" position="-6787.94 -9961.28 2895.69" rotation="0.623565 0.54526 -0.467143 0.30925" unit_id="100060"/>
@@ -125,7 +125,7 @@
 			<unit_data _prev_pos="-7484.39 -11127.8 2759.71" _prev_rot="0.761881 0.435529 -0.26586 0.398961" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_bph/terrain/bph_rocks/bph_rock_big_02" name_id="bph_rock_big_02_010" position="-7493.15 -11124.8 2755.95" rotation="0.761881 0.435529 -0.26586 0.398961" unit_id="100062"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-6766.73 -10864.3 3301.97" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_mex/vegetation/mex_vegetation_bush_large/mex_vegetation_bush_large_b" name_id="mex_vegetation_bush_large_b_004" position="-6766.73 -10864.3 3301.97" rotation="0 0 -0.366501 -0.930418" unit_id="100063"/>
+			<unit_data _prev_pos="-6766.73 -10864.3 3301.97" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_mex/vegetation/mex_vegetation_bush_large/mex_vegetation_bush_large_b" name_id="mex_vegetation_bush_large_b_004" position="-6766.73 -10864.3 3301.97" rotation="0 0 -0.945519 -0.325568" unit_id="100063"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="-5607.21 -6655.03 2299.51" _prev_rot="0.0784561 -0.000684669 0.996879 0.00869954" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_wz/terrain/rocks/wz_rocks_large_02" name_id="bph_rock_large_02_001" position="-5607.21 -6655.03 2299.51" rotation="0.0784561 -0.000684669 0.996879 0.00869954" unit_id="100002"/>
@@ -333,6 +333,12 @@
 		</table>
 		<table>
 			<unit_data _prev_pos="-6636.53 -14169 7033.63" _prev_rot="0.895158 0.412682 0.0753882 -0.150675" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_wz/terrain/rocks/wz_rocks_large_02" name_id="bph_rock_large_02_037" position="-6670.01 -14092.3 6905.47" rotation="0.895158 0.412682 0.0753882 -0.150675" unit_id="100108"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-6807.83 -10736.8 3334.6" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_2x3m" name_id="dev_nav_blocker_2x3m_001" only_exists_in_editor="true" position="-6807.83 -10736.8 3334.6" rotation="0 0 -0.382683 -0.92388" unit_id="100109"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-6807.83 -10736.8 3334.6" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_2x3m" name_id="dev_nav_blocker_2x3m_002" only_exists_in_editor="true" position="-6807.83 -10736.8 3334.6" rotation="0 0 -0.92388 -0.382683" unit_id="100110"/>
 		</table>
 	</statics>
 	<values>
