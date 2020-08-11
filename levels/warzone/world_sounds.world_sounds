@@ -18,11 +18,41 @@
 			<entry key="depth" type="number" value="1376"/>
 			<entry key="emitter_event" type="string" value="emitter_rubble_light"/>
 			<entry key="height" type="number" value="2076"/>
-			<entry key="name" type="string" value="none"/>
+			<entry key="name" type="string" value="cliffRubble001"/>
 			<entry key="position" type="vector3" value="-5618.89 -11111.9 4153.66"/>
-			<entry key="rotation" type="quaternion" value="0.033695 -0.0509075 -0.47627 -0.877177"/>
+			<entry key="rotation" type="quaternion" value="0 -0 -0.461749 -0.887011"/>
 			<entry key="type" type="string" value="box_middle"/>
-			<entry key="width" type="number" value="6982"/>
+			<entry key="width" type="number" value="2337"/>
+		</entry>
+		<entry index="3" type="table">
+			<entry key="depth" type="number" value="1376"/>
+			<entry key="emitter_event" type="string" value="emitter_rubble_light"/>
+			<entry key="height" type="number" value="2076"/>
+			<entry key="name" type="string" value="cliffRubble002"/>
+			<entry key="position" type="vector3" value="-7355.93 -13069.6 3953.66"/>
+			<entry key="rotation" type="quaternion" value="0 0 -0.461749 -0.887011"/>
+			<entry key="type" type="string" value="box_middle"/>
+			<entry key="width" type="number" value="2337"/>
+		</entry>
+		<entry index="4" type="table">
+			<entry key="depth" type="number" value="1248"/>
+			<entry key="emitter_event" type="string" value="emitter_rubble_light"/>
+			<entry key="height" type="number" value="1607"/>
+			<entry key="name" type="string" value="cliffRubble003"/>
+			<entry key="position" type="vector3" value="-4143.91 -8482.37 3953.66"/>
+			<entry key="rotation" type="quaternion" value="0 0 -0.461749 -0.887011"/>
+			<entry key="type" type="string" value="box_middle"/>
+			<entry key="width" type="number" value="980"/>
+		</entry>
+		<entry index="5" type="table">
+			<entry key="depth" type="number" value="1376"/>
+			<entry key="emitter_event" type="string" value="emitter_rubble_light"/>
+			<entry key="height" type="number" value="2076"/>
+			<entry key="name" type="string" value="cliffRubble004"/>
+			<entry key="position" type="vector3" value="-3056.38 -12120.9 6181.71"/>
+			<entry key="rotation" type="quaternion" value="0 0 -0.461749 -0.887011"/>
+			<entry key="type" type="string" value="box_middle"/>
+			<entry key="width" type="number" value="2337"/>
 		</entry>
 	</entry>
 	<entry key="sound_emitters" type="table">

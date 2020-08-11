@@ -415,6 +415,21 @@
 		<table>
 			<unit_data _prev_pos="0 0 0" _prev_rot="-0 0 -0 -1" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_wz/terrain/landscape/landscape_09_10" name_id="landscape_09_10_001" position="0 0 0" rotation="0 0 -0 -1" unit_id="100135"/>
 		</table>
+		<table>
+			<unit_data _prev_pos="-14517.7 -9104.16 2037.37" _prev_rot="0 0 -0.544639 -0.83867" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_wz/terrain/rocks/wz_rocks_large_01" name_id="wz_rocks_large_01_005" position="-14517.7 -9104.16 2037.37" rotation="0 0 -0.544639 -0.83867" unit_id="100136"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-14560.9 -9511.37 2143.57" _prev_rot="0 0 -0.477159 -0.878817" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_wz/terrain/rocks/wz_rocks_large_02" name_id="wz_rocks_large_02_001" position="-14560.9 -9511.37 2143.57" rotation="0 0 -0.477159 -0.878817" unit_id="100137"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-14638.9 -9799.63 2061.06" _prev_rot="-0.041635 -0.0446481 -0.72999 -0.680726" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_wz/terrain/rocks/wz_rocks_large_02" name_id="wz_rocks_large_02_002" position="-14656.5 -9748.73 1946.92" rotation="-0.041635 -0.0446481 -0.72999 -0.680726" unit_id="100138"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-14407.4 -9478.12 3885.37" _prev_rot="0.121765 -0.0508597 -0.398701 -0.907537" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_wz/terrain/rocks/wz_rock_big_01" name_id="wz_rock_big_01_001" position="-14407.4 -9478.12 3885.37" rotation="0.121765 -0.0508597 -0.398701 -0.907537" unit_id="100139"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-14501.5 -9703.73 3005.78" _prev_rot="0.21406 0.730161 0.630498 -0.153347" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_wz/terrain/rocks/wz_rocks_large_02" name_id="wz_rocks_large_02_003" position="-14501.5 -9703.73 3005.78" rotation="0.21406 0.730161 0.630498 -0.153347" unit_id="100140"/>
+		</table>
 	</statics>
 	<values>
 		<workviews/>
