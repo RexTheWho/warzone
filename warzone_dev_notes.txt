@@ -12,6 +12,12 @@
 		- Red
 		- Runner Icon
 
+/// DIFFICULTY:
+
+	Base difficulty is OVERKILL
+	Each difficulty over that has more bullet-proof enemies.
+	Total spawns for attack/defense increases slightly.
+
 /// MISSIONS
 Attack Missions:
 	Attack Missions focus on going after enemy controlled areas where you will be at a disadvantage.
