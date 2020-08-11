@@ -20,7 +20,7 @@
 			<entry key="height" type="number" value="2076"/>
 			<entry key="name" type="string" value="cliffRubble001"/>
 			<entry key="position" type="vector3" value="-5618.89 -11111.9 4153.66"/>
-			<entry key="rotation" type="quaternion" value="0 -0 -0.461749 -0.887011"/>
+			<entry key="rotation" type="quaternion" value="0 0 -0.461749 -0.887011"/>
 			<entry key="type" type="string" value="box_middle"/>
 			<entry key="width" type="number" value="2337"/>
 		</entry>
