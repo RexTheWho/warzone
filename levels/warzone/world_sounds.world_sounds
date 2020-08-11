@@ -4,6 +4,26 @@
 	<entry key="default_environment" type="string" value="acoustics_outdoor_medium"/>
 	<entry key="default_occasional" type="string" value="occasionals_silent"/>
 	<entry key="sound_area_emitters" type="table">
+		<entry index="1" type="table">
+			<entry key="depth" type="number" value="1316"/>
+			<entry key="emitter_event" type="string" value="emitter_coyote"/>
+			<entry key="height" type="number" value="3698"/>
+			<entry key="name" type="string" value="none"/>
+			<entry key="position" type="vector3" value="-2316.57 -8859.09 6420.81"/>
+			<entry key="rotation" type="quaternion" value="0.0173387 -0.0585346 -0.71192 -0.699602"/>
+			<entry key="type" type="string" value="box_middle"/>
+			<entry key="width" type="number" value="5128"/>
+		</entry>
+		<entry index="2" type="table">
+			<entry key="depth" type="number" value="1376"/>
+			<entry key="emitter_event" type="string" value="emitter_rubble_light"/>
+			<entry key="height" type="number" value="2076"/>
+			<entry key="name" type="string" value="none"/>
+			<entry key="position" type="vector3" value="-5618.89 -11111.9 4153.66"/>
+			<entry key="rotation" type="quaternion" value="0.033695 -0.0509075 -0.47627 -0.877177"/>
+			<entry key="type" type="string" value="box_middle"/>
+			<entry key="width" type="number" value="6982"/>
+		</entry>
 	</entry>
 	<entry key="sound_emitters" type="table">
 	</entry>
