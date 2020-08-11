@@ -1,0 +1,73 @@
+```
+Attack Convoy
+  *Attack VIP
+  *Attack Loot Transport (Loot loaded up being moved from X to Y)
+  *Attack Supply Drop (plane flew over, dropped loot being loaded loot)
+Attack Camp
+  *Attack Boss Camp (Rarer/Harder)
+  *Hostage Rescue
+  *Attack Radio Station
+Defend Convoy
+Defend Camp
+  *Defend Radio Station
+```
+
+
+Attack Missions:
+	Attack Missions focus on going after enemy controlled areas where you will be at a disadvantage.
+
+Defense Missions:
+	Defense Missions focus on holdout out potentially a few waves of an assault on a mission objective.
+
+Checkpoints:
+	Some Missions will revolve around Checkpoints, these are key locations on roads where there may be rocks, buildings, bridges or heavy vegetation.
+	Each Checkpoint is owned by a Camp so there will not be hostiles in checkpoints nearby the friendly bases.
+
+Attack VIP:
+
+	A. Attack a stationary Mini-Boss located in a camp.
+	B. Attack a mobile convoy where one of the vehicles will have a target to kill.
+
+Attack Transport:
+
+	A. Destroy and Loot enemy convoys moving resources from one camp to another.
+		*Mission is on a timer, taking too long will have the convoy enter a camp and cant be secured.
+		*Checkpoint locations keep the convoy idle for a short period of time making it easier to attack.
+		
+	B. Capture a smuggler lootdrop area from enemies. (2 waves)
+		Wave 1. Enemies on location need to be killed.
+		Wave 2. Additional enemies arrive on scene that need to be killed to secure the lootdrop.
+
+	Take Camp:
+		
+		A. Small camps will have a flag and X amount of enemies to kill before the location is captured.
+		
+		B. Large camps will have a flag, X amount of enemies to kill and a final Mini-Boss to defeat before the location is captured.
+			*Large camps will allow Defend Convoy objectives between other camps.
+
+	Cripple Camp:
+		
+		A. Camps will have crates/fuel tanks to blow up.
+			*Beating these missions will drastically decrease the required amount of kills and time required to capture camps.
+			*Beating these missions will decrease the required waves to defend a camp.
+
+	Defend Camp:
+		
+		A. Camps will occasionally be attacked, holdout for X amount of waves.
+			*Wave count depends on how large the 3 nearest enemy Camps are and how powerful they are.
+				-Recently Crippled Camps will lower the wave counter by 1 (Minimum 1 wave)
+				-Small Camps add +1 wave
+				-Large Camps add +2 waves
+			*Failing to defend will result in that camp needing to be evacuated by the players and will enabled a Hostage Rescue Mission before it can be taken over again.
+
+	Hostage Rescue:
+
+		A. Break into a Camp and save hostages.
+			*Hostage count depends on the size of the camp.
+				-Small Camps require 3 hostages saved.
+				-Large Camps require 5 hostages saved.
+
+	Defend Convoy:
+
+		A. Defend a Convoy from assaults at checkpoints.
+			* Minimum 1 checkpoint will be attacked during transit.
