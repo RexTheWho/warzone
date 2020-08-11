@@ -114,6 +114,9 @@ Attack Transport:
 	- Attack Heli:  WIP
 		* 
 
+	- Secret Minibosses:
+		* Rewards Golden Gun variants.
+		* Easier variants of bosses.
 
 
 
