@@ -1,0 +1,4 @@
+<?xml version="1.0" ?>
+<modelscript>
+    <import file="nav_blocker_4x4x16.glb" type="gltf" create_objects="true"/>
+</modelscript>

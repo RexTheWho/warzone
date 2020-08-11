@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<unit type="dev" slot="1">
+	<object file="units/pd2_mod_wz/dev/nav_blocker/nav_blocker_chungus" />
+	<extensions>
+		<extension name="unit_data" class="ScriptUnitData">
+			<var name="only_exists_in_editor" value="true" />
+		</extension>
+	</extensions>
+</unit>

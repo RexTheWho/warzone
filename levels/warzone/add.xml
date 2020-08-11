@@ -10,6 +10,12 @@
 		<unit				path="units/pd2_mod_wz/dev/nav_blocker/nav_blocker_2x2x16" unload="true" load="true" />
 		<object				path="units/pd2_mod_wz/dev/nav_blocker/nav_blocker_2x2x16" unload="true"/>
 		<model				path="units/pd2_mod_wz/dev/nav_blocker/nav_blocker_2x2x16" unload="true"/>
+		<unit				path="units/pd2_mod_wz/dev/nav_blocker/nav_blocker_4x4x16" unload="true" load="true" />
+		<object				path="units/pd2_mod_wz/dev/nav_blocker/nav_blocker_4x4x16" unload="true"/>
+		<model				path="units/pd2_mod_wz/dev/nav_blocker/nav_blocker_4x4x16" unload="true"/>
+		<unit				path="units/pd2_mod_wz/dev/nav_blocker/nav_blocker_chungus" unload="true" load="true" />
+		<object				path="units/pd2_mod_wz/dev/nav_blocker/nav_blocker_chungus" unload="true"/>
+		<model				path="units/pd2_mod_wz/dev/nav_blocker/nav_blocker_chungus" unload="true"/>
 	</add>
 
 	<!--EFFECTS-->
