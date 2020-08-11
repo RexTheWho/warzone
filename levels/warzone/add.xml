@@ -49,6 +49,12 @@
 		<model				path="units/pd2_mod_wz/terrain/landscape/landscape_10_10" unload="true"/>
 		
 		<material_config	path="units/pd2_mod_wz/terrain/rocks/wz_rocks" unload="true"/>
+		<unit				path="units/pd2_mod_wz/terrain/rocks/wz_cliff_large" unload="true" load="true" />
+		<object				path="units/pd2_mod_wz/terrain/rocks/wz_cliff_large" unload="true"/>
+		<model				path="units/pd2_mod_wz/terrain/rocks/wz_cliff_large" unload="true"/>
+		<unit				path="units/pd2_mod_wz/terrain/rocks/wz_cliff_large_02" unload="true" load="true" />
+		<object				path="units/pd2_mod_wz/terrain/rocks/wz_cliff_large_02" unload="true"/>
+		<model				path="units/pd2_mod_wz/terrain/rocks/wz_cliff_large_02" unload="true"/>
 		<unit				path="units/pd2_mod_wz/terrain/rocks/wz_rocks_large_01" unload="true" load="true" />
 		<object				path="units/pd2_mod_wz/terrain/rocks/wz_rocks_large_01" unload="true"/>
 		<model				path="units/pd2_mod_wz/terrain/rocks/wz_rocks_large_01" unload="true"/>
