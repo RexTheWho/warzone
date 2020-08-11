@@ -118,5 +118,9 @@ Attack Transport:
 		* Rewards Golden Gun variants.
 		* Easier variants of bosses.
 
+/// SECRET WEAPON IDEAS:
 
-
+	- Golden Weapons
+	- Big Iron
+	- Shovel Rocket Launcher
+	- 
