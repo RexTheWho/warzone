@@ -18,6 +18,18 @@
 	Each difficulty over that has more bullet-proof enemies.
 	Total spawns for attack/defense increases slightly.
 
+/// AI RULES:
+	
+	Whisper State:
+		- Melee or Leg Shot will stumble enemies
+			* 100% domination chance on stumbled enemies
+	
+	Assault State: 
+		- 
+	
+	No Return State:
+		- 
+
 /// MISSIONS
 Attack Missions:
 	Attack Missions focus on going after enemy controlled areas where you will be at a disadvantage.
