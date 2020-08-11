@@ -89,3 +89,31 @@ Attack Transport:
 
 		A. Defend a Convoy from assaults at checkpoints.
 			* Minimum 1 checkpoint will be attacked during transit.
+
+
+/// BOSSES: (Lore to be written)
+	
+	- Bulldozer:  WIP
+		* Increased Health
+		* Ramped up visor/plate health
+		* Bulletproof parts
+		* Ammo-backpack weakspot (Non-fatal, Large explosion damage)
+	
+	- Taser:  WIP
+		* Increased Health
+		* Bulletproof Vest
+		* Bulletproof Visor (Destructible, Blocks headshots)
+		* Attempts a electrocution when nearby
+		* 
+	
+	- Cloaker-Cloaker: WIP
+		* Cloak ability (Flips to opaque material)
+		* De-cloaks on sprint (Coop only)
+		* 
+	
+	- Attack Heli:  WIP
+		* 
+
+
+
+
