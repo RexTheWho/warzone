@@ -1,18 +1,18 @@
-```
-Attack Convoy
-  *Attack VIP
-  *Attack Loot Transport (Loot loaded up being moved from X to Y)
-  *Attack Supply Drop (plane flew over, dropped loot being loaded loot)
-Attack Camp
-  *Attack Boss Camp (Rarer/Harder)
-  *Hostage Rescue
-  *Attack Radio Station
-Defend Convoy
-Defend Camp
-  *Defend Radio Station
-```
+/// UI
 
+	Whisper State:
+		- White
+		- Eye Icon
 
+	Assault State:
+		- Yellow
+		- Alert Icon
+
+	No Return State:
+		- Red
+		- Runner Icon
+
+/// MISSIONS
 Attack Missions:
 	Attack Missions focus on going after enemy controlled areas where you will be at a disadvantage.
 
