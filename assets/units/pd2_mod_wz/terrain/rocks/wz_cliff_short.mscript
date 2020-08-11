@@ -1,0 +1,4 @@
+<?xml version="1.0" ?>
+<modelscript>
+    <import file="C:\Program Files (x86)\Steam\steamapps\common\PAYDAY 2\Maps\warzone\assets\units\pd2_mod_wz\terrain\rocks\wz_cliff_short.glb" type="gltf" create_objects="true"/>
+</modelscript>
