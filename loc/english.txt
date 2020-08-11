@@ -16,6 +16,7 @@
 "hud_carry_wz_supply_ration":		"Rations",
 "hud_carry_wz_supply_scrap":		"Scrap Parts",
 "hud_carry_wz_supply_munition":		"Munitions",
+"int_open_parachute":				"Press $BTN_INTERACT to deploy parachute",
 
 
 "":""
