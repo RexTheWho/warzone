@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<unit type="support_unit" slot="0">
+	<object file="units/pd2_mod_wz/dev/delete_self" />
+	<extensions>
+		<extension name="damage" class="UnitDamage" />
+	</extensions>
+</unit>
