@@ -1,4 +1,19 @@
-Hooks:PostHook(CharacterTweakData, "init", "init_kosugiv2", function(self, tweak_data)
+Hooks:PostHook(CharacterTweakData, "init", "init_wz", function(self, tweak_data)
+
+
+function CharacterTweakData:_init_region_wzcartel()
+	self._default_chatter = "mex_dispatch_generic_message"
+	self._unit_prefixes = {
+		cop = "m",
+		swat = "m",
+		heavy_swat = "m",
+		taser = "mtsr",
+		cloaker = "mclk",
+		bulldozer = "mbdz",
+		medic = "mmdc"
+	}
+	self._speech_prefix_p2 = "n"
+end
 
 function CharacterTweakData:character_map()
 	local char_map = {

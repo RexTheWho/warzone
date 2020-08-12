@@ -616,7 +616,7 @@
 					<entry key="participate_to_group_ai" type="boolean" value="true"/>
 					<entry key="position" type="vector3" value="-11500 -11300 2900"/>
 					<entry key="rotation" type="quaternion" value="0 0 1 4.37114e-008"/>
-					<entry key="spawn_action" type="string" value="none"/>
+					<entry key="spawn_action" type="string" value="e_sp_car_exit_to_cbt_front_r"/>
 					<entry key="team" type="string" value="default"/>
 					<entry key="trigger_times" type="number" value="0"/>
 					<entry key="voice" type="number" value="0"/>
@@ -641,7 +641,7 @@
 					<entry key="participate_to_group_ai" type="boolean" value="true"/>
 					<entry key="position" type="vector3" value="-11600 -11300 2900"/>
 					<entry key="rotation" type="quaternion" value="0 0 1 4.37114e-008"/>
-					<entry key="spawn_action" type="string" value="none"/>
+					<entry key="spawn_action" type="string" value="e_sp_car_exit_to_cbt_front_r"/>
 					<entry key="team" type="string" value="default"/>
 					<entry key="trigger_times" type="number" value="0"/>
 					<entry key="voice" type="number" value="0"/>
@@ -666,7 +666,7 @@
 					<entry key="participate_to_group_ai" type="boolean" value="true"/>
 					<entry key="position" type="vector3" value="-11700 -11300 2900"/>
 					<entry key="rotation" type="quaternion" value="0 0 1 4.37114e-008"/>
-					<entry key="spawn_action" type="string" value="none"/>
+					<entry key="spawn_action" type="string" value="e_sp_car_exit_to_cbt_front_r"/>
 					<entry key="team" type="string" value="default"/>
 					<entry key="trigger_times" type="number" value="0"/>
 					<entry key="voice" type="number" value="0"/>
@@ -691,7 +691,7 @@
 					<entry key="participate_to_group_ai" type="boolean" value="true"/>
 					<entry key="position" type="vector3" value="-11800 -11300 2900"/>
 					<entry key="rotation" type="quaternion" value="0 0 1 4.37114e-008"/>
-					<entry key="spawn_action" type="string" value="none"/>
+					<entry key="spawn_action" type="string" value="e_sp_car_exit_to_cbt_front_r"/>
 					<entry key="team" type="string" value="default"/>
 					<entry key="trigger_times" type="number" value="0"/>
 					<entry key="voice" type="number" value="0"/>
@@ -716,7 +716,7 @@
 					<entry key="participate_to_group_ai" type="boolean" value="true"/>
 					<entry key="position" type="vector3" value="-11900 -11300 2900"/>
 					<entry key="rotation" type="quaternion" value="0 0 1 4.37114e-008"/>
-					<entry key="spawn_action" type="string" value="none"/>
+					<entry key="spawn_action" type="string" value="e_sp_car_exit_to_cbt_front_r"/>
 					<entry key="team" type="string" value="default"/>
 					<entry key="trigger_times" type="number" value="0"/>
 					<entry key="voice" type="number" value="0"/>
@@ -834,7 +834,7 @@
 					<entry key="on_executed" type="table">
 					</entry>
 					<entry key="path_haste" type="string" value="walk"/>
-					<entry key="path_stance" type="string" value="ntl"/>
+					<entry key="path_stance" type="string" value="none"/>
 					<entry key="path_style" type="string" value="destination"/>
 					<entry key="patrol_path" type="string" value="none"/>
 					<entry key="pose" type="string" value="none"/>
@@ -880,7 +880,7 @@
 					<entry key="on_executed" type="table">
 					</entry>
 					<entry key="path_haste" type="string" value="walk"/>
-					<entry key="path_stance" type="string" value="ntl"/>
+					<entry key="path_stance" type="string" value="none"/>
 					<entry key="path_style" type="string" value="destination"/>
 					<entry key="patrol_path" type="string" value="none"/>
 					<entry key="pose" type="string" value="none"/>
@@ -926,7 +926,7 @@
 					<entry key="on_executed" type="table">
 					</entry>
 					<entry key="path_haste" type="string" value="walk"/>
-					<entry key="path_stance" type="string" value="ntl"/>
+					<entry key="path_stance" type="string" value="none"/>
 					<entry key="path_style" type="string" value="destination"/>
 					<entry key="patrol_path" type="string" value="none"/>
 					<entry key="pose" type="string" value="none"/>
@@ -972,7 +972,7 @@
 					<entry key="on_executed" type="table">
 					</entry>
 					<entry key="path_haste" type="string" value="walk"/>
-					<entry key="path_stance" type="string" value="ntl"/>
+					<entry key="path_stance" type="string" value="none"/>
 					<entry key="path_style" type="string" value="destination"/>
 					<entry key="patrol_path" type="string" value="none"/>
 					<entry key="pose" type="string" value="none"/>
@@ -1018,7 +1018,7 @@
 					<entry key="on_executed" type="table">
 					</entry>
 					<entry key="path_haste" type="string" value="walk"/>
-					<entry key="path_stance" type="string" value="ntl"/>
+					<entry key="path_stance" type="string" value="none"/>
 					<entry key="path_style" type="string" value="destination"/>
 					<entry key="patrol_path" type="string" value="none"/>
 					<entry key="pose" type="string" value="none"/>
@@ -1140,7 +1140,7 @@
 					<entry key="on_executed" type="table">
 					</entry>
 					<entry key="path_haste" type="string" value="walk"/>
-					<entry key="path_stance" type="string" value="ntl"/>
+					<entry key="path_stance" type="string" value="none"/>
 					<entry key="path_style" type="string" value="destination"/>
 					<entry key="patrol_path" type="string" value="none"/>
 					<entry key="pose" type="string" value="none"/>
@@ -1186,7 +1186,7 @@
 					<entry key="on_executed" type="table">
 					</entry>
 					<entry key="path_haste" type="string" value="walk"/>
-					<entry key="path_stance" type="string" value="ntl"/>
+					<entry key="path_stance" type="string" value="none"/>
 					<entry key="path_style" type="string" value="destination"/>
 					<entry key="patrol_path" type="string" value="none"/>
 					<entry key="pose" type="string" value="none"/>
@@ -1232,7 +1232,7 @@
 					<entry key="on_executed" type="table">
 					</entry>
 					<entry key="path_haste" type="string" value="walk"/>
-					<entry key="path_stance" type="string" value="ntl"/>
+					<entry key="path_stance" type="string" value="none"/>
 					<entry key="path_style" type="string" value="destination"/>
 					<entry key="patrol_path" type="string" value="none"/>
 					<entry key="pose" type="string" value="none"/>
@@ -1278,7 +1278,7 @@
 					<entry key="on_executed" type="table">
 					</entry>
 					<entry key="path_haste" type="string" value="walk"/>
-					<entry key="path_stance" type="string" value="ntl"/>
+					<entry key="path_stance" type="string" value="none"/>
 					<entry key="path_style" type="string" value="destination"/>
 					<entry key="patrol_path" type="string" value="none"/>
 					<entry key="pose" type="string" value="none"/>
@@ -1324,7 +1324,7 @@
 					<entry key="on_executed" type="table">
 					</entry>
 					<entry key="path_haste" type="string" value="walk"/>
-					<entry key="path_stance" type="string" value="ntl"/>
+					<entry key="path_stance" type="string" value="none"/>
 					<entry key="path_style" type="string" value="destination"/>
 					<entry key="patrol_path" type="string" value="none"/>
 					<entry key="pose" type="string" value="none"/>
