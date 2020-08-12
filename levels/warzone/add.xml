@@ -102,13 +102,42 @@
 		<model				path="units/pd2_mod_wz/terrain/rocks/wz_rock_big_02" unload="true"/>
 	</add>
 	
-	<!--TERRAIN-->
+	<!--TERRAIN ROADS-->
 	<add unload_on_restart="true">
 		
 		<material_config	path="units/pd2_mod_wz/terrain/roads/road_materials" unload="true"/>
 		<unit				path="units/pd2_mod_wz/terrain/roads/road_test" unload="true" load="true" />
 		<object				path="units/pd2_mod_wz/terrain/roads/road_test" unload="true"/>
 		<model				path="units/pd2_mod_wz/terrain/roads/road_test" unload="true"/>
+	</add>
+	
+	<!--CHARACTERS-->
+	<add unload_on_restart="true">
+		
+		<!-- Geared Light-->
+		<unit				path="units/pd2_mod_wz/characters/cartel/ene_cartel_geared_light_vest/ene_cartel_geared_light_vest" unload="true" load="true" />
+		<unit				path="units/pd2_mod_wz/characters/cartel/ene_cartel_geared_light_vest/ene_cartel_geared_light_vest_husk" unload="true" load="true" />
+		<object				path="units/pd2_mod_wz/characters/cartel/ene_cartel_geared_light_vest/ene_cartel_geared_light_vest" unload="true"/>
+		<model				path="units/pd2_mod_wz/characters/cartel/ene_cartel_geared_light_vest/ene_cartel_geared_light_vest" unload="true"/>
+		<material_config	path="units/pd2_mod_wz/characters/cartel/ene_cartel_geared_light_vest/ene_cartel_geared_light_vest" unload="true"/>
+		<material_config	path="units/pd2_mod_wz/characters/cartel/ene_cartel_geared_light_vest/ene_cartel_geared_light_vest_contour" unload="true"/>
+		<unit				path="units/pd2_mod_wz/characters/cartel/ene_cartel_geared_light_vest_2/ene_cartel_geared_light_vest_2" unload="true" load="true" />
+		<unit				path="units/pd2_mod_wz/characters/cartel/ene_cartel_geared_light_vest_2/ene_cartel_geared_light_vest_2_husk" unload="true" load="true" />
+		<object				path="units/pd2_mod_wz/characters/cartel/ene_cartel_geared_light_vest_2/ene_cartel_geared_light_vest_2" unload="true"/>
+		<model				path="units/pd2_mod_wz/characters/cartel/ene_cartel_geared_light_vest_2/ene_cartel_geared_light_vest_2" unload="true"/>
+		<material_config	path="units/pd2_mod_wz/characters/cartel/ene_cartel_geared_light_vest_2/ene_cartel_geared_light_vest_2" unload="true"/>
+		<material_config	path="units/pd2_mod_wz/characters/cartel/ene_cartel_geared_light_vest_2/ene_cartel_geared_light_vest_2_contour" unload="true"/>
+		<unit				path="units/pd2_mod_wz/characters/cartel/ene_cartel_geared_medium_vest/ene_cartel_geared_medium_vest" unload="true" load="true" />
+		<unit				path="units/pd2_mod_wz/characters/cartel/ene_cartel_geared_medium_vest/ene_cartel_geared_medium_vest_husk" unload="true" load="true" />
+		<object				path="units/pd2_mod_wz/characters/cartel/ene_cartel_geared_medium_vest/ene_cartel_geared_medium_vest" unload="true"/>
+		<model				path="units/pd2_mod_wz/characters/cartel/ene_cartel_geared_medium_vest/ene_cartel_geared_medium_vest" unload="true"/>
+		<material_config	path="units/pd2_mod_wz/characters/cartel/ene_cartel_geared_medium_vest/ene_cartel_geared_medium_vest" unload="true"/>
+		<material_config	path="units/pd2_mod_wz/characters/cartel/ene_cartel_geared_medium_vest/ene_cartel_geared_medium_vest_contour" unload="true"/>
+		<texture			path="units/pd2_mod_wz/characters/shared_textures/ene_cartel_geared_light_vest_df" unload="true"/>
+		<texture			path="units/pd2_mod_wz/characters/shared_textures/ene_cartel_geared_light_vest_nm" unload="true"/>
+		<texture			path="units/pd2_mod_wz/characters/shared_textures/ene_cartel_heads_atlas_df" unload="true"/>
+		<texture			path="units/pd2_mod_wz/characters/shared_textures/ene_cartel_heads_atlas_nm" unload="true"/>
+		
 	</add>
 	
 	<add unload_on_restart="true">

@@ -1,0 +1,8 @@
+<?xml version="1.0" ?>
+<modelscript>
+	
+	<!--Cleaning Dude-->
+    <import file="ene_cartel_geared_light_vest.obj" type="obj" create_objects="false"/>
+    <import file="ene_cartel_geared_light_vest.fbx" type="fbx" create_objects="false"/>
+	
+</modelscript>

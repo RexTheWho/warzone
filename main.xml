@@ -8,6 +8,7 @@
 	<level ai_group_type="America" briefing_dialog="" id="warzone" intro_event="" team_ai_off="true">
 		<add file="levels/warzone/add.xml"/>
 		<hooks directory="hooks">
+			<hook file="CharacterTweakData.lua" source_file="lib/tweak_data/charactertweakdata"/>
 			<hook file="InteractionTweakData.lua" source_file="lib/tweak_data/interactiontweakdata"/>
 			<hook file="CarryTweakData.lua" source_file="lib/tweak_data/carrytweakdata"/>
 			<hook file="EnvEffectTweakData.lua" source_file="lib/tweak_data/enveffecttweakdata"/>
@@ -18,10 +19,10 @@
 			<hook file="PlayerParachuting.lua" source_file="lib/units/beings/player/states/playerparachuting"/>
 		</hooks>
 		<include directory="levels/warzone">
-			<file file="nav_manager_data.nav_data" type="generic_xml"/>
 			<file file="world.world" type="generic_xml"/>
 			<file file="continents.continents" type="custom_xml"/>
 			<file file="mission.mission" type="custom_xml"/>
+			<file file="nav_manager_data.nav_data" type="generic_xml"/>
 			<file file="world_sounds.world_sounds" type="generic_xml"/>
 			<file file="world_cameras.world_cameras" type="custom_xml"/>
 			<file file="world/world.continent" type="custom_xml"/>

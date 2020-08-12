@@ -265,15 +265,15 @@
 					<entry key="amount" type="number" value="0"/>
 					<entry key="base_delay" type="number" value="0"/>
 					<entry key="enabled" type="boolean" value="true"/>
-					<entry key="enemy" type="string" value="units/payday2/characters/ene_swat_1/ene_swat_1"/>
+					<entry key="enemy" type="string" value="units/pd2_mod_wz/characters/cartel/ene_cartel_geared_light_vest/ene_cartel_geared_light_vest"/>
 					<entry key="execute_on_startup" type="boolean" value="true"/>
 					<entry key="force_pickup" type="string" value="none"/>
 					<entry key="interval" type="number" value="5"/>
 					<entry key="on_executed" type="table">
 					</entry>
 					<entry key="participate_to_group_ai" type="boolean" value="true"/>
-					<entry key="position" type="vector3" value="-7168.84 -9380.38 2931.46"/>
-					<entry key="rotation" type="quaternion" value="0 0 0.382683 -0.92388"/>
+					<entry key="position" type="vector3" value="-9045 -8344 2742"/>
+					<entry key="rotation" type="quaternion" value="0 0 1 5.96046e-008"/>
 					<entry key="spawn_action" type="string" value="none"/>
 					<entry key="team" type="string" value="default"/>
 					<entry key="trigger_times" type="number" value="0"/>
@@ -482,7 +482,7 @@
 					<entry key="amount" type="number" value="0"/>
 					<entry key="base_delay" type="number" value="0"/>
 					<entry key="enabled" type="boolean" value="true"/>
-					<entry key="enemy" type="string" value="units/payday2/characters/ene_swat_1/ene_swat_1"/>
+					<entry key="enemy" type="string" value="units/pd2_mod_wz/characters/cartel/ene_cartel_geared_light_vest/ene_cartel_geared_light_vest"/>
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="force_pickup" type="string" value="none"/>
 					<entry key="interval" type="number" value="5"/>
@@ -507,7 +507,7 @@
 					<entry key="amount" type="number" value="0"/>
 					<entry key="base_delay" type="number" value="0"/>
 					<entry key="enabled" type="boolean" value="true"/>
-					<entry key="enemy" type="string" value="units/payday2/characters/ene_swat_1/ene_swat_1"/>
+					<entry key="enemy" type="string" value="units/pd2_mod_wz/characters/cartel/ene_cartel_geared_light_vest/ene_cartel_geared_light_vest"/>
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="force_pickup" type="string" value="none"/>
 					<entry key="interval" type="number" value="5"/>
@@ -532,7 +532,7 @@
 					<entry key="amount" type="number" value="0"/>
 					<entry key="base_delay" type="number" value="0"/>
 					<entry key="enabled" type="boolean" value="true"/>
-					<entry key="enemy" type="string" value="units/payday2/characters/ene_swat_1/ene_swat_1"/>
+					<entry key="enemy" type="string" value="units/pd2_mod_wz/characters/cartel/ene_cartel_geared_light_vest/ene_cartel_geared_light_vest"/>
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="force_pickup" type="string" value="none"/>
 					<entry key="interval" type="number" value="5"/>
@@ -607,7 +607,7 @@
 					<entry key="amount" type="number" value="0"/>
 					<entry key="base_delay" type="number" value="0"/>
 					<entry key="enabled" type="boolean" value="true"/>
-					<entry key="enemy" type="string" value="units/payday2/characters/ene_swat_1/ene_swat_1"/>
+					<entry key="enemy" type="string" value="units/pd2_mod_wz/characters/cartel/ene_cartel_geared_light_vest/ene_cartel_geared_light_vest"/>
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="force_pickup" type="string" value="none"/>
 					<entry key="interval" type="number" value="5"/>
@@ -632,7 +632,7 @@
 					<entry key="amount" type="number" value="0"/>
 					<entry key="base_delay" type="number" value="0"/>
 					<entry key="enabled" type="boolean" value="true"/>
-					<entry key="enemy" type="string" value="units/payday2/characters/ene_swat_1/ene_swat_1"/>
+					<entry key="enemy" type="string" value="units/pd2_mod_wz/characters/cartel/ene_cartel_geared_light_vest/ene_cartel_geared_light_vest"/>
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="force_pickup" type="string" value="none"/>
 					<entry key="interval" type="number" value="5"/>
@@ -657,7 +657,7 @@
 					<entry key="amount" type="number" value="0"/>
 					<entry key="base_delay" type="number" value="0"/>
 					<entry key="enabled" type="boolean" value="true"/>
-					<entry key="enemy" type="string" value="units/payday2/characters/ene_swat_1/ene_swat_1"/>
+					<entry key="enemy" type="string" value="units/pd2_mod_wz/characters/cartel/ene_cartel_geared_light_vest_2/ene_cartel_geared_light_vest_2"/>
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="force_pickup" type="string" value="none"/>
 					<entry key="interval" type="number" value="5"/>
@@ -682,7 +682,7 @@
 					<entry key="amount" type="number" value="0"/>
 					<entry key="base_delay" type="number" value="0"/>
 					<entry key="enabled" type="boolean" value="true"/>
-					<entry key="enemy" type="string" value="units/payday2/characters/ene_swat_heavy_1/ene_swat_heavy_1"/>
+					<entry key="enemy" type="string" value="units/pd2_mod_wz/characters/cartel/ene_cartel_geared_medium_vest/ene_cartel_geared_medium_vest"/>
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="force_pickup" type="string" value="none"/>
 					<entry key="interval" type="number" value="5"/>
@@ -707,7 +707,7 @@
 					<entry key="amount" type="number" value="0"/>
 					<entry key="base_delay" type="number" value="0"/>
 					<entry key="enabled" type="boolean" value="true"/>
-					<entry key="enemy" type="string" value="units/payday2/characters/ene_swat_heavy_1/ene_swat_heavy_1"/>
+					<entry key="enemy" type="string" value="units/pd2_mod_wz/characters/cartel/ene_cartel_geared_medium_vest/ene_cartel_geared_medium_vest"/>
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="force_pickup" type="string" value="none"/>
 					<entry key="interval" type="number" value="5"/>
