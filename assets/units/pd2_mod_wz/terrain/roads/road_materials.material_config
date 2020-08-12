@@ -1,0 +1,9 @@
+<materials version="3">
+	
+    <material name="mat_road_normal" render_template="generic:ALPHA_MASKED:DIFFUSE_TEXTURE:GSMA_ALPHA_MASKING:GSMA_TEXTURE:NORMALMAP" version="2">
+        <diffuse_texture 		file="units/pd2_dlc_mex/terrain/mex_terrain_textures/mex_asphalt_df" />
+        <material_texture		file="units/pd2_dlc_mex/terrain/mex_terrain_textures/mex_asphalt_gsma" />
+        <bump_normal_texture	file="units/pd2_dlc_mex/terrain/mex_terrain_textures/mex_asphalt_nm" />
+    </material>
+	
+</materials>

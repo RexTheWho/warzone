@@ -7,15 +7,24 @@
 		<object				path="units/pd2_mod_wz/dev/delete_self" unload="true"/>
 		<model				path="units/pd2_mod_wz/dev/delete_self" unload="true"/>
 		
+		<unit				path="units/pd2_mod_wz/dev/nav_blocker/nav_blocker_chungus" unload="true" load="true" />
+		<object				path="units/pd2_mod_wz/dev/nav_blocker/nav_blocker_chungus" unload="true"/>
+		<model				path="units/pd2_mod_wz/dev/nav_blocker/nav_blocker_chungus" unload="true"/>
 		<unit				path="units/pd2_mod_wz/dev/nav_blocker/nav_blocker_2x2x16" unload="true" load="true" />
 		<object				path="units/pd2_mod_wz/dev/nav_blocker/nav_blocker_2x2x16" unload="true"/>
 		<model				path="units/pd2_mod_wz/dev/nav_blocker/nav_blocker_2x2x16" unload="true"/>
 		<unit				path="units/pd2_mod_wz/dev/nav_blocker/nav_blocker_4x4x16" unload="true" load="true" />
 		<object				path="units/pd2_mod_wz/dev/nav_blocker/nav_blocker_4x4x16" unload="true"/>
 		<model				path="units/pd2_mod_wz/dev/nav_blocker/nav_blocker_4x4x16" unload="true"/>
-		<unit				path="units/pd2_mod_wz/dev/nav_blocker/nav_blocker_chungus" unload="true" load="true" />
-		<object				path="units/pd2_mod_wz/dev/nav_blocker/nav_blocker_chungus" unload="true"/>
-		<model				path="units/pd2_mod_wz/dev/nav_blocker/nav_blocker_chungus" unload="true"/>
+		<unit				path="units/pd2_mod_wz/dev/nav_splitter/nav_splitter_8m" unload="true" load="true" />
+		<object				path="units/pd2_mod_wz/dev/nav_splitter/nav_splitter_8m" unload="true"/>
+		<model				path="units/pd2_mod_wz/dev/nav_splitter/nav_splitter_8m" unload="true"/>
+		<unit				path="units/pd2_mod_wz/dev/nav_splitter/nav_splitter_16m" unload="true" load="true" />
+		<object				path="units/pd2_mod_wz/dev/nav_splitter/nav_splitter_16m" unload="true"/>
+		<model				path="units/pd2_mod_wz/dev/nav_splitter/nav_splitter_16m" unload="true"/>
+		<unit				path="units/pd2_mod_wz/dev/nav_splitter/nav_splitter_32m" unload="true" load="true" />
+		<object				path="units/pd2_mod_wz/dev/nav_splitter/nav_splitter_32m" unload="true"/>
+		<model				path="units/pd2_mod_wz/dev/nav_splitter/nav_splitter_32m" unload="true"/>
 	</add>
 
 	<!--EFFECTS-->
@@ -91,6 +100,15 @@
 		<unit				path="units/pd2_mod_wz/terrain/rocks/wz_rock_big_02" unload="true" load="true" />
 		<object				path="units/pd2_mod_wz/terrain/rocks/wz_rock_big_02" unload="true"/>
 		<model				path="units/pd2_mod_wz/terrain/rocks/wz_rock_big_02" unload="true"/>
+	</add>
+	
+	<!--TERRAIN-->
+	<add unload_on_restart="true">
+		
+		<material_config	path="units/pd2_mod_wz/terrain/roads/road_materials" unload="true"/>
+		<unit				path="units/pd2_mod_wz/terrain/roads/road_test" unload="true" load="true" />
+		<object				path="units/pd2_mod_wz/terrain/roads/road_test" unload="true"/>
+		<model				path="units/pd2_mod_wz/terrain/roads/road_test" unload="true"/>
 	</add>
 	
 	<add unload_on_restart="true">
