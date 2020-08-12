@@ -17,7 +17,7 @@ Hooks:PreHook(PlayerStandard,"_update_foley","_update_airtime",function(self, t,
 		if not self._state_data.in_air then
 			self._air_t = t
         end
-        if self._air_t and t > self._air_t + 1 and not self._can_parachute and not managers.player:get_timer("wz_parachute") then
+        if self._air_t and t > self._air_t + tweak_data.player.parachute.trigger_delay and not self._can_parachute and not managers.player:get_timer("wz_parachute") then
             self._can_parachute = true
             local text = managers.localization:text("int_open_parachute", {BTN_INTERACT=managers.localization:btn_macro("jump", false)})
             managers.hud:show_interact({text = text})
