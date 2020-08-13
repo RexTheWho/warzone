@@ -31,30 +31,30 @@
 		- 
 
 /// MISSIONS
-Attack Missions:
-	Attack Missions focus on going after enemy controlled areas where you will be at a disadvantage.
+	Attack Missions:
+		Attack Missions focus on going after enemy controlled areas where you will be at a disadvantage.
 
-Defense Missions:
-	Defense Missions focus on holdout out potentially a few waves of an assault on a mission objective.
+	Defense Missions:
+		Defense Missions focus on holdout out potentially a few waves of an assault on a mission objective.
 
-Checkpoints:
-	Some Missions will revolve around Checkpoints, these are key locations on roads where there may be rocks, buildings, bridges or heavy vegetation.
-	Each Checkpoint is owned by a Camp so there will not be hostiles in checkpoints nearby the friendly bases.
+	Checkpoints:
+		Some Missions will revolve around Checkpoints, these are key locations on roads where there may be rocks, buildings, bridges or heavy vegetation.
+		Each Checkpoint is owned by a Camp so there will not be hostiles in checkpoints nearby the friendly bases.
 
-Attack VIP:
+	Attack VIP:
 
-	A. Attack a stationary Mini-Boss located in a camp.
-	B. Attack a mobile convoy where one of the vehicles will have a target to kill.
+		A. Attack a stationary Mini-Boss located in a camp.
+		B. Attack a mobile convoy where one of the vehicles will have a target to kill.
 
-Attack Transport:
+	Attack Transport:
 
-	A. Destroy and Loot enemy convoys moving resources from one camp to another.
-		*Mission is on a timer, taking too long will have the convoy enter a camp and cant be secured.
-		*Checkpoint locations keep the convoy idle for a short period of time making it easier to attack.
-		
-	B. Capture a smuggler lootdrop area from enemies. (2 waves)
-		Wave 1. Enemies on location need to be killed.
-		Wave 2. Additional enemies arrive on scene that need to be killed to secure the lootdrop.
+		A. Destroy and Loot enemy convoys moving resources from one camp to another.
+			*Mission is on a timer, taking too long will have the convoy enter a camp and cant be secured.
+			*Checkpoint locations keep the convoy idle for a short period of time making it easier to attack.
+			
+		B. Capture a smuggler lootdrop area from enemies. (2 waves)
+			Wave 1. Enemies on location need to be killed.
+			Wave 2. Additional enemies arrive on scene that need to be killed to secure the lootdrop.
 
 	Take Camp:
 		
