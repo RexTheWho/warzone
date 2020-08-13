@@ -55,6 +55,7 @@
 		</sequence>
 		
 		<sequence name=" 'pop' ">
+			<alert range="2400"/>
 			<sound action="'play'" event="'swat_explosion'" object="pick('a_ray_object_1','a_ray_object_2','rp_loot_bag')"/>
 			<effect align="pick(a_ray_object_1,a_ray_object_2,rp_loot_bag)" name="'effects/payday2/particles/weapons/'..pick('50cal_auto','556_auto','762_auto','9mm_auto')" parent="pick('a_ray_object_1','a_ray_object_2','rp_loot_bag')"/>
 			<physic_effect name="'physic_effects/push_sphere'" param1="25" param2="35" target="dest_unit:get_object( Idstring(pick('a_ray_object_1','a_ray_object_2','rp_loot_bag')) )"/>

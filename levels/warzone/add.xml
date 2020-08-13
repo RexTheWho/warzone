@@ -140,6 +140,19 @@
 		
 	</add>
 	
+	<!--WEAPONS-->
+	<add unload_on_restart="true">
+		
+		<!-- AK Shorty-->
+		<unit				path="units/pd2_mod_wz/weapons/wpn_npc_ak_short/wpn_npc_ak_short" unload="true" load="true" />
+		<object				path="units/pd2_mod_wz/weapons/wpn_npc_ak_short/wpn_npc_ak_short" unload="true"/>
+		<model				path="units/pd2_mod_wz/weapons/wpn_npc_ak_short/wpn_npc_ak_short" unload="true"/>
+		<sequence_manager	path="units/pd2_mod_wz/weapons/wpn_npc_ak_short/wpn_npc_ak_short" unload="true"/>
+		<material_config	path="units/pd2_mod_wz/weapons/wpn_npc_ak_short/wpn_npc_ak_short" unload="true"/>
+		<material_config	path="units/pd2_mod_wz/weapons/wpn_npc_ak_short/wpn_npc_ak_short_contour" unload="true"/>
+		
+	</add>
+	
 	<add unload_on_restart="true">
 		<unit				path="units/pd2_mod_wz/buildings/bld_store/bld_store" unload="true" load="true" />
 		<object				path="units/pd2_mod_wz/buildings/bld_store/bld_store" unload="true"/>

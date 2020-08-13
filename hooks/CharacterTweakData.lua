@@ -1,6 +1,6 @@
 Hooks:PostHook(CharacterTweakData, "init", "init_wz", function(self, tweak_data)
 
-
+	-- Region
 function CharacterTweakData:_init_region_wzcartel()
 	self._default_chatter = "mex_dispatch_generic_message"
 	self._unit_prefixes = {
@@ -15,6 +15,7 @@ function CharacterTweakData:_init_region_wzcartel()
 	self._speech_prefix_p2 = "n"
 end
 
+	-- Adding Characters
 function CharacterTweakData:character_map()
 	local char_map = {
 		warzone_cartel = {
@@ -704,5 +705,13 @@ function CharacterTweakData:character_map()
 
 	return char_map
 end
+
+end)
+
+Hooks:PostHook(CharacterTweakData, "_create_table_structure", "_create_table_structure_wz", function(self, tweak_data)
+	-- Custom NPC weapons
+	
+	table.insert(self.weap_ids, "ak_short_npc")
+	table.insert(self.weap_unit_names, Idstring("units/pd2_mod_wz/weapons/wpn_npc_ak_short/wpn_npc_ak_short"))
 
 end)

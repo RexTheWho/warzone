@@ -1,0 +1,6 @@
+<?xml version="1.0" ?>
+<modelscript>
+	
+    <import file="wpn_npc_ak_short.glb" type="gltf" create_objects="true"/>
+	
+</modelscript>
