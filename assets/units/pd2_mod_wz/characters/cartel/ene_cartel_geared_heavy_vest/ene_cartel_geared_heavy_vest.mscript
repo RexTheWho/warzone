@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<modelscript>
+	
+	<!--Cleaning Dude-->
+    <import file="ene_cartel_geared_heavy_vest.obj" type="obj" create_objects="false"/>
+	
+    <import file="ene_cartel_geared_heavy_vest_helmet.obj" type="obj" create_objects="true">
+        <rootpoint name="Head">
+            <default/>
+            <object name="g_helmet_lod1" />
+            <object name="g_helmet_lod2" />
+        </rootpoint>
+	</import>
+	
+    <import file="ene_cartel_geared_heavy_vest.fbx" type="fbx" create_objects="false"/>
+	
+</modelscript>
