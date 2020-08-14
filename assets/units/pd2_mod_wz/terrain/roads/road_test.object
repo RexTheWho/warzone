@@ -2,7 +2,7 @@
     <diesel materials="units/pd2_mod_wz/terrain/roads/road_materials" orientation_object="rp_road" />
 
     <bodies>
-        <body name="static_body" enabled="true" template="editor">
+        <body name="static_body" enabled="true" template="bullet_only">
             <object name="g_road_lod0" collision_type="mesh_mopp" />
         </body>
     </bodies>

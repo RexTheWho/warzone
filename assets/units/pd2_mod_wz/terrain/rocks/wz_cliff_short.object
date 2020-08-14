@@ -5,6 +5,11 @@
 			<object name="g_lod0" collision_type="mesh_mopp" />
 		</body>
 	</bodies>
+	
+	<decal_surfaces default_material="stone" >
+		<decal_mesh name="s_s" enabled="true" material="stone" />
+	</decal_surfaces>
+	
 	<graphics>
 
 		<object name="g_lod0" enabled="true" shadow_caster="true" />

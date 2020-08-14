@@ -7,8 +7,8 @@
         </body>
     </bodies>
 	
-	<decal_surfaces default_material="sand" static="true">
-		<decal_mesh name="g_landscape_06_06_lod0" enabled="true" material="sand" />
+	<decal_surfaces default_material="gravel" static="true">
+		<decal_mesh name="g_landscape_06_06_lod0" enabled="true" material="gravel" />
 		<decal_mesh name="g_landscape_06_06_road" enabled="true" material="rock" />
 	</decal_surfaces>
 	

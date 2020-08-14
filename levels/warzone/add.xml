@@ -106,6 +106,9 @@
 		<unit				path="units/pd2_mod_wz/terrain/rocks/wz_scattered_rock_02" unload="true" load="true" />
 		<object				path="units/pd2_mod_wz/terrain/rocks/wz_scattered_rock_02" unload="true"/>
 		<model				path="units/pd2_mod_wz/terrain/rocks/wz_scattered_rock_02" unload="true"/>
+		<unit				path="units/pd2_mod_wz/terrain/rocks/wz_ledge_01" unload="true" load="true" />
+		<object				path="units/pd2_mod_wz/terrain/rocks/wz_ledge_01" unload="true"/>
+		<model				path="units/pd2_mod_wz/terrain/rocks/wz_ledge_01" unload="true"/>
 	</add>
 	
 	<!--TERRAIN ROADS-->
