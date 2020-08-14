@@ -1,0 +1,27 @@
+<table>
+	<unit>
+	
+		<body name="'body_cocaine'">
+			<endurance explosion="50">
+				<run_sequence name="'destroy_cocaine'"/>
+			</endurance>
+		</body>
+		
+		<sequence editable_state="true" name="'show_cocaine'" triggable="true">
+			<graphic_group name="'cocaine_pile'" visibility="true" />
+			<body name="'body_cocaine'" enabled="true" />
+		</sequence>
+		
+		<sequence editable_state="true" name="'hide_cocaine'" triggable="true">
+			<graphic_group name="'cocaine_pile'" visibility="false" />
+			<body name="'body_cocaine'" enabled="false" />
+		</sequence>
+		
+		<sequence editable_state="true" name="'destroy_cocaine'" triggable="true">
+			<set_damage explosion="0" />
+			<effect name="'units/pd2_mod_wz/props/contraband/cocaine/cocaine_explosion'" parent="object( 'e_effect' )" position="v()" />
+			<run_sequence name="'hide_cocaine'" />
+		</sequence>
+		
+	</unit>
+</table>

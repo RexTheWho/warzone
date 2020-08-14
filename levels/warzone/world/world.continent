@@ -506,7 +506,7 @@
 			<unit_data _prev_pos="-19073 -1482 2142" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_wz/terrain/rocks/wz_rock_big_02" name_id="wz_rock_big_02_005" position="-19073 -1476 2018" rotation="0 0 0 -1" unit_id="100191"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-17500 -7000 2707" _prev_rot="0.700225 -0.0984103 0.0984103 -0.700225" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_wz/terrain/rocks/wz_rocks_large_01" name_id="wz_rocks_large_01_013" position="-17724.5 -6781.66 2707" rotation="0.700225 -0.0984103 0.0984103 -0.700225" unit_id="100194"/>
+			<unit_data _prev_pos="-18701 -5902 2844" _prev_rot="0.67621 -0.206738 0.206738 -0.67621" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_wz/terrain/rocks/wz_rocks_large_01" name_id="wz_rocks_large_01_013" position="-18701 -5902 2572" rotation="0.67621 -0.206738 0.206738 -0.67621" unit_id="100194"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="-10068.6 -10131.3 1122.77" _prev_rot="0 0 -0.422618 -0.906308" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_wz/terrain/rocks/wz_rocks_large_01" name_id="wz_rocks_large_01_014" position="-10068.6 -10131.3 1122.77" rotation="0 0 -0.814115 -0.580703" unit_id="100195"/>
@@ -678,6 +678,117 @@
 		</table>
 		<table>
 			<unit_data _prev_pos="-5523.64 -11055.2 5344.96" _prev_rot="-0.0356949 0.0101072 0.940232 -0.338509" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_wz/terrain/rocks/wz_scattered_rock_02" name_id="wz_scattered_rock_02_007" position="-5523.64 -11055.2 5344.96" rotation="0.0135619 0.0278095 0.940811 -0.337516" unit_id="100221"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-16212.8 -6102.77 2866" _prev_rot="0 0 0.92388 -0.382683" continent="world" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="show_cocaine" name="units/pd2_mod_wz/props/contraband/cocaine/coke_pile" name_id="coke_pile_001" position="-16212.8 -6102.77 2866" rotation="0 0 0.92388 -0.382683" unit_id="100222"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-16063.6 -6363.6 2865" _prev_rot="0 0 -0.382683 -0.92388" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_wz/buildings/bld_warehouse_small_a/bld_warehouse_small_a" name_id="bld_warehouse_small_a_001" position="-16063.6 -6363.6 2865" rotation="0 0 -0.382683 -0.92388" unit_id="100223"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-15779 -6475 2866" _prev_rot="0 0 0.382683 -0.92388" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/ind_prop_warehouse_set/ind_prop_warehouse_pallet_stack_d" name_id="ind_prop_warehouse_pallet_stack_d_001" position="-15779 -6475 2866" rotation="0 0 0.382683 -0.92388" unit_id="100224"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-15678 -6423 2866" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/ind_prop_warehouse_set/ind_prop_warehouse_box_b" name_id="ind_prop_warehouse_box_b_001" position="-15678 -6423 2866" rotation="0 0 0 -1" unit_id="100225"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-16110 -5974.56 2866" _prev_rot="0 0 0.92388 -0.382683" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/com_prop_election_table/com_prop_election_table" name_id="com_prop_election_table_001" position="-16110 -5974.56 2866" rotation="0 0 0.894934 -0.446198" unit_id="100226"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-15993 -5840 2866" _prev_rot="0 0 0.920505 -0.390731" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/com_prop_election_table/com_prop_election_table" name_id="com_prop_election_table_002" position="-15993 -5840 2866" rotation="0 0 0.920505 -0.390731" unit_id="100227"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-15955 -6692 2866" _prev_rot="0 0 0.939693 -0.34202" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/com_prop_election_table/com_prop_election_table" name_id="com_prop_election_table_003" position="-15956.3 -6690.47 2866" rotation="0 0 0.939693 -0.34202" unit_id="100228"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-16380.9 -6650.08 2866" _prev_rot="0 0 -0.382683 -0.92388" continent="world" local_pos="-169.975 2.96764 0" local_rot="0 0 -0.0087266 0.999962" name="units/payday2/props/com_prop_election_table/com_prop_election_table" name_id="com_prop_election_table_004" position="-16402.4 -6629.24 2866" rotation="0 0 -0.382683 -0.92388" unit_id="100229"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-16260.6 -6529.88 2866" _prev_rot="0 0 -0.390731 -0.920505" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/com_prop_election_table/com_prop_election_table" name_id="com_prop_election_table_006" position="-16282.2 -6509.04 2866" rotation="0 0 -0.390731 -0.920505" unit_id="100231"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-16198.8 -6591.03 2866" _prev_rot="0 0 0.920505 -0.390731" continent="world" local_pos="-0.999931 -86.9996 0" local_rot="0 0 -1 -1.19209e-007" name="units/payday2/props/com_prop_election_table/com_prop_election_table" name_id="com_prop_election_table_007" position="-16220.3 -6570.19 2866" rotation="0 0 0.920505 -0.390731" unit_id="100232"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-16341.6 -6690.06 2866" _prev_rot="0 0 0.927184 -0.374607" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/ind_prop_warehouse_set/ind_prop_warehouse_pallet_stack_d" name_id="ind_prop_warehouse_pallet_stack_d_002" position="-16334 -6697.97 2866" rotation="0 0 0.927184 -0.374607" unit_id="100233"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-15556.6 -5809.37 2866" _prev_rot="0 0 0.92388 0.382683" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/com_prop_janitor_shelf/com_prop_janitor_shelf" name_id="com_prop_janitor_shelf_001" position="-15647.8 -5718.16 2866" rotation="0 0 0.92388 0.382683" unit_id="100230"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-15922.2 -6222.18 3265" _prev_rot="0 0 0.382683 -0.92388" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/payday2/props/gen_prop_long_lamp/gen_prop_long_lamp_v2" name_id="gen_prop_long_lamp_v2_001" position="-15922.2 -6222.18 3236" rotation="0 0 0.382683 -0.92388" unit_id="100234"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-15922.2 -6222.18 3236" _prev_rot="0 0 0.382683 -0.92388" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/payday2/props/gen_prop_long_lamp/gen_prop_long_lamp_v2" name_id="gen_prop_long_lamp_v2_002" position="-16205 -6505.02 3236" rotation="0 0 0.382683 -0.92388" unit_id="100235"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-16205 -6505.02 3236" _prev_rot="0 0 0.382683 -0.92388" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/payday2/props/gen_prop_long_lamp/gen_prop_long_lamp_v2" name_id="gen_prop_long_lamp_v2_003" position="-16487.9 -6787.86 3236" rotation="0 0 0.382683 -0.92388" unit_id="100236"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-16487.9 -6787.86 3236" _prev_rot="0 0 0.382683 -0.92388" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/payday2/props/gen_prop_long_lamp/gen_prop_long_lamp_v2" name_id="gen_prop_long_lamp_v2_004" position="-15639.3 -5939.34 3236" rotation="0 0 0.382683 -0.92388" unit_id="100237"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-18411 -7461 3026" _prev_rot="0 0 0.948324 0.317305" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_wz/props/fences/fence_post_rusty_02" name_id="fence_post_rusty_02_005" position="-18411 -7461 3026" rotation="0 0 0.948324 0.317305" unit_id="100238"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-18893.7 -7093.24 3010.33" _prev_rot="0.0654781 -0.0278007 -0.488869 -0.869452" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_wz/props/fences/fence_post_rusty_02" name_id="fence_post_rusty_02_006" position="-18893.7 -7093.24 3010.33" rotation="0.0654781 -0.0278007 -0.488869 -0.869452" unit_id="100239"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-17211 -8948 2886" _prev_rot="0.0309562 -0.0161148 0.88647 0.461467" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_wz/props/fences/fence_post_rusty_02" name_id="fence_post_rusty_02_007" position="-17211 -8948 2886" rotation="0.0309562 -0.0161148 0.88647 0.461467" unit_id="100240"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-16852.5 -9459.98 2864.35" _prev_rot="0.0154805 -0.00805863 0.886876 0.461678" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_wz/props/fences/fence_post_rusty_02" name_id="fence_post_rusty_02_008" position="-16852.5 -9459.98 2864.35" rotation="0.0154805 -0.00805863 0.886876 0.461678" unit_id="100241"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-16747 -9350 2855" _prev_rot="0 0 0.438371 -0.898794" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_wz/nature/veg_bushes/wz_vegetation_bush_large_b" name_id="wz_vegetation_bush_large_b_001" position="-16768.6 -9351.63 2855" rotation="0 0 0.438371 -0.898794" unit_id="100243"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-16644 -9455 2864" _prev_rot="-0.0170351 0.0602171 -0.0337876 -0.997468" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_mod_wz/props/fences/fence_post_rusty_01" name_id="fence_post_rusty_02_009" position="-16644 -9455 2864" rotation="-0.0170351 0.0602171 -0.0337876 -0.997468" unit_id="100242"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-18248.4 -6010.43 2869.37" _prev_rot="0.0381469 -0.0333213 -0.495912 -0.866894" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_mod_wz/props/fences/fence_post_rusty_02" name_id="fence_post_rusty_02_011" position="-18248.4 -6010.43 2857.38" rotation="0.0467988 -0.0484424 -0.495174 -0.866179" unit_id="100245"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-17928 -5482 2789" _prev_rot="0.0519819 -0.0428332 -0.393937 -0.916666" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_mod_wz/props/fences/fence_post_rusty_02" name_id="fence_post_rusty_02_012" position="-17928 -5482 2789" rotation="0.0209138 0.0292196 -0.396801 -0.917201" unit_id="100246"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-18584.2 -6562.91 2940.06" _prev_rot="0.0469525 -0.0481909 -0.487586 -0.870478" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_mod_wz/props/fences/fence_post_rusty_01" name_id="fence_post_rusty_02_010" position="-18584.2 -6562.91 2940.06" rotation="0.0461043 -0.049003 -0.502704 -0.861836" unit_id="100244"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-13000 -7204 2871" _prev_rot="0.0654781 -0.0278007 -0.488869 -0.869452" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_wz/props/fences/fence_post_rusty_02" name_id="fence_post_rusty_02_013" position="-13000 -7204 2871" rotation="0.0586211 -0.0402968 -0.652396 -0.754533" unit_id="100247"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-12903 -6605.6 2786.31" _prev_rot="0.0301084 -0.00734624 -0.654332 -0.755572" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_wz/props/fences/fence_post_rusty_02" name_id="fence_post_rusty_02_014" position="-12903 -6605.6 2786.31" rotation="0.0301084 -0.00734624 -0.654332 -0.755572" unit_id="100248"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-12852 -5881 2769" _prev_rot="-0.00291889 0.00272187 -0.847063 -0.531478" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_wz/props/fences/fence_post_rusty_02" name_id="fence_post_rusty_02_015" position="-12852 -5881 2769" rotation="-0.00291889 0.00272187 -0.847063 -0.531478" unit_id="100249"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-12821 -5947 2769" _prev_rot="-0.0100759 -0.0602113 0.16474 -0.984446" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_wz/nature/veg_bushes/wz_vegetation_bush_large_a" name_id="mex_vegetation_bush_large_c_015" position="-12821 -5947 2769" rotation="0.00796843 -0.0605263 0.445366 -0.893265" unit_id="100250"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-13847 -6759 2817" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_wz/nature/veg_bushes/wz_vegetation_bush_large_b" name_id="wz_vegetation_bush_large_b_002" position="-13847 -6759 2817" rotation="0 0 0 -1" unit_id="100251"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-15896 -5445 2766" _prev_rot="0 0 -0.350207 -0.936672" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_wz/nature/veg_bushes/wz_vegetation_bush_large_b" name_id="wz_vegetation_bush_large_b_003" position="-15896 -5445 2766" rotation="0 0 -0.350207 -0.936672" unit_id="100252"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-16308 -6202 2866" _prev_rot="0 0 0.382683 -0.92388" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/mansion/man_cover_int_shipping_crate_wide/man_cover_int_shipping_crate_wide" name_id="man_cover_int_shipping_crate_wide_001" position="-16294.6 -6191.39 2866" rotation="0 0 0.382683 -0.92388" unit_id="100253"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-16358 -6259 2866" _prev_rot="0 0 0.382683 -0.92388" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/mansion/man_cover_int_shipping_crate_wide/man_cover_int_shipping_crate_wide" name_id="man_cover_int_shipping_crate_wide_002" position="-16358 -6259 2866" rotation="0 0 0.422618 -0.906308" unit_id="100254"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-15498 -5961 2866" _prev_rot="0 0 0.902585 0.430512" continent="world" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="show_cocaine" name="units/pd2_mod_wz/props/contraband/cocaine/coke_pile" name_id="coke_pile_002" position="-15498 -5961 2866" rotation="0 0 0.902585 0.430512" unit_id="100255"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-16202 -7168 2802" _prev_rot="0.0227992 -0.00944375 0.923482 -0.382848" continent="world" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="show_cocaine" name="units/pd2_mod_wz/props/contraband/cocaine/coke_pile" name_id="coke_pile_003" position="-16202 -7168 2802" rotation="0.0227992 -0.00944375 0.923482 -0.382848" unit_id="100256"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-14091 -5661 2764" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_wz/terrain/rocks/wz_rock_big_01" name_id="wz_rock_big_01_015" position="-14091 -5648 2720" rotation="0 0 0 -1" unit_id="100257"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-14496.6 -6720.44 2680" _prev_rot="0 0 -0.382683 -0.92388" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_wz/terrain/rocks/wz_rock_big_02" name_id="wz_rock_big_02_009" position="-14496.6 -6720.44 2680" rotation="0.0483521 0.0200281 -0.382159 -0.922613" unit_id="100258"/>
 		</table>
 	</statics>
 	<values>

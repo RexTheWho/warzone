@@ -1,0 +1,29 @@
+<dynamic_object>
+	<diesel materials="units/pd2_mod_wz/props/contraband/cocaine/cocaine" orientation_object="rp_coke_pile" />
+	<sequence_manager file="units/pd2_mod_wz/props/contraband/cocaine/coke_pile" />
+	<bodies>
+		<body name="body_static" enabled="true" template="static">
+			<object name="c_pallet_01" collision_type="mesh_mopp" />
+		</body>
+		<body name="body_cocaine" enabled="true" template="static">
+			<object name="c_coke_001" collision_type="box" padding="-2.5" />
+			<object name="c_coke_002" collision_type="box" padding="-2.5" />
+			<object name="c_coke_003" collision_type="box" padding="-2.5" />
+		</body>
+	</bodies>
+	
+	<decal_surfaces default_material="cloth_no_decal" static="false">
+		<decal_mesh name="c_pallet_01"	enabled="true" 	material="wood" />
+	</decal_surfaces>
+	
+	<graphics>
+		<object name="s_pallet_01"	enabled="true" shadow_caster="true" />
+		<object name="g_pallet_01"	enabled="true" />
+		<graphic_group name="cocaine_pile" enabled="true" >
+			<lod_object name="lod_group">
+				<object name="g_coke_single_lod0" enabled="true" max_distance="6400" max_draw_lod="0" shadow_caster="true"/>
+				<object name="g_coke_single_lod1" enabled="true" lod="1" />
+			</lod_object>
+		</graphic_group>
+	</graphics>
+</dynamic_object>

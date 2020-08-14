@@ -178,6 +178,10 @@
 		<object				path="units/pd2_mod_wz/buildings/bld_radio_tower/bld_radio_tower" unload="true"/>
 		<model				path="units/pd2_mod_wz/buildings/bld_radio_tower/bld_radio_tower" unload="true"/>
 		<material_config	path="units/pd2_mod_wz/buildings/bld_radio_tower/bld_radio_tower" unload="true"/>
+		<unit				path="units/pd2_mod_wz/buildings/bld_warehouse_small_a/bld_warehouse_small_a" unload="true" load="true" />
+		<object				path="units/pd2_mod_wz/buildings/bld_warehouse_small_a/bld_warehouse_small_a" unload="true"/>
+		<model				path="units/pd2_mod_wz/buildings/bld_warehouse_small_a/bld_warehouse_small_a" unload="true"/>
+		<material_config	path="units/pd2_mod_wz/buildings/bld_warehouse_small_a/bld_warehouse_small_a" unload="true"/>
 	</add>
 	
 	<add unload_on_restart="true">
@@ -244,5 +248,12 @@
 		<unit				path="units/pd2_mod_wz/props/fences/fence_post_rusty_02" unload="true" load="true" />
 		<object				path="units/pd2_mod_wz/props/fences/fence_post_rusty_02" unload="true"/>
 		<model				path="units/pd2_mod_wz/props/fences/fence_post_rusty_02" unload="true"/>
+		
+		<material_config	path="units/pd2_mod_wz/props/contraband/cocaine/cocaine" unload="true"/>
+		<effect				path="units/pd2_mod_wz/props/contraband/cocaine/cocaine_explosion" unload="true" load="true"/>
+		<unit				path="units/pd2_mod_wz/props/contraband/cocaine/coke_pile" unload="true" load="true" />
+		<object				path="units/pd2_mod_wz/props/contraband/cocaine/coke_pile" unload="true"/>
+		<model				path="units/pd2_mod_wz/props/contraband/cocaine/coke_pile" unload="true"/>
+		<sequence_manager	path="units/pd2_mod_wz/props/contraband/cocaine/coke_pile" unload="true"/>
 	</add>
 </table>

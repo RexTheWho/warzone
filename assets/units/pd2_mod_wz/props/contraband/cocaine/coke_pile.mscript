@@ -1,0 +1,4 @@
+<?xml version="1.0" ?>
+<modelscript>
+    <import file="coke_pile.glb" type="gltf" create_objects="true"/>
+</modelscript>
