@@ -100,6 +100,12 @@
 		<unit				path="units/pd2_mod_wz/terrain/rocks/wz_rock_big_02" unload="true" load="true" />
 		<object				path="units/pd2_mod_wz/terrain/rocks/wz_rock_big_02" unload="true"/>
 		<model				path="units/pd2_mod_wz/terrain/rocks/wz_rock_big_02" unload="true"/>
+		<unit				path="units/pd2_mod_wz/terrain/rocks/wz_scattered_rock_01" unload="true" load="true" />
+		<object				path="units/pd2_mod_wz/terrain/rocks/wz_scattered_rock_01" unload="true"/>
+		<model				path="units/pd2_mod_wz/terrain/rocks/wz_scattered_rock_01" unload="true"/>
+		<unit				path="units/pd2_mod_wz/terrain/rocks/wz_scattered_rock_02" unload="true" load="true" />
+		<object				path="units/pd2_mod_wz/terrain/rocks/wz_scattered_rock_02" unload="true"/>
+		<model				path="units/pd2_mod_wz/terrain/rocks/wz_scattered_rock_02" unload="true"/>
 	</add>
 	
 	<!--TERRAIN ROADS-->
@@ -210,6 +216,22 @@
 		<model				path="units/pd2_mod_wz/equipment/munition_crate/munition_crate" unload="true"/>
 	</add>
 	
+	<!--Nature-->
+	<add unload_on_restart="true">
+		<texture			path="units/pd2_mod_wz/nature/veg_bushes/wz_vegetation_bush_large_far_df" unload="true"/>
+		<material_config	path="units/pd2_mod_wz/nature/veg_bushes/wz_vegetation_bush_large" unload="true"/>
+		<unit				path="units/pd2_mod_wz/nature/veg_bushes/wz_vegetation_bush_large_a" unload="true" load="true" />
+		<object				path="units/pd2_mod_wz/nature/veg_bushes/wz_vegetation_bush_large_a" unload="true"/>
+		<model				path="units/pd2_mod_wz/nature/veg_bushes/wz_vegetation_bush_large_a" unload="true"/>
+		<unit				path="units/pd2_mod_wz/nature/veg_bushes/wz_vegetation_bush_large_b" unload="true" load="true" />
+		<object				path="units/pd2_mod_wz/nature/veg_bushes/wz_vegetation_bush_large_b" unload="true"/>
+		<model				path="units/pd2_mod_wz/nature/veg_bushes/wz_vegetation_bush_large_b" unload="true"/>
+		<unit				path="units/pd2_mod_wz/nature/veg_bushes/wz_vegetation_bush_large_c" unload="true" load="true" />
+		<object				path="units/pd2_mod_wz/nature/veg_bushes/wz_vegetation_bush_large_c" unload="true"/>
+		<model				path="units/pd2_mod_wz/nature/veg_bushes/wz_vegetation_bush_large_c" unload="true"/>
+	</add>
+	
+	<!--Props-->
 	<add unload_on_restart="true">
 		<material_config	path="units/pd2_mod_wz/props/fences/fence_post_rusty_01" unload="true"/>
 		<sequence_manager	path="units/pd2_mod_wz/props/fences/fence_post_rusty_01" unload="true"/>

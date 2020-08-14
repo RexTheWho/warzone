@@ -1,0 +1,15 @@
+<dynamic_object>
+	<diesel materials="units/pd2_mod_wz/terrain/rocks/wz_rocks" orientation_object="rp_rocks" />
+	<bodies>
+		<body name="body_static" enabled="true" template="editor">
+			<object name="g_lod0" collision_type="box" />
+		</body>
+	</bodies>
+	
+	<graphics>
+		<lod_object name="lod_group">
+			<object name="g_lod0"	enabled="true"  max_distance="3200"  max_draw_lod="0" shadow_caster="true"/>
+			<object name="g_lod1" 	enabled="true" lod="1" />
+		</lod_object>
+	</graphics>
+</dynamic_object>

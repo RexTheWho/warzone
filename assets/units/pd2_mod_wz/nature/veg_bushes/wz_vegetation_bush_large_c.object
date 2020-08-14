@@ -1,0 +1,17 @@
+<dynamic_object>
+	<diesel materials="units/pd2_mod_wz/nature/veg_bushes/wz_vegetation_bush_large" orientation_object="rp_bry_vegetation_bush_large_c" />
+	<bodies>
+		<body name="body_static" enabled="true" template="editor">
+			<object name="c_sphere_01" collision_type="sphere" padding="-2.5" />
+		</body>
+		<body name="body_vis_blocker" enabled="true" template="foliage">
+			<object name="c_sphere_01" collision_type="sphere" padding="-5" />
+		</body>
+	</bodies>
+	<graphics>
+		<lod_object name="lod_g">
+			<object name="g_lod0" enabled="true" max_distance="15000" instance_struct="world_tm" shadow_caster="true"/>
+			<object name="g_lod1" enabled="true" instance_struct="world_tm" />
+		</lod_object>
+	</graphics>
+</dynamic_object>

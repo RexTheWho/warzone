@@ -1,0 +1,4 @@
+<?xml version="1.0" ?>
+<modelscript>
+    <import file="wz_scattered_rock_01.glb" type="gltf" create_objects="true"/>
+</modelscript>

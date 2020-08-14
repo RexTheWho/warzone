@@ -1,0 +1,14 @@
+<materials version="3">
+    <material render_template="generic:ALPHA_MASKED:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:INSTANCED:NORMALMAP:VEGETATION_BENDING" name="mat_largebush" version="2">
+        <diffuse_texture file="units/pd2_dlc_mex/vegetation/mex_vegetation_bush_large/mex_vegetation_bush_large_df"/>
+        <bump_normal_texture file="units/pd2_dlc_mex/vegetation/mex_vegetation_bush_large/mex_vegetation_bush_large_nm"/>
+        <variable type="scalar" name="speed" value="0.76500003633555"/>
+        <variable type="vector3" name="detail_settings" value="2.4960000514984 1 0"/>
+        <variable type="vector3" name="branch_settings" value="3.3280000686646 0.841000020504 0"/>
+        <variable type="scalar" name="alpha_ref" value="0.1"/>
+    </material>
+    <material render_template="generic:ALPHA_MASKED:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:INSTANCED" name="mat_bilboard" version="2">
+        <diffuse_texture file="units/pd2_mod_wz/nature/veg_bushes/wz_vegetation_bush_large_far_df"/>
+        <variable type="scalar" name="alpha_ref" value="0.01"/>
+    </material>
+</materials>
