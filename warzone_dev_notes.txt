@@ -118,7 +118,7 @@
 		* Rewards Golden Gun variants.
 		* Easier variants of bosses.
 
-/// SECRET EQUIPMENT IDEAS:
+/// EQUIPMENT REWARD IDEAS:
 
 	- Night Vision Goggles
 	- Golden Weapons
