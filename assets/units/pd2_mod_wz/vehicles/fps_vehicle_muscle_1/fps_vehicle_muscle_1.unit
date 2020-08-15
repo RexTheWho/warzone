@@ -13,9 +13,7 @@
 		<extension name="sync_unit_data" class="SyncUnitData" />
 		<extension name="network" class="NetworkBaseExtension" />
 		<extension class="UnitDamage" name="damage" />
-		<extension name="spawn_manager" class="ManageSpawnedUnits" >
-			<var name="allow_client_spawn" value="true"/>
-		</extension>
+		<extension name="spawn_manager" class="ManageSpawnedUnits" />
 		<extension name="interaction" class="DrivingInteractionExt">
 			<var name="tweak_data" value="driving_drive" />
 			<var name="_interact_object" value="anim_body"/>

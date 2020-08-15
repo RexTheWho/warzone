@@ -5,8 +5,8 @@
 		<extension name="unit_data" class="ScriptUnitData" />
 		<extension name="damage" class="UnitDamage" />
 		<extension name="spawn_manager" class="ManageSpawnedUnits" >
-			<var name="allow_client_spawn" value="true"/>
-			<!-- <var name="local_only" value="true"/> -->
+			<var name="allow_client_spawn" value="false"/>
+			<var name="local_only" value="false"/>
 		</extension>
 	</extensions>
 </unit>
