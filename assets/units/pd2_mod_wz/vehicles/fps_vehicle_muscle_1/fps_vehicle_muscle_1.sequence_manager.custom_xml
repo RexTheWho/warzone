@@ -15,7 +15,6 @@
 				param1="'spawned_unit_1'"
 				param2="'a_back_camera_1'"
 				param3="'units/pd2_mod_wz/vehicles/vehicle_loot/veh_loot_bag_test_static/veh_loot_bag_test_static'"
-				start_time="5"
 			/>
 		</sequence>
 		

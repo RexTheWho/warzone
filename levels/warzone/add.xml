@@ -177,6 +177,12 @@
 		<model				path="units/pd2_mod_wz/vehicles/fps_vehicle_muscle_1/fps_vehicle_muscle_1" unload="true"/>
 		<sequence_manager	path="units/pd2_mod_wz/vehicles/fps_vehicle_muscle_1/fps_vehicle_muscle_1" unload="true"/>
 		<material_config	path="units/pd2_mod_wz/vehicles/fps_vehicle_muscle_1/fps_vehicle_muscle_1" unload="true"/>
+		<!-- Cargo Truck -->
+		<unit				path="units/pd2_mod_wz/vehicles/fps_vehicle_m35_truck/fps_vehicle_m35_truck" unload="true" load="true" />
+		<object				path="units/pd2_mod_wz/vehicles/fps_vehicle_m35_truck/fps_vehicle_m35_truck" unload="true"/>
+		<model				path="units/pd2_mod_wz/vehicles/fps_vehicle_m35_truck/fps_vehicle_m35_truck" unload="true"/>
+		<sequence_manager	path="units/pd2_mod_wz/vehicles/fps_vehicle_m35_truck/fps_vehicle_m35_truck" unload="true"/>
+		<material_config	path="units/pd2_mod_wz/vehicles/fps_vehicle_m35_truck/fps_vehicle_m35_truck" unload="true"/>
 		
 		<!-- Vehicle Loot -->
 		<unit				path="units/pd2_mod_wz/vehicles/vehicle_loot/veh_loot_bag_test_static/veh_loot_bag_test_static" unload="true" load="true" />

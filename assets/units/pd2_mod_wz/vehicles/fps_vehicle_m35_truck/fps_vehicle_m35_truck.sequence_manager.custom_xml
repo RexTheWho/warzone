@@ -1,0 +1,141 @@
+<table>
+	<unit>
+		<variables>
+			<var_covered value="1"/>
+			<var_spawned_loot value="0"/>
+		</variables>
+		
+		<!--Generic Interactions-->
+		<sequence editable_state="true" name="'state_interaction_enabled'" triggable="true">
+			<interaction enabled="true"/>
+			<run_sequence name="'state_vis_icon_entry_enabled'" />
+		</sequence>
+		<sequence editable_state="true" name="'state_interaction_disabled'" triggable="true">
+			<interaction enabled="false"/>
+			<run_sequence name="'state_vis_icon_entry_disabled'" />
+		</sequence>
+		
+		<!--Science-->
+		<sequence editable_state="true" name="'spawn_loot_test'" triggable="true" >
+			<run_sequence name="'spawn_loot_unit'" start_time="1"/>
+			<run_sequence name="'spawn_loot_unit'" start_time="2"/>
+			<run_sequence name="'spawn_loot_unit'" start_time="3"/>
+			<run_sequence name="'spawn_loot_unit'" start_time="4"/>
+			<run_sequence name="'spawn_loot_unit'" start_time="5"/>
+			<run_sequence name="'spawn_loot_unit'" start_time="6"/>
+			<run_sequence name="'spawn_loot_unit'" start_time="7"/>
+			<run_sequence name="'spawn_loot_unit'" start_time="8"/>
+		</sequence>
+		<sequence editable_state="false" name="'spawn_loot_unit'" triggable="false" >
+			<set_variables var_spawned_loot="vars.var_spawned_loot + 1"/>
+			<function
+				extension="'spawn_manager'"
+				function="'spawn_unit'"
+				param1="'spawned_unit_'..vars.var_spawned_loot"
+				param2="'sp_loot_'..vars.var_spawned_loot"
+				param3="'units/pd2_mod_wz/vehicles/vehicle_loot/veh_loot_bag_test_static/veh_loot_bag_test_static'"
+			/>
+		</sequence>
+		
+		<!--COVER-->
+		<filter name="'filter_include_cover'">
+			<check value="vars.var_covered == 1"/>
+		</filter>
+		<filter name="'filter_ignore_cover'">
+			<check value="vars.var_covered == 0"/>
+		</filter>
+		
+		<sequence editable_state="true" name="'disable_cover'" triggable="true" >
+			<set_variables var_covered="0"/>
+			<object			enabled="false"		name="'g_m35_cover_lod0'" />
+			<object			enabled="false"		name="'g_m35_cover_lod1'" />
+			<object			enabled="false"		name="'s_m35_cover'" />
+			<decal_mesh		enabled="false"		name="'dm_cloth'" />
+			<body			enabled="false"		name="'body_chassis_cover_static'" />
+			<body			enabled="false"		name="'body_chassis_cover'" />
+		</sequence>
+		
+		<sequence editable_state="true" name="'enable_cover'" triggable="true" >
+			<set_variables var_covered="1"/>
+			<object			enabled="true"		name="'g_m35_cover_lod0'" />
+			<object			enabled="true"		name="'g_m35_cover_lod1'" />
+			<object			enabled="true"		name="'s_m35_cover'" />
+			<decal_mesh		enabled="true"		name="'dm_cloth'" />
+		</sequence>
+		
+		<!--FPS-->
+		<sequence editable_state="false" name="'local_driving_enter'" triggable="false">
+			<object enabled="false" name="'g_steering_wheel'"/>
+			<object enabled="true" name="'g_steering_wheel_fps'"/>
+		</sequence>
+		<sequence editable_state="false" name="'local_driving_exit'" triggable="false">
+			<object enabled="true" name="'g_steering_wheel'"/>
+			<object enabled="false" name="'g_steering_wheel_fps'"/>
+		</sequence>
+		
+		<!--Chassis states-->
+		<sequence editable_state="false" name="'not_driving'" triggable="false">
+			<interaction enabled="true"/>
+			<body enabled="true" name="'body_chassis_static'"/>
+			<body enabled="true" name="'body_chassis_cover_static'" filter="'filter_include_cover'" />
+			<body enabled="false" name="'body_chassis'"/>
+			<body enabled="false" name="'body_chassis_cover'"/>
+			<slot slot="39"/>
+		</sequence>
+		<sequence editable_state="false" name="'driving'" triggable="false">
+			<interaction enabled="true"/>
+			<body enabled="false" name="'body_chassis_static'"/>
+			<body enabled="false" name="'body_chassis_cover_static'"/>
+			<body enabled="true" name="'body_chassis'"/>
+			<body enabled="true" name="'body_chassis_cover'" filter="'filter_include_cover'" />
+			<!-- <light enabled="true" name="'light_interior'"/> -->
+			<slot slot="39"/>
+		</sequence>
+		
+		<!--Headlights-->
+		<sequence editable_state="true" name="'state_light_head_on'" triggable="true">
+			<light enabled="true" name="'light_head'"/>
+			<light enabled="true" name="'light_head_projection'"/>
+			<object enabled="true" name="'g_lights_front_effect'"/>
+		</sequence>
+		<sequence editable_state="true" name="'state_light_head_off'" triggable="true">
+			<light enabled="false" name="'light_head'"/>
+			<light enabled="false" name="'light_head_projection'"/>
+			<object enabled="false" name="'g_lights_front_effect'"/>
+		</sequence>
+		
+		<!--Interaction GUI-->
+		<sequence editable_state="true" name="'state_vis_icon_entry_enabled'" triggable="true">
+			<graphic_group name="'grp_icon_entry'" visibility="true"/>
+		</sequence>
+		<sequence editable_state="true" name="'state_vis_icon_entry_disabled'" triggable="true">
+			<graphic_group name="'grp_icon_entry'" visibility="false"/>
+		</sequence>
+		<sequence editable_state="true" name="'state_vis_icon_loot_enabled'" triggable="true">
+			<graphic_group name="'grp_icon_loot'" visibility="true"/>
+		</sequence>
+		<sequence editable_state="true" name="'state_vis_icon_loot_disabled'" triggable="true">
+			<graphic_group name="'grp_icon_loot'" visibility="false"/>
+		</sequence>
+		<sequence editable_state="true" name="'state_vis_icon_repair_enabled'" triggable="true">
+			<graphic_group name="'grp_icon_repair'" visibility="true"/>
+		</sequence>
+		<sequence editable_state="true" name="'state_vis_icon_repair_disabled'" triggable="true">
+			<graphic_group name="'grp_icon_repair'" visibility="false"/>
+		</sequence>
+		
+		<!--Damage States-->
+		<sequence editable_state="false" name="'int_seq_repaired'" triggable="false">
+			<effect_spawner enabled="false" name="'es_smoke_full'"/>
+			<effect_spawner enabled="false" name="'es_smoke_med'"/>
+		</sequence>
+		<sequence editable_state="false" name="'int_seq_med_damaged'" triggable="false">
+			<effect_spawner enabled="true" name="'es_smoke_med'"/>
+			<effect_spawner enabled="false" name="'es_smoke_full'"/>
+		</sequence>
+		<sequence editable_state="false" name="'int_seq_full_damaged'" triggable="false">
+			<effect_spawner enabled="false" name="'es_smoke_med'"/>
+			<effect_spawner enabled="true" name="'es_smoke_full'"/>
+		</sequence>
+	</unit>
+</table>

@@ -796,6 +796,12 @@
 		<table>
 			<unit_data _prev_pos="-9108.39 -4130 2813.94" _prev_rot="0 0 0.382683 -0.92388" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_wz/vehicles/fps_vehicle_muscle_1/fps_vehicle_muscle_1" name_id="fps_vehicle_muscle_1_002" position="-9108.39 -4130 2813.94" rotation="0 0 0.382683 -0.92388" unit_id="100260"/>
 		</table>
+		<table>
+			<unit_data _prev_pos="-10364 -3582 2892" _prev_rot="-0.00116659 -0.00946039 0.99944 -0.0320658" continent="world" delayed_load="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="state_interaction_enabled" name="units/pd2_mod_wz/vehicles/fps_vehicle_m35_truck/fps_vehicle_m35_truck" name_id="fps_vehicle_m35_truck_001" name_label_id="1" position="-10364 -3582 2892" rotation="-0.00116342 -0.00945806 0.99944 -0.0320685" unit_id="100016"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-10469.7 -5704.53 2775.57" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_jolly/vehicles/fps_vehicle_box_truck_1/fps_vehicle_box_truck_1" name_id="fps_vehicle_box_truck_1_001" position="-10469.7 -5704.53 2775.57" projection_light="light_head_projection" rotation="0 0 0 -1" unit_id="100261"/>
+		</table>
 	</statics>
 	<values>
 		<workviews/>

@@ -8,6 +8,7 @@
 	<level ai_group_type="wzcartel" briefing_dialog="" id="warzone" intro_event="" team_ai_off="true">
 		<add file="levels/warzone/add.xml"/>
 		<hooks directory="hooks">
+			<hook file="VehicleTweakData.lua" source_file="lib/tweak_data/vehicletweakdata"/>
 			<hook file="LevelsTweakData.lua" source_file="lib/tweak_data/levelstweakdata"/>
 			<hook file="WeaponTweakData.lua" source_file="lib/tweak_data/weapontweakdata"/>
 			<hook file="CharacterTweakData.lua" source_file="lib/tweak_data/charactertweakdata"/>
@@ -47,6 +48,7 @@
 			<value_node value="levels/narratives/locke/bph/backdrop/backdrop"/>
 			<value_node value="levels/narratives/bain/cage/editor_only/editor_only"/>
 			<value_node value="levels/narratives/locke/mex/mexico/mexico"/>
+			<value_node value="levels/narratives/vlad/jolly/world/world"/>
 		</packages>
 		<script_data_mods directory="scriptdata">
 			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">
