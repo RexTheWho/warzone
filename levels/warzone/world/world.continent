@@ -796,6 +796,9 @@
 		<table>
 			<unit_data _prev_pos="-11317.4 -4125.14 2824.06" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_mod_wz/buildings/bld_dynamic_test/bld_dynamic_test" name_id="bld_dynamic_test_002" position="-11317.4 -4125.14 2824.06" rotation="0 0 0 -1" unit_id="100266"/>
 		</table>
+		<table>
+			<unit_data _prev_pos="-9628.11 -3987.57 2801.49" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_wz/vehicles/fps_vehicle_muscle_1/fps_vehicle_muscle_1" name_id="fps_vehicle_muscle_1_001" position="-9628.11 -3987.57 2801.49" rotation="0 0 0 -1" unit_id="100172"/>
+		</table>
 	</statics>
 	<values>
 		<workviews/>
