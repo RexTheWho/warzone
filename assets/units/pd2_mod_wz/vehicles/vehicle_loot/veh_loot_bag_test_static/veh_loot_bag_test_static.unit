@@ -10,7 +10,7 @@
       <var name="_remove_on_interact" value="true" />
     </extension>
     <extension name="carry_data" class="CarryData">
-		<var name="_carry_id" value="lance_bag" />
+		<var name="_carry_id" value="money" />
 	</extension>
   </extensions>
 </unit>
