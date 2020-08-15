@@ -2107,7 +2107,7 @@
 				<entry key="values" type="table">
 					<entry key="amount" type="string" value="1"/>
 					<entry key="base_delay" type="number" value="0"/>
-					<entry key="depth" type="number" value="500"/>
+					<entry key="depth" type="number" value="1187"/>
 					<entry key="enabled" type="boolean" value="true"/>
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="height" type="number" value="500"/>
@@ -2125,7 +2125,7 @@
 							<entry key="id" type="number" value="100075"/>
 						</entry>
 					</entry>
-					<entry key="position" type="vector3" value="-11271.7 -4119.88 2921.06"/>
+					<entry key="position" type="vector3" value="-11271.7 -4119.88 3021.06"/>
 					<entry key="radius" type="number" value="250"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="shape_type" type="string" value="box"/>
@@ -2133,7 +2133,7 @@
 					</entry>
 					<entry key="trigger_times" type="number" value="0"/>
 					<entry key="use_disabled_shapes" type="boolean" value="false"/>
-					<entry key="width" type="number" value="500"/>
+					<entry key="width" type="number" value="490"/>
 				</entry>
 			</entry>
 			<entry index="75" type="table">
