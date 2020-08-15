@@ -802,6 +802,9 @@
 		<table>
 			<unit_data _prev_pos="-10469.7 -5704.53 2775.57" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_jolly/vehicles/fps_vehicle_box_truck_1/fps_vehicle_box_truck_1" name_id="fps_vehicle_box_truck_1_001" position="-10469.7 -5704.53 2775.57" projection_light="light_head_projection" rotation="0 0 0 -1" unit_id="100261"/>
 		</table>
+		<table>
+			<unit_data _prev_pos="0 0 0" _prev_rot="-0 0 -0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_wz/terrain/roads/road_test" name_id="road_test_001" position="0 0 0" rotation="-0 0 -0 -1" unit_id="100262"/>
+		</table>
 	</statics>
 	<values>
 		<workviews/>
