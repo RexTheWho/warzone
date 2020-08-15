@@ -1,0 +1,50 @@
+<materials version="3">
+
+	<material name="mat_stone_vtx" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:GSMA_TEXTURE:NORMALMAP:VERTEX_COLOR" version="2">
+        <diffuse_texture		file="units/pd2_dlc_bex/architecture/ext/ext_textures/bex_ext_flat_stone_bare_df"/>
+        <bump_normal_texture	file="units/pd2_dlc_bex/architecture/ext/ext_textures/bex_ext_flat_stone_bare_nm"/>
+        <material_texture		file="units/pd2_dlc_bex/architecture/ext/ext_textures/bex_ext_flat_stone_bare_gsma"/>
+        <reflection_texture type="cube" global_texture="current_global_texture"/>
+    </material>
+	
+    <material name="mat_stone_blend_brick_vtx" render_template="generic:BLEND_DIFFUSE:BLEND_GSMA:BLEND_MASK_CONTROL:BLEND_MASK_CROSSBLEND:BLEND_NORMAL:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:GLOSS_BLURS_CUBEMAP:GSMA_TEXTURE:NORMALMAP:VERTEX_COLOR" version="2">
+        <diffuse_texture		file="units/pd2_dlc_bex/architecture/ext/ext_textures/bex_ext_flat_stone_bare_df"/>
+        <bump_normal_texture	file="units/pd2_dlc_bex/architecture/ext/ext_textures/bex_ext_flat_stone_bare_nm"/>
+        <material_texture		file="units/pd2_dlc_bex/architecture/ext/ext_textures/bex_ext_flat_stone_bare_gsma"/>
+        <diffuse_layer0_texture	file="units/pd2_dlc_bex/architecture/ext/ext_textures/bex_ext_flat_stone_df"/>
+        <diffuse_layer2_texture	file="units/pd2_dlc_bex/architecture/ext/ext_textures/bex_ext_flat_stone_gsma"/>
+        <normal_layer0_texture	file="units/pd2_dlc_bex/architecture/ext/ext_textures/bex_ext_flat_stone_nm"/>
+        <variable type="vector3" name="blend_control" value="0.25 1 0"/>
+        <reflection_texture type="cube" global_texture="current_global_texture"/>
+    </material>
+	
+    <material name="mat_metal" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:GSMA_TEXTURE:VERTEX_COLOR" version="2">
+        <diffuse_texture	file="units/pd2_dlc_uno/architecture/tiling_textures/rusty_metal/uno_rusymetal_df"/>
+        <material_texture	file="units/pd2_dlc_uno/architecture/tiling_textures/rusty_metal/uno_rusymetal_gsma"/>
+        <reflection_texture type="cube" global_texture="current_global_texture"/>
+    </material>
+	
+    <material name="mat_old_board" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:NORMALMAP:VERTEX_COLOR" version="2">
+        <diffuse_texture	file="units/pd2_dlc_peta/architecture/pta_2/pta_barn_planks_floor_01_df"/>
+        <material_texture	file="units/pd2_dlc_peta/architecture/pta_2/pta_barn_planks_floor_01_nm"/>
+    </material>
+
+    <material name="mat_corrugated_sheet" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:GSMA_TEXTURE" version="2">
+        <diffuse_texture		file="units/pd2_dlc_mad/architecture/mad_sawmill/mad_metal_corrugated_01_df"/>
+        <material_texture		file="units/pd2_dlc_mad/architecture/mad_sawmill/mad_metal_corrugated_01_gsma"/>
+        <bump_normal_texture	file="units/pd2_dlc_mad/architecture/mad_sawmill/mad_metal_corrugated_01_nm"/>
+    </material>
+		
+	<material name="metal_door" render_template="generic:DIFFUSE_TEXTURE:VERTEX_COLOR" version="2">
+		<diffuse_texture		file="units/world/architecture/street/facade_tile_df"/>
+	</material>
+	<material name="metal_door_handle" render_template="generic:DIFFUSE_TEXTURE" version="2">
+		<diffuse_texture		file="units/world/architecture/bank/glass_door/bank_glass_door_df"/>
+	</material>
+	
+    <material name="mat_chainlink" render_template="generic:ALPHA_MASKED:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:NORMALMAP" version="2">
+        <diffuse_texture		file="units/world/props/shared_textures/fence_tile_v2_df"/>
+        <bump_normal_texture	file="units/world/props/shared_textures/fence_tile_nm"/>
+        <variable value="0.06" type="scalar" name="alpha_ref"/>
+    </material>
+</materials>

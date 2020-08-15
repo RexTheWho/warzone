@@ -1,0 +1,12 @@
+<unit type="war" slot="1" >
+    <object file="units/pd2_mod_wz/buildings/bld_dynamic_test/bld_dynamic_test" />
+	<network sync="spawn" />
+	<extensions>
+		<extension name="unit_data" class="ScriptUnitData" />
+		<extension name="damage" class="UnitDamage" />
+		<extension name="spawn_manager" class="ManageSpawnedUnits" >
+			<var name="allow_client_spawn" value="true"/>
+			<!-- <var name="local_only" value="true"/> -->
+		</extension>
+	</extensions>
+</unit>

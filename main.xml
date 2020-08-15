@@ -21,10 +21,10 @@
 			<hook file="PlayerParachuting.lua" source_file="lib/units/beings/player/states/playerparachuting"/>
 		</hooks>
 		<include directory="levels/warzone">
-			<file file="nav_manager_data.nav_data" type="generic_xml"/>
 			<file file="world.world" type="generic_xml"/>
 			<file file="continents.continents" type="custom_xml"/>
 			<file file="mission.mission" type="custom_xml"/>
+			<file file="nav_manager_data.nav_data" type="generic_xml"/>
 			<file file="world_sounds.world_sounds" type="generic_xml"/>
 			<file file="world_cameras.world_cameras" type="custom_xml"/>
 			<file file="world/world.continent" type="custom_xml"/>
@@ -46,6 +46,7 @@
 			<value_node value="levels/narratives/locke/mex/world"/>
 			<value_node value="levels/narratives/locke/bph/backdrop/backdrop"/>
 			<value_node value="levels/narratives/bain/cage/editor_only/editor_only"/>
+			<value_node value="levels/narratives/locke/mex/mexico/mexico"/>
 		</packages>
 		<script_data_mods directory="scriptdata">
 			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">

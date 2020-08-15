@@ -1,0 +1,50 @@
+<table>
+	<unit>
+		<variables>
+			<v_spawned value="0"/>
+			<v_unit_id value="0"/>
+			
+			<v_window_unit value="'units/payday2/architecture/ind/ind_ext_window_c_openable/ind_ext_window_c_openable'"/>
+		</variables>
+		
+		<filter name="'filter_is_despawned'">
+			<check value="vars.v_spawned == 0"/>
+		</filter>
+		<filter name="'filter_is_spawned'">
+			<check value="vars.v_spawned ~= 0"/>
+		</filter>
+		
+		<filter name="'filter_unit_spawned'">
+			<check value="vars.v_unit_id > 0"/>
+		</filter>
+	
+		<sequence editable_state="true" name="'state_enabled'" triggable="true">
+			<run_sequence name="'show_interior'" filter="'filter_is_despawned'" />
+		</sequence>
+		<sequence editable_state="true" name="'state_disabled'" triggable="true">
+			<run_sequence name="'hide_interior'" filter="'filter_is_spawned'" />
+		</sequence>
+		
+		
+		<sequence editable_state="false" name="'show_interior'" triggable="false">
+			<set_variables v_spawned="1"/>
+			<run_sequence name="'add_units'" />
+		</sequence>
+		
+		<sequence editable_state="false" name="'hide_interior'" triggable="false">
+			<set_variables v_spawned="0"/>
+			<run_sequence name="'rmv_units'" />
+		</sequence>
+		
+		<sequence editable_state="false" name="'add_units'" triggable="false">
+			<set_variables v_unit_id="vars.v_unit_id + 1"/>
+			<function extension="'spawn_manager'" function="'spawn_unit'" param1="'spawned_unit_1'" param2="'sp_window_1'" param3="vars.v_window_unit"/>
+		</sequence>
+		
+		<sequence editable_state="false" name="'rmv_units'" triggable="false">
+			<function extension="'spawn_manager'" function="'remove_unit'" param1="'spawned_unit_1'" />
+			<set_variables v_unit_id="vars.v_unit_id - 1"/>
+		</sequence>
+		
+	</unit>
+</table>
