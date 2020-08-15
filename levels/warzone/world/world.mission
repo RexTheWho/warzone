@@ -2110,7 +2110,7 @@
 					<entry key="depth" type="number" value="1187"/>
 					<entry key="enabled" type="boolean" value="true"/>
 					<entry key="execute_on_startup" type="boolean" value="false"/>
-					<entry key="height" type="number" value="500"/>
+					<entry key="height" type="number" value="512"/>
 					<entry key="instigator" type="string" value="player"/>
 					<entry key="interval" type="number" value="0.1"/>
 					<entry key="on_executed" type="table">
@@ -2133,7 +2133,7 @@
 					</entry>
 					<entry key="trigger_times" type="number" value="0"/>
 					<entry key="use_disabled_shapes" type="boolean" value="false"/>
-					<entry key="width" type="number" value="490"/>
+					<entry key="width" type="number" value="854"/>
 				</entry>
 			</entry>
 			<entry index="75" type="table">

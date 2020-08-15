@@ -39,6 +39,7 @@
 		<sequence editable_state="false" name="'add_units'" triggable="false">
 			<set_variables v_unit_id="vars.v_unit_id + 1"/>
 			<function extension="'spawn_manager'" function="'spawn_unit'" param1="'spawned_unit_1'" param2="'sp_window_1'" param3="vars.v_window_unit"/>
+			<function extension="'spawn_manager'" function="'spawn_run_sequence'" param1="'spawned_unit_1'" param2="'interaction_enabled'"/>
 		</sequence>
 		
 		<sequence editable_state="false" name="'rmv_units'" triggable="false">

@@ -806,7 +806,7 @@
 			<unit_data _prev_pos="-120 0 280" _prev_rot="0 0.707107 0 -0.707107" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/mkp/mkp_int_pillar_025m_b" name_id="mkp_int_pillar_025m_b_006" position="-120 0 280" rotation="0 0.707107 0 -0.707107" unit_id="100263"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-120 0 100" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="anim_window_open_out" name="units/payday2/architecture/ind/ind_ext_window_c_openable/ind_ext_window_c_openable" name_id="ind_ext_window_c_openable_003" position="-120 0 100" rotation="0 0 -0.707107 -0.707107" unit_id="100264"/>
+			<unit_data _prev_pos="-120 0 100" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/payday2/architecture/ind/ind_ext_window_c_openable/ind_ext_window_c_openable" name_id="ind_ext_window_c_openable_003" position="-120 0 100" rotation="0 0 -0.707107 -0.707107" unit_id="100264"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="-11317.4 -4725.14 2890.06" _prev_rot="0 0 0 -1" continent="world" local_pos="0 -600 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_mod_wz/buildings/bld_dynamic_test/bld_dynamic_test" name_id="bld_dynamic_test_001" position="-11317.4 -4725.14 2824.06" rotation="0 0 0 -1" unit_id="100265"/>
