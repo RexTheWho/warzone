@@ -12,6 +12,11 @@
 		<object				path="units/pd2_mod_wz/dev/delete_self" unload="true"/>
 		<model				path="units/pd2_mod_wz/dev/delete_self" unload="true"/>
 		
+		<material_config	path="units/pd2_mod_wz/dev/shadow_casters/shadow_casters" unload="true" load="true" />
+		<unit				path="units/pd2_mod_wz/dev/shadow_casters/oneshadowtoloomtheearth" unload="true" load="true" />
+		<object				path="units/pd2_mod_wz/dev/shadow_casters/oneshadowtoloomtheearth" unload="true"/>
+		<model				path="units/pd2_mod_wz/dev/shadow_casters/oneshadowtoloomtheearth" unload="true"/>
+		
 		<unit				path="units/pd2_mod_wz/dev/nav_blocker/nav_blocker_chungus" unload="true" load="true" />
 		<object				path="units/pd2_mod_wz/dev/nav_blocker/nav_blocker_chungus" unload="true"/>
 		<model				path="units/pd2_mod_wz/dev/nav_blocker/nav_blocker_chungus" unload="true"/>

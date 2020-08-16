@@ -805,6 +805,9 @@
 		<table>
 			<unit_data _prev_pos="0 0 0" _prev_rot="-0 0 -0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_wz/terrain/roads/road_test" name_id="road_test_001" position="0 0 0" rotation="-0 0 -0 -1" unit_id="100262"/>
 		</table>
+		<table>
+			<unit_data _prev_pos="0 0 0" _prev_rot="-0 0 -0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_wz/dev/shadow_casters/oneshadowtoloomtheearth" name_id="oneshadowtoloomtheearth_001" position="0 0 0" rotation="-0 0 -0 -1" unit_id="100263"/>
+		</table>
 	</statics>
 	<values>
 		<workviews/>

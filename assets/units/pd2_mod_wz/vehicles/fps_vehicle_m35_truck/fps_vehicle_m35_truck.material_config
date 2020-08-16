@@ -1,5 +1,6 @@
 <materials version="3">
-    <material name="shadow_caster" render_template="shadow_caster_only" version="2" />
+    <material name="shadow_caster"			render_template="shadow_caster_only"				version="2" />
+    <material name="shadow_caster_2side"	render_template="shadow_caster_only:DOUBLE_SIDED"	version="2" />
 	
     <material name="mtr_m35" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" version="2" >
         <diffuse_texture		file="units/payday2/vehicles/str_vehicle_m35_truck/str_vehicle_m35_truck_df"/>
