@@ -1,0 +1,10 @@
+<materials version="3">
+    <material name="mat_parachute" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:SKINNED_3WEIGHTS" version="2">
+        <diffuse_texture file="units/pd2_dlc_jerry/props/jry_equipment_parachute/jry_equipment_parachute_df"/>
+        <bump_normal_texture file="units/pd2_dlc_jerry/props/jry_equipment_parachute/jry_equipment_parachute_nm"/>
+    </material>
+    <material name="mat_misc" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:SKINNED_3WEIGHTS" version="2">
+        <diffuse_texture file="units/pd2_dlc_jerry/props/jry_equipment_parachute/jry_equipment_parachute_misc_df"/>
+        <bump_normal_texture file="units/pd2_dlc_jerry/props/jry_equipment_parachute/jry_equipment_parachute_misc_nm"/>
+    </material>
+</materials>

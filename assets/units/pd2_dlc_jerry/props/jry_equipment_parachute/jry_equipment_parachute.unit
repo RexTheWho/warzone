@@ -1,0 +1,7 @@
+<unit type="jry" slot="11">
+	<object file="units/pd2_dlc_jerry/props/jry_equipment_parachute/jry_equipment_parachute" />
+	<extensions>
+		<extension name="damage" class="UnitDamage" />
+		<extension name="unit_data" class="ScriptUnitData" />
+	</extensions>
+</unit>

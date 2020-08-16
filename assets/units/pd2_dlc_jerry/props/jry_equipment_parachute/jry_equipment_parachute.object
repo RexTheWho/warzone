@@ -1,0 +1,66 @@
+<dynamic_object>
+	<diesel materials="units/pd2_dlc_jerry/props/jry_equipment_parachute/jry_equipment_parachute" orientation_object="rp_jry_equipment_parachute" />
+	<sequence_manager file="units/pd2_dlc_jerry/props/jry_equipment_parachute/jry_equipment_parachute" />
+
+	<animations>
+		<animation_group name="grp_anim_unfold" enabled="false">
+			<object name="pivot_7" />
+			<object name="pivot_6" />
+			<object name="pivot_9" />
+			<object name="pivot_8" />
+			<object name="pivot_5" />
+			<object name="pivot_11" />
+			<object name="pivot_10" />
+			<object name="pivot_13" />
+			<object name="pivot_12" />
+			<object name="pivot_4" />
+			<object name="pivot_15" />
+			<object name="pivot_14" />
+			<object name="pivot_17" />
+			<object name="pivot_16" />
+			<object name="pivot_3" />
+			<object name="pivot_19" />
+			<object name="pivot_18" />
+			<object name="pivot_21" />
+			<object name="pivot_20" />
+			<object name="pivot_2" />
+			<object name="pivot_23" />
+			<object name="pivot_22" />
+			<object name="pivot_25" />
+			<object name="pivot_24" />
+			<object name="pivot_1" />
+			<object name="pivot_32" />
+			<object name="pivot_31" />
+			<object name="pivot_34" />
+			<object name="pivot_33" />
+			<object name="pivot_30" />
+			<object name="pivot_36" />
+			<object name="pivot_35" />
+			<object name="pivot_38" />
+			<object name="pivot_37" />
+			<object name="pivot_29" />
+			<object name="pivot_40" />
+			<object name="pivot_39" />
+			<object name="pivot_42" />
+			<object name="pivot_41" />
+			<object name="pivot_28" />
+			<object name="pivot_44" />
+			<object name="pivot_43" />
+			<object name="pivot_46" />
+			<object name="pivot_45" />
+			<object name="pivot_27" />
+			<object name="pivot_48" />
+			<object name="pivot_47" />
+			<object name="pivot_50" />
+			<object name="pivot_49" />
+			<object name="pivot_26" />
+			<object name="pivot_51" />
+		</animation_group>
+	</animations>
+	<graphics>
+		<graphic_group name="parachute_grp" enabled="true" >
+			<object name="g_g" enabled="false" shadow_caster="true" />
+			<object name="g_bar" enabled="false" shadow_caster="true" />
+		</graphic_group>
+	</graphics>
+</dynamic_object>
