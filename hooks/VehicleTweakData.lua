@@ -71,7 +71,7 @@ function VehicleTweakData:_init_wz_cargo_truck()
 		max_speed = 180,
 		max_rpm = 6500,
 		loot_drop_point = "interact_loot",
-		max_loot_bags = 50,
+		max_loot_bags = 0,
 		interact_distance = 400,
 		driver_camera_offset = Vector3(0, 0.2, 2.5),
 		fov = 75

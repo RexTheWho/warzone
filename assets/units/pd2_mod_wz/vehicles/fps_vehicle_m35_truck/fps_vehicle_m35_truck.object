@@ -137,14 +137,14 @@
 				<object name="g_icon_door_passenger_back_right_lod1" enabled="true" />
 			</lod_object>
 		</graphic_group>
-<!-- 
+
 		<graphic_group name="grp_icon_loot" enabled="true">
 			<lod_object name="lod_icon_loot">
 				<object name="g_icon_loot_lod0" enabled="true"  max_distance="450" />
 				<object name="g_icon_loot_lod1" enabled="true" />
 			</lod_object>
 		</graphic_group>
- -->
+
 		<graphic_group name="grp_icon_repair" enabled="true">
 			<lod_object name="lod_icon_repair">
 				<object name="g_icon_repair_lod0" enabled="true"  max_distance="450" />
@@ -182,12 +182,12 @@
 		<!-- IMPORTANT: suspension supported_mass must be 1/4 of chassis mass, if not vehicle behavior is undefined -->
 		<chassis body="body_chassis" mass="2000" center_of_mass_offset="0.0 0.2 0.2" inertia_multiplier="2.2 1.1 1.1" downforce_strength="4.0" drag_strength="4.0" />
 		<wheels>
-			<wheel spin_object="anim_tire_front_left"	turn_object="anim_tire_axel_front_left"		radius="0.435" width="0.28" mass="20" transmission_ratio="1.1" is_steering="true" max_steering="30" braking_torque="2500" handbrake_torque="0" />
-			<wheel spin_object="anim_tire_front_right"	turn_object="anim_tire_axel_front_right"	radius="0.435" width="0.28" mass="20" transmission_ratio="1.1" is_steering="true" max_steering="30" braking_torque="2500" handbrake_torque="0" />
-			<wheel spin_object="anim_tire_rear1_left"	turn_object=""								radius="0.435" width="0.37" mass="30" transmission_ratio="0.55" is_steering="false" max_steering="0" braking_torque="2500" handbrake_torque="2500" />
-			<wheel spin_object="anim_tire_rear1_right"	turn_object=""								radius="0.435" width="0.37" mass="30" transmission_ratio="0.55" is_steering="false" max_steering="0" braking_torque="2500" handbrake_torque="2500" />
-			<wheel spin_object="anim_tire_rear2_left"	turn_object=""								radius="0.435" width="0.37" mass="30" transmission_ratio="0.55" is_steering="false" max_steering="0" braking_torque="2500" handbrake_torque="2500" />
-			<wheel spin_object="anim_tire_rear2_right"	turn_object=""								radius="0.435" width="0.37" mass="30" transmission_ratio="0.55" is_steering="false" max_steering="0" braking_torque="2500" handbrake_torque="2500" />
+			<wheel spin_object="anim_tire_front_left"	turn_object="anim_tire_axel_front_left"		radius="0.56" width="0.28" mass="20" transmission_ratio="1.1" is_steering="true" max_steering="30" braking_torque="2500" handbrake_torque="0" />
+			<wheel spin_object="anim_tire_front_right"	turn_object="anim_tire_axel_front_right"	radius="0.56" width="0.28" mass="20" transmission_ratio="1.1" is_steering="true" max_steering="30" braking_torque="2500" handbrake_torque="0" />
+			<wheel spin_object="anim_tire_rear1_left"	turn_object=""								radius="0.56" width="0.37" mass="30" transmission_ratio="0.55" is_steering="false" max_steering="0" braking_torque="2500" handbrake_torque="2500" />
+			<wheel spin_object="anim_tire_rear1_right"	turn_object=""								radius="0.56" width="0.37" mass="30" transmission_ratio="0.55" is_steering="false" max_steering="0" braking_torque="2500" handbrake_torque="2500" />
+			<wheel spin_object="anim_tire_rear2_left"	turn_object=""								radius="0.56" width="0.37" mass="30" transmission_ratio="0.55" is_steering="false" max_steering="0" braking_torque="2500" handbrake_torque="2500" />
+			<wheel spin_object="anim_tire_rear2_right"	turn_object=""								radius="0.56" width="0.37" mass="30" transmission_ratio="0.55" is_steering="false" max_steering="0" braking_torque="2500" handbrake_torque="2500" />
 		</wheels>
 		<suspension max_compression="0.18" max_extension="0.22" spring_strength="55000" damper_rate="4500" supported_mass="800" />
 		<gearbox switch_time="0.1" ratio_multiplier="4.0">

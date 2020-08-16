@@ -57,6 +57,48 @@
 		<texture			path="units/pd2_mod_wz/terrain/landscape/landscape_main_nm" unload="true"/>
 		<texture			path="units/pd2_mod_wz/terrain/landscape/landscape_main_mask" unload="true"/>
 		<material_config	path="units/pd2_mod_wz/terrain/landscape/landscape_main" unload="true"/>
+		
+		<unit				path="units/pd2_mod_wz/terrain/landscape/landscape_00_00" unload="true" load="true" />
+		<object				path="units/pd2_mod_wz/terrain/landscape/landscape_00_00" unload="true"/>
+		<model				path="units/pd2_mod_wz/terrain/landscape/landscape_00_00" unload="true"/>
+		<unit				path="units/pd2_mod_wz/terrain/landscape/landscape_01_00" unload="true" load="true" />
+		<object				path="units/pd2_mod_wz/terrain/landscape/landscape_01_00" unload="true"/>
+		<model				path="units/pd2_mod_wz/terrain/landscape/landscape_01_00" unload="true"/>
+		<unit				path="units/pd2_mod_wz/terrain/landscape/landscape_02_00" unload="true" load="true" />
+		<object				path="units/pd2_mod_wz/terrain/landscape/landscape_02_00" unload="true"/>
+		<model				path="units/pd2_mod_wz/terrain/landscape/landscape_02_00" unload="true"/>
+		<unit				path="units/pd2_mod_wz/terrain/landscape/landscape_03_00" unload="true" load="true" />
+		<object				path="units/pd2_mod_wz/terrain/landscape/landscape_03_00" unload="true"/>
+		<model				path="units/pd2_mod_wz/terrain/landscape/landscape_03_00" unload="true"/>
+		<unit				path="units/pd2_mod_wz/terrain/landscape/landscape_04_00" unload="true" load="true" />
+		<object				path="units/pd2_mod_wz/terrain/landscape/landscape_04_00" unload="true"/>
+		<model				path="units/pd2_mod_wz/terrain/landscape/landscape_04_00" unload="true"/>
+		<unit				path="units/pd2_mod_wz/terrain/landscape/landscape_05_00" unload="true" load="true" />
+		<object				path="units/pd2_mod_wz/terrain/landscape/landscape_05_00" unload="true"/>
+		<model				path="units/pd2_mod_wz/terrain/landscape/landscape_05_00" unload="true"/>
+		<unit				path="units/pd2_mod_wz/terrain/landscape/landscape_06_00" unload="true" load="true" />
+		<object				path="units/pd2_mod_wz/terrain/landscape/landscape_06_00" unload="true"/>
+		<model				path="units/pd2_mod_wz/terrain/landscape/landscape_06_00" unload="true"/>
+		<unit				path="units/pd2_mod_wz/terrain/landscape/landscape_07_00" unload="true" load="true" />
+		<object				path="units/pd2_mod_wz/terrain/landscape/landscape_07_00" unload="true"/>
+		<model				path="units/pd2_mod_wz/terrain/landscape/landscape_07_00" unload="true"/>
+		<unit				path="units/pd2_mod_wz/terrain/landscape/landscape_08_00" unload="true" load="true" />
+		<object				path="units/pd2_mod_wz/terrain/landscape/landscape_08_00" unload="true"/>
+		<model				path="units/pd2_mod_wz/terrain/landscape/landscape_08_00" unload="true"/>
+		<unit				path="units/pd2_mod_wz/terrain/landscape/landscape_09_00" unload="true" load="true" />
+		<object				path="units/pd2_mod_wz/terrain/landscape/landscape_09_00" unload="true"/>
+		<model				path="units/pd2_mod_wz/terrain/landscape/landscape_09_00" unload="true"/>
+		
+		<unit				path="units/pd2_mod_wz/terrain/landscape/landscape_07_07" unload="true" load="true" />
+		<object				path="units/pd2_mod_wz/terrain/landscape/landscape_07_07" unload="true"/>
+		<model				path="units/pd2_mod_wz/terrain/landscape/landscape_07_07" unload="true"/>
+		<unit				path="units/pd2_mod_wz/terrain/landscape/landscape_07_08" unload="true" load="true" />
+		<object				path="units/pd2_mod_wz/terrain/landscape/landscape_07_08" unload="true"/>
+		<model				path="units/pd2_mod_wz/terrain/landscape/landscape_07_08" unload="true"/>
+		<unit				path="units/pd2_mod_wz/terrain/landscape/landscape_07_09" unload="true" load="true" />
+		<object				path="units/pd2_mod_wz/terrain/landscape/landscape_07_09" unload="true"/>
+		<model				path="units/pd2_mod_wz/terrain/landscape/landscape_07_09" unload="true"/>
+		
 		<unit				path="units/pd2_mod_wz/terrain/landscape/landscape_04_03" unload="true" load="true" />
 		<object				path="units/pd2_mod_wz/terrain/landscape/landscape_04_03" unload="true"/>
 		<model				path="units/pd2_mod_wz/terrain/landscape/landscape_04_03" unload="true"/>
@@ -87,6 +129,12 @@
 		<unit				path="units/pd2_mod_wz/terrain/landscape/landscape_10_10" unload="true" load="true" />
 		<object				path="units/pd2_mod_wz/terrain/landscape/landscape_10_10" unload="true"/>
 		<model				path="units/pd2_mod_wz/terrain/landscape/landscape_10_10" unload="true"/>
+		<unit				path="units/pd2_mod_wz/terrain/landscape/landscape_11_10" unload="true" load="true" />
+		<object				path="units/pd2_mod_wz/terrain/landscape/landscape_11_10" unload="true"/>
+		<model				path="units/pd2_mod_wz/terrain/landscape/landscape_11_10" unload="true"/>
+		<unit				path="units/pd2_mod_wz/terrain/landscape/landscape_11_11" unload="true" load="true" />
+		<object				path="units/pd2_mod_wz/terrain/landscape/landscape_11_11" unload="true"/>
+		<model				path="units/pd2_mod_wz/terrain/landscape/landscape_11_11" unload="true"/>
 		
 		<material_config	path="units/pd2_mod_wz/terrain/rocks/wz_rocks" unload="true"/>
 		<unit				path="units/pd2_mod_wz/terrain/rocks/wz_cliff_large" unload="true" load="true" />
