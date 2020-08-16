@@ -72,6 +72,11 @@
         <variable value="identity" type="scalar" name="intensity"/>
         <variable value="1" type="scalar" name="falloff_exp"/>
     </material>
+    <material name="mat_indicator_trunk" render_template="effect:DIFFUSE0_TEXTURE:VIEW_ANGLE_FALLOFF_OP" version="2">
+        <diffuse_texture file="units/gui/gui_drive_trunk_df"/>
+        <variable value="identity" type="scalar" name="intensity"/>
+        <variable value="1" type="scalar" name="falloff_exp"/>
+    </material>
     <material version="2" unique="true" render_template="generic:ALPHA_MASKED:CONTOUR:DIFFUSE_TEXTURE:OPACITY_TEXTURE" name="mat_contour">
         <diffuse_texture file="units/white_df"/>
         <variable value="0 1 0" type="vector3" name="contour_color"/>
