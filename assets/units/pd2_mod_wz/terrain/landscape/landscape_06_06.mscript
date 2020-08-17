@@ -1,4 +1,0 @@
-<?xml version="1.0" ?>
-<modelscript>
-    <import file="landscape_06_06.gltf" type="gltf" create_objects="true"/>
-</modelscript>
