@@ -26,6 +26,8 @@
 			<hook file="IngameFatalState.lua" source_file="lib/states/ingamefatalstate"/>
 			<hook file="PlayerDamage.lua" source_file="lib/units/beings/player/playerdamage"/>
 			<hook file="WarzoneTweakData.lua" source_file="lib/tweak_data/tweakdatapd2"/>
+			<hook file="HUDAccessCamera.lua" source_file="lib/managers/hud/hudaccesscamera"/>
+			<hook file="PlayerFatal.lua" source_file="lib/units/beings/player/states/playerfatal"/>
 		</hooks>
 		<include directory="levels/warzone">
 			<file file="world.world" type="generic_xml"/>
