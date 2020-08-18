@@ -1,0 +1,45 @@
+
+/// Mission Balance:
+
+	Trivial: ★☆☆☆☆
+		- Based on Overkill damage values.
+		- Typically can be done with no planning.
+		- Enemies are unarmored and unskilled, they will often wait for you to attack first.
+	
+	Normal: ★★☆☆☆
+		- Based on Mayhem damage values.
+		- Will often be difficult with no planning.
+		- Only lead units will be armored and will hold back without reinforcements.
+		- Reinforcements will arrive if an alarm is raised.
+		- Alarm boxes are uncommon.
+		- Armored enemies are heavier and slow you down when carried.
+	
+	Hard: ★★★☆☆
+		- Based on Deathwish damage values.
+		- Without planning your routes and equipment the mission will be very difficult.
+		- Some enemies are armored and will play offensively.
+		- Reinforcements will arrive shortly if an alarm is raised.
+		- Reinforcements may arrive by helicopter.
+		- Alarm boxes are common.
+	
+	Deathwish: ★★★★☆
+		- Based on Death Sentence damage values.
+		- Plan your angle of attack or risk a swift defeat.
+		- Most enemies are armored and will play on the offensive.
+		- Reinforcements will arrive shortly if the alarm is raised.
+		- Reinforcements may arrive with armored turrets.
+
+	Dark Ops: ★★★★★
+		- Based on Death Sentence damage values.
+		- Rare missions that are designed to be impossible to beat.
+		- All enemies are armored and will play on the offensive.
+		- Reinforcements will arrive shortly if the alarm is raised.
+		- Reinforcements will arrive with armored turrets.
+		- Reinforcements also arrive by helicopter.
+		- Dark Ops enemies have radios on hand to raise the alarm.
+		- Dark Ops enemies will not surrender for any reason.
+		- Dark Ops specialist mini-bosses spawn every reinforcement wave.
+		- I told you this was impossible.
+
+
+/// Trivial Missions
