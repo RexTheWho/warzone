@@ -9,7 +9,7 @@
 	Normal: ★★☆☆☆
 		- Based on Mayhem damage values.
 		- Will often be difficult with no planning.
-		- Only lead units will be armored and will hold back without reinforcements.
+		- Only commander units will be armored and will hold back without reinforcements.
 		- Reinforcements will arrive if an alarm is raised.
 		- Alarm boxes are uncommon.
 		- Armored enemies are heavier and slow you down when carried.
@@ -18,6 +18,7 @@
 		- Based on Deathwish damage values.
 		- Without planning your routes and equipment the mission will be very difficult.
 		- Some enemies are armored and will play offensively.
+		- Commander units have radios on hand to raise the alarm.
 		- Reinforcements will arrive shortly if an alarm is raised.
 		- Reinforcements may arrive by helicopter.
 		- Alarm boxes are common.
@@ -43,3 +44,24 @@
 
 
 /// Trivial Missions
+
+	First things first:
+		- First tutorial warzone mission.
+		- Take the first camp location to act as your initial base of operations.
+
+
+/// Normal Missions
+
+
+/// Hard Missions
+
+
+/// Deathwish Missions
+
+
+/// Dark Ops Missions
+
+	Iron Giant:
+		- Head to the railway camp site.
+		- Destroy a railway gun and its ammunition.
+		- Escape.
