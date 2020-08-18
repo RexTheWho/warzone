@@ -4,8 +4,8 @@
 
 		<diffuse_layer0_texture		file="units/pd2_dlc_mex/terrain/mex_terrain_textures/mex_dry_soil_df"/> <!--BLACK-->
 		<normal_layer0_texture		file="units/pd2_dlc_mex/terrain/mex_terrain_textures/mex_dry_soil_nm"/>
-		<diffuse_layer1_texture		file="units/pd2_dlc_peta/terrain/pta_rock_smooth_df"/> <!--RED-->
-		<normal_layer1_texture		file="units/pd2_dlc_peta/terrain/pta_rock_smooth_nm"/>
+		<diffuse_layer1_texture		file="units/pd2_dlc_berry/architecture/bry_mountain_interiors/bry_rock_interior_01_df"/> <!--RED-->
+		<normal_layer1_texture		file="units/pd2_dlc_berry/architecture/bry_mountain_interiors/bry_rock_interior_01_nm"/>
 		<diffuse_layer2_texture		file="units/pd2_dlc_mex/terrain/mex_terrain_textures/mex_soil_dead_shrubs_df"/> <!--GREEN-->
 		<normal_layer2_texture		file="units/pd2_dlc_mex/terrain/mex_terrain_textures/mex_soil_dead_shrubs_nm"/>
 		<diffuse_layer3_texture		file="units/pd2_dlc_peta/terrain/pta_terrain_rocky_ground_df"/> <!--BLUE-->

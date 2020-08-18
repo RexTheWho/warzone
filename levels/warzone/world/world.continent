@@ -44,10 +44,10 @@
 			<unit_data _prev_pos="-5422.54 -11650.1 3854.55" _prev_rot="0 0 0.5373 -0.843391" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_wz/terrain/rocks/wz_rocks_large_02" name_id="bph_rock_large_02_006" position="-5422.54 -11650.1 3854.55" rotation="0 0 0.5373 -0.843391" unit_id="100053"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-5568.92 -7313.65 4145.88" _prev_rot="-0.383776 0.921881 0.0519669 0.0123181" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_wz/terrain/rocks/wz_rocks_large_01" name_id="bph_rock_large_01_001" position="-5568.92 -7313.65 4145.88" rotation="-0.383776 0.921881 0.0519669 0.0123181" unit_id="100007"/>
+			<unit_data _prev_pos="-5584.66 -7374.3 4160.85" _prev_rot="-0.383776 0.921881 0.0519669 0.0123181" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_wz/terrain/rocks/wz_rocks_large_01" name_id="bph_rock_large_01_001" position="-5595.94 -7389.82 4159.4" rotation="-0.383776 0.921881 0.0519669 0.0123181" unit_id="100007"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-5836.09 -8010.41 2230.22" _prev_rot="-1.67638e-007 1.67079e-006 -0.707108 -0.707105" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="800.437 -463.795 1835.98" local_rot="0.380499 0.923238 0.0280364 -0.0454548" name="units/pd2_mod_wz/terrain/rocks/wz_rocks_large_01" name_id="bph_rock_large_01_002" position="-5836.09 -8010.41 2230.22" rotation="-1.67638e-007 1.67079e-006 -0.707108 -0.707105" unit_id="100010"/>
+			<unit_data _prev_pos="-5836.09 -8010.41 2230.22" _prev_rot="-1.67638e-007 1.67079e-006 -0.707108 -0.707105" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_wz/terrain/rocks/wz_rocks_large_01" name_id="bph_rock_large_01_002" position="-5836.09 -8010.41 2290.22" rotation="-1.67638e-007 1.67079e-006 -0.707108 -0.707105" unit_id="100010"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="-4088.92 -8994.71 3614.64" _prev_rot="-0.104761 -0.0442553 0.127718 -0.985269" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_wz/terrain/rocks/wz_rocks_large_01" name_id="bph_rock_large_01_003" position="-4088.92 -8994.71 3614.64" rotation="-0.104761 -0.0442553 0.127718 -0.985269" unit_id="100025"/>
@@ -101,22 +101,22 @@
 			<unit_data _prev_pos="-6142.74 -13739.1 5312.89" _prev_rot="-0.128491 0.0957684 -0.577047 -0.800834" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_wz/terrain/rocks/wz_rocks_large_02" name_id="bph_rock_large_02_012" position="-6142.74 -13739.1 5312.89" rotation="-0.128491 0.0957684 -0.577047 -0.800834" unit_id="100071"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-2307.69 -11069.6 5191.54" _prev_rot="0.0211776 -0.0153864 0.955977 0.292272" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="580.281 1207.87 542.241" local_rot="3.72529e-009 9.31323e-010 -0.374607 0.927184" name="units/pd2_mod_wz/terrain/rocks/wz_rocks_large_02" name_id="bph_rock_large_02_015" position="-2307.69 -11069.6 5191.54" rotation="0.0211776 -0.0153864 0.955977 0.292272" unit_id="100074"/>
+			<unit_data _prev_pos="-2427.4 -10758.9 5221.84" _prev_rot="0.0793793 -0.0518355 0.990104 0.103467" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_wz/terrain/rocks/wz_rocks_large_02" name_id="bph_rock_large_02_015" position="-2451.34 -10753.2 5077.43" rotation="0.0793793 -0.0518355 0.990104 0.103466" unit_id="100074"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="-2680.09 -12103.2 5166.82" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_wz/terrain/rocks/wz_rocks_large_01" name_id="wz_rocks_large_01_001" position="-2702.09 -12068.2 5166.82" rotation="0 0 0 -1" unit_id="100075"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-2400.61 -11694.7 5717.58" _prev_rot="-0.156434 0 0 -0.987688" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_wz/terrain/rocks/wz_rocks_large_01" name_id="wz_rocks_large_01_002" position="-2400.61 -11261 5615.62" rotation="-0.156435 0 0 -0.987688" unit_id="100076"/>
+			<unit_data _prev_pos="-2400.61 -11261 5615.62" _prev_rot="-0.156435 0 0 -0.987688" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_wz/terrain/rocks/wz_rocks_large_01" name_id="wz_rocks_large_01_002" position="-2400.61 -10974.8 5038.85" rotation="-0.156435 0 0 -0.987688" unit_id="100076"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-2582.15 -11575.2 4924.39" _prev_rot="0 0 0.909961 -0.414693" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_wz/terrain/rocks/wz_rocks_large_01" name_id="wz_rocks_large_01_003" position="-2582.15 -11575.2 4924.39" rotation="0 0 0.909961 -0.414693" unit_id="100077"/>
+			<unit_data _prev_pos="-2626.11 -11625.8 5268.39" _prev_rot="0.0397466 -0.0872159 0.905772 -0.412784" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_wz/terrain/rocks/wz_rocks_large_01" name_id="wz_rocks_large_01_003" position="-2699.45 -11562 5287.28" rotation="0.0397466 -0.0872159 0.905772 -0.412784" unit_id="100077"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-2912.08 -12500.4 5380.36" _prev_rot="0 0 0.92388 -0.382683" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_wz/terrain/rocks/wz_rocks_large_01" name_id="wz_rocks_large_01_004" position="-2912.08 -12500.4 5380.36" rotation="0 0 0.891007 -0.45399" unit_id="100078"/>
+			<unit_data _prev_pos="-3046.32 -12446.9 5331.59" _prev_rot="0.0439598 -0.0142838 0.860095 -0.508036" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_wz/terrain/rocks/wz_rocks_large_01" name_id="wz_rocks_large_01_004" position="-3049.75 -12447.7 5293.75" rotation="0.0439598 -0.0142839 0.860095 -0.508036" unit_id="100078"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-2281.31 -11461.9 6790" _prev_rot="0.78405 0.0589161 0.203413 -0.583453" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="660.616 1523.91 2155.73" local_rot="0.00296985 -0.796063 0.545089 0.262972" name="units/pd2_mod_wz/terrain/rocks/wz_rocks_large_02" name_id="bph_rock_large_02_018" position="-2281.31 -11461.9 6790" rotation="0.78405 0.0589161 0.203413 -0.583453" unit_id="100083"/>
+			<unit_data _prev_pos="-2372.26 -11571.7 6794.82" _prev_rot="0.78405 0.0589161 0.203413 -0.583453" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_wz/terrain/rocks/wz_rocks_large_02" name_id="bph_rock_large_02_018" position="-2372.26 -11571.7 6794.82" rotation="0.78405 0.0589161 0.203413 -0.583453" unit_id="100083"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="-2072.25 -7981.42 4138.35" _prev_rot="0.0102281 -0.024096 0.969963 -0.241839" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_wz/terrain/rocks/wz_rocks_large_02" name_id="bph_rock_large_02_019" position="-2041.48 -8037.33 4249.2" rotation="0.0102281 -0.024096 0.969963 -0.241839" unit_id="100084"/>
@@ -194,7 +194,7 @@
 			<unit_data _prev_pos="-7721.05 -14029.8 2947.13" _prev_rot="-0.0161377 0.0309443 0.886128 -0.462125" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_wz/terrain/rocks/wz_cliff_large" name_id="wz_cliff_large_008" position="-7721.05 -14029.8 2947.13" rotation="-0.0161377 0.0309443 0.886128 -0.462125" unit_id="100068"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-5589.24 -6447.82 2269.39" _prev_rot="0.0200387 -0.0285731 0.818228 -0.573834" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_wz/terrain/rocks/wz_cliff_large" name_id="wz_cliff_large_009" position="-5589.24 -6447.82 2269.39" rotation="0.0200387 -0.0285731 0.818228 -0.573834" unit_id="100002"/>
+			<unit_data _prev_pos="-5589.24 -6447.82 2269.39" _prev_rot="0.0200387 -0.0285731 0.818228 -0.573834" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_wz/terrain/rocks/wz_cliff_large" name_id="wz_cliff_large_009" position="-5622.07 -6435.93 2271.83" rotation="0.0200387 -0.0285732 0.818228 -0.573834" unit_id="100002"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="-4928.21 -4732.4 2801.09" _prev_rot="0.0166753 -0.0306579 0.748008 -0.662771" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_wz/terrain/rocks/wz_cliff_large" name_id="wz_cliff_large_011" position="-4981.7 -4725.94 2804.76" rotation="0.0166753 -0.0306579 0.748008 -0.662771" unit_id="100014"/>
@@ -203,7 +203,7 @@
 			<unit_data _prev_pos="-3635.72 -13030.9 5355.79" _prev_rot="0.0564015 0.0233623 0.922156 -0.38197" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_wz/terrain/rocks/wz_cliff_large_02" name_id="wz_cliff_large_02_001" position="-3628.31 -13023.5 5441.15" rotation="0.0564015 0.0233623 0.922156 -0.38197" unit_id="100018"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-5502.82 -5309.27 2662.97" _prev_rot="0.0231607 -0.15333 0.814358 -0.559262" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_wz/terrain/rocks/wz_cliff_large_02" name_id="wz_cliff_large_010" position="-5502.82 -5309.27 2662.97" rotation="0.0231607 -0.15333 0.814358 -0.559262" unit_id="100013"/>
+			<unit_data _prev_pos="-5502.82 -5309.27 2662.97" _prev_rot="0.0231607 -0.15333 0.814358 -0.559262" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_wz/terrain/rocks/wz_cliff_large_02" name_id="wz_cliff_large_010" position="-5527.22 -5300.43 2670.41" rotation="0.023161 -0.15333 0.814358 -0.559262" unit_id="100013"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="-4453.25 -13786.6 5626.25" _prev_rot="-0.0248247 0.0283567 0.957497 -0.285969" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_wz/terrain/rocks/wz_cliff_large_02" name_id="wz_cliff_large_02_002" position="-4463.48 -13795.2 5602.88" rotation="-0.0248247 0.0283567 0.957497 -0.285969" unit_id="100019"/>
@@ -242,7 +242,7 @@
 			<unit_data _prev_pos="-2029.32 -10028.9 5290.23" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_wz/terrain/rocks/wz_cliff_large" name_id="wz_cliff_large_010" position="-2029.32 -9277.87 4448.23" rotation="0 0 0.707107 -0.707107" unit_id="100081"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-2236.45 -10237.6 4648.23" _prev_rot="0 0 0.771625 -0.636078" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_wz/terrain/rocks/wz_cliff_large_02" name_id="wz_cliff_large_017" position="-2262.95 -10232.5 4648.23" rotation="0 0 0.771625 -0.636078" unit_id="100082"/>
+			<unit_data _prev_pos="-2436.68 -10198.7 4981.06" _prev_rot="0.0332898 -0.0403837 0.770567 -0.635206" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_wz/terrain/rocks/wz_cliff_large_02" name_id="wz_cliff_large_017" position="-2436.68 -10198.7 4981.06" rotation="0.0332898 -0.0403837 0.770567 -0.635206" unit_id="100082"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="-4193.35 -10163.6 5570.62" _prev_rot="0.808127 0.0306958 -0.584931 -0.0620089" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_bph/terrain/bph_rocks_terrain/bph_rock_terrain_01_oblong" name_id="bph_rock_terrain_01_oblong_002" position="-4193.35 -10163.6 5570.62" rotation="0.808127 0.0306958 -0.584931 -0.0620089" unit_id="100087"/>
@@ -287,10 +287,10 @@
 			<unit_data _prev_pos="-3971.62 -7453.49 4182.97" _prev_rot="0 0 0.67559 -0.737277" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_wz/terrain/rocks/wz_cliff_short" name_id="wz_cliff_short_001" position="-3971.62 -7453.49 4182.97" rotation="0 0 0.67559 -0.737277" unit_id="100124"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-2584.93 -10543.1 5067.82" _prev_rot="0.00867044 0.000987942 0.972333 -0.233436" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_wz/terrain/rocks/wz_cliff_short" name_id="wz_cliff_short_002" position="-2584.93 -10543.1 5067.82" rotation="0.00867044 0.000987942 0.972333 -0.233436" unit_id="100125"/>
+			<unit_data _prev_pos="-2655.72 -10371.2 5063.95" _prev_rot="0.00872356 0.000228585 0.948288 -0.317292" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_wz/terrain/rocks/wz_cliff_short" name_id="wz_cliff_short_002" position="-2681.7 -10378.3 5064.42" rotation="0.00872356 0.000228607 0.948288 -0.317292" unit_id="100125"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-2455.78 -9990.88 5021.31" _prev_rot="0.0651764 0.0381799 0.811515 -0.579429" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_wz/terrain/rocks/wz_cliff_short" name_id="wz_cliff_short_003" position="-2455.78 -9990.88 5021.31" rotation="0.0651764 0.0381799 0.811515 -0.579429" unit_id="100126"/>
+			<unit_data _prev_pos="-2455.78 -9990.88 5021.31" _prev_rot="0.0651764 0.0381799 0.811515 -0.579429" continent="world" local_pos="-366.534 -433.306 -41.0883" local_rot="0.0261312 -0.0646771 0.373695 0.924925" name="units/pd2_mod_wz/terrain/rocks/wz_cliff_short" name_id="wz_cliff_short_003" position="-2455.85 -9990.9 5017.31" rotation="0.0651764 0.0381799 0.811515 -0.579429" unit_id="100126"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="-2738.24 -7376.13 4600.9" _prev_rot="-0 -0 0.666916 -0.745133" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_wz/terrain/rocks/wz_cliff_short" name_id="wz_cliff_short_004" position="-2738.24 -7376.13 4600.9" rotation="-0 -0 0.666916 -0.745133" unit_id="100127"/>
@@ -437,7 +437,7 @@
 			<unit_data _prev_pos="-10562 -8581 2777" _prev_rot="0 0 0.731354 -0.681998" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_wz/props/fences/fence_post_rusty_02" name_id="fence_post_rusty_02_004" position="-10562 -8581 2777" rotation="-0.0178526 0.0191446 0.731103 -0.681765" unit_id="100175"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-7805.91 -11650.5 2997.77" _prev_rot="0.423517 0.806346 0.00393899 0.412826" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_wz/terrain/rocks/wz_rock_big_02" name_id="bph_rock_big_02_011" position="-7805.91 -11650.5 2997.77" rotation="0.423517 0.806346 0.00393899 0.412826" unit_id="100177"/>
+			<unit_data _prev_pos="-8281 -12155 2889" _prev_rot="0.423517 0.806345 0.00393897 0.412826" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_wz/terrain/rocks/wz_rock_big_02" name_id="bph_rock_big_02_011" position="-8281 -12155 2889" rotation="0.423517 0.806345 0.00393897 0.412826" unit_id="100177"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="-7377.01 -10943.7 2740.52" _prev_rot="0.761882 0.435526 -0.265863 0.398961" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_wz/terrain/rocks/wz_rock_big_02" name_id="bph_rock_big_02_010" position="-7377.01 -10943.7 2740.52" rotation="0.761882 0.435526 -0.265863 0.398961" unit_id="100062"/>
@@ -572,7 +572,7 @@
 			<unit_data _prev_pos="-6061.27 -7475.88 2995.19" _prev_rot="0 0 0 -1" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-288.27 764.12 -1091.81" local_rot="-0 0 0 1" name="units/pd2_mod_wz/nature/veg_bushes/wz_vegetation_bush_large_c" name_id="mex_vegetation_bush_large_a_003" position="-6061.27 -7475.88 2995.19" rotation="0 0 -0 -1" unit_id="100043"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-5672.94 -7828.15 3919.28" _prev_rot="-0.425231 0.564225 0.574494 -0.413261" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_wz/terrain/rocks/wz_rock_big_02" name_id="bph_rock_big_02_002" position="-5672.9 -7828.02 3913.28" rotation="-0.425231 0.564225 0.574494 -0.413261" unit_id="100011"/>
+			<unit_data _prev_pos="-5672.9 -7828.02 3913.28" _prev_rot="-0.425231 0.564225 0.574494 -0.413261" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="182.394 -163.194 1683.06" local_rot="-0.0982862 -0.699651 -0.698449 -0.114009" name="units/pd2_mod_wz/terrain/rocks/wz_rock_big_02" name_id="bph_rock_big_02_002" position="-5672.9 -7828.02 3973.28" rotation="-0.425231 0.564225 0.574494 -0.413261" unit_id="100011"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="-5882.24 -8383.51 3840.9" _prev_rot="-0.0991823 0.610624 0.0299807 -0.785113" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="538.107 -244.793 50.1494" local_rot="0.0308217 0.187006 0.480415 0.856318" name="units/pd2_mod_wz/terrain/rocks/wz_rock_big_02" name_id="bph_rock_big_02_006" position="-5882.24 -8383.51 3840.9" rotation="-0.0991823 0.610624 0.0299807 -0.785113" unit_id="100031"/>
@@ -773,22 +773,7 @@
 			<unit_data _prev_pos="-15761.1 -6581.59 2965" _prev_rot="-0 -0 0.382683 -0.92388" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="interaction_enabled" name="units/payday2/architecture/ind/ind_ext_window_c_openable/ind_ext_window_c_openable" name_id="ind_ext_window_c_openable_001" position="-15761.1 -6581.59 2965" rotation="-0 -0 0.382683 -0.92388" unit_id="100259"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-11317.4 -4725.14 2890.06" _prev_rot="0 0 0 -1" continent="world" local_pos="0 -600 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_mod_wz/buildings/bld_dynamic_test/bld_dynamic_test" name_id="bld_dynamic_test_001" position="-11317.4 -4725.14 2824.06" rotation="0 0 0 -1" unit_id="100265"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="-11317.4 -4125.14 2824.06" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_mod_wz/buildings/bld_dynamic_test/bld_dynamic_test" name_id="bld_dynamic_test_002" position="-11317.4 -4125.14 2824.06" rotation="0 0 0 -1" unit_id="100266"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="-9608.53 -3913.32 2800.98" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_wz/vehicles/fps_vehicle_muscle_1/fps_vehicle_muscle_1" name_id="fps_vehicle_muscle_1_001" position="-9608.53 -3913.32 2800.98" rotation="0 0 0 -1" unit_id="100172"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="-9108.39 -4130 2813.94" _prev_rot="0 0 0.382683 -0.92388" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_wz/vehicles/fps_vehicle_muscle_1/fps_vehicle_muscle_1" name_id="fps_vehicle_muscle_1_002" position="-9108.39 -4130 2813.94" rotation="0 0 0.382683 -0.92388" unit_id="100260"/>
-		</table>
-		<table>
 			<unit_data _prev_pos="-10364 -3582 2892" _prev_rot="-0.00116659 -0.00946039 0.99944 -0.0320658" continent="world" delayed_load="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="state_interaction_enabled" name="units/pd2_mod_wz/vehicles/fps_vehicle_m35_truck/fps_vehicle_m35_truck" name_id="fps_vehicle_m35_truck_001" name_label_id="1" position="-10364 -3582 2892" rotation="-0.00116342 -0.00945806 0.99944 -0.0320685" unit_id="100016"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="-11300.2 -3518.87 2803.07" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_jolly/vehicles/fps_vehicle_box_truck_1/fps_vehicle_box_truck_1" name_id="fps_vehicle_box_truck_1_001" position="-11300.2 -3518.87 2803.07" projection_light="light_head_projection" rotation="0 0 0.707107 -0.707107" unit_id="100261"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="0 0 0" _prev_rot="-0 0 -0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_wz/terrain/roads/road_test" name_id="road_test_001" position="0 0 0" rotation="-0 0 -0 -1" unit_id="100262"/>
@@ -804,6 +789,15 @@
 		</table>
 		<table>
 			<unit_data _prev_pos="-5417.78 -11162.8 5044.49" _prev_rot="-0.418071 0.780336 0.429796 -0.177675" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_wz/terrain/rocks/wz_rock_big_02" name_id="wz_rock_big_02_010" position="-5402.46 -11173.7 5017.29" rotation="-0.418071 0.780336 0.429796 -0.177675" unit_id="100274"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-8446.27 -12933.3 2687.79" _prev_rot="0.0754553 0.692596 0.661745 0.276967" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_wz/terrain/rocks/wz_rocks_large_01" name_id="bph_rock_large_01_019" position="-8415.53 -12885.9 2676.01" rotation="0.0754553 0.692596 0.661745 0.276967" unit_id="100008"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-10494.6 -7100.66 2774.36" _prev_rot="0 0 0.75471 -0.656059" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_wz/terrain/rocks/wz_scattered_rock_01" name_id="wz_scattered_rock_01_010" position="-10494.6 -7100.66 2774.36" rotation="0 0 0.75471 -0.656059" unit_id="100048"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-10478.2 -7310.7 2774.85" _prev_rot="0 0 0.75471 -0.656059" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_wz/terrain/rocks/wz_scattered_rock_01" name_id="wz_scattered_rock_01_011" position="-10478.2 -7310.7 2774.85" rotation="0 0 0.551937 -0.833886" unit_id="100057"/>
 		</table>
 	</statics>
 	<values>
