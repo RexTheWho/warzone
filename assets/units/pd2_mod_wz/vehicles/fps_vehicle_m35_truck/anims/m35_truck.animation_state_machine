@@ -1,0 +1,11 @@
+
+<state_machine name="m35_truck" timebase="frames">
+	<segment name="base"/>
+	<segment name="wheels"/>
+	
+	<default state="std/empty"/>
+	<!--Linking to animation_states??-->
+	<!-- <states file="units/pd2_mod_wz/vehicles/fps_vehicle_m35_truck/anims/std"/> -->
+	<states file="anims/units/swat_van/std"/>
+	
+</state_machine>

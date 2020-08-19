@@ -1,0 +1,11 @@
+<materials version="3">
+
+    <material name="mat_brush" render_template="generic:ALPHA_MASKED:DIFFUSE_TEXTURE:DOUBLE_SIDED:EXTERNAL_ALPHA_REF:INSTANCED:OPACITY_TEXTURE:VEGETATION_BENDING" version="2">
+        <diffuse_texture file="units/pd2_dlc_mex/nature/mex_grass_desert/mex_grass_desert_df"/>
+        <opacity_texture file="units/pd2_dlc_mex/nature/mex_grass_desert/mex_grass_desert_op"/>
+        <variable type="scalar" name="speed" value="0.2"/>
+        <variable type="scalar" name="alpha_ref" value="0.5"/>
+        <variable type="vector3" name="branch_settings" value="6 0.3 0"/>
+        <variable type="vector3" name="detail_settings" value="2 0.5 0"/>
+    </material>
+</materials>

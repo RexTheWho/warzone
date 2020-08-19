@@ -10,11 +10,11 @@ function VehicleTweakData:_init_wz_cargo_truck()
 		name = "",
 		hud_label_offset = 0,
 		animations = {
-			vehicle_id = "wz_cargo_truck",
-			passenger_front = "drive_truck_passanger",
-			passenger_back_right = "drive_truck_back_right",
-			passenger_back_left = "drive_truck_back_left",
-			driver = "drive_truck_driver"
+			passenger_back_right = "drive_muscle_back_right",
+			vehicle_id = "muscle",
+			passenger_back_left = "drive_muscle_back_left",
+			passenger_front = "drive_muscle_passanger",
+			driver = "drive_muscle_driver"
 		},
 		sound = {
 			broken_engine = "falcogini_engine_broken_loop",

@@ -1,0 +1,21 @@
+<xml>
+	<state name="std" type="template_state" segment="base">
+		<default blend="0"/>
+		<!--name = animation_redirect sequence name-->
+		<to	name="anim_test_drive_fwd"		redirect="std/test_drive_fwd"/>
+		
+	</state>
+
+	<state name="std/empty" type="emptyloop" segment="base">
+		<keys>
+			<key at="9" callback="anim_clbk_empty_full_blend" class_name="base"/>
+			<key at="exit" callback="anim_clbk_empty_exit" class_name="base"/>
+		</keys>
+	</state>
+	
+	<!--state redirect = name state path-->
+	<state name="std/test_drive_fwd" type="once" segment="base">
+		<anim name="test_drive_fwd"/>
+		<exit name="std/empty"/>
+	</state>
+</xml>

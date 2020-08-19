@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<modelscript>
+	<import	file="veg_brush_01.glb" create_objects="true"/>
+	<save	file="veg_brush_01.model"/>
+	<new/>
+	<import	file="veg_brush_02.glb" create_objects="true"/>
+	<save	file="veg_brush_02.model"/>
+	<new/>
+	<import	file="veg_brush_03.glb" create_objects="true"/>
+	<save	file="veg_brush_03.model"/>
+	<new/>
+	<import	file="veg_brush_04.glb" create_objects="true"/>
+	<save	file="veg_brush_04.model"/>
+	<new/>
+</modelscript>

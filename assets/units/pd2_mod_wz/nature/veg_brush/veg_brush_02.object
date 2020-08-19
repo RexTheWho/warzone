@@ -1,0 +1,17 @@
+<dynamic_object>
+	<diesel materials="units/pd2_mod_wz/nature/veg_brush/veg_brush" orientation_object="rp_brush_02" />
+	<graphics>
+        <object enabled="true" name="g_brush_02" instance_struct="world_tm"/>
+	</graphics>
+</dynamic_object>
+
+
+
+
+
+
+
+
+
+
+

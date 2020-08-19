@@ -1261,6 +1261,12 @@
 		<table>
 			<unit_data _prev_pos="-14300 -5600 2900" _prev_rot="0 0 0 -1" continent="editor_only" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_wz/dev/nav_blocker/nav_blocker_2x2x16" name_id="nav_blocker_2x2x16_197" only_exists_in_editor="true" position="-14246 -5653 2900" rotation="0 0 0 -1" unit_id="200419"/>
 		</table>
+		<table>
+			<unit_data _prev_pos="0 0 20000" _prev_rot="-0 0 -0 -1" continent="editor_only" local_pos="-200 -200 0" local_rot="0 0 0 1" name="units/test/jocke/plane_black_temp" name_id="plane_black_temp_001" position="0 0 20000" rotation="-0 0 -0 -1" unit_id="200420"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="1100 0 20000" _prev_rot="0 0 0 -1" continent="editor_only" local_pos="-400 300 0" local_rot="-0 0 0 1" name="units/test/jocke/plane_black_temp" name_id="plane_black_temp_002" position="1100 0 20000" rotation="0 0 0 -1" unit_id="200421"/>
+		</table>
 	</statics>
 	<values>
 		<workviews/>

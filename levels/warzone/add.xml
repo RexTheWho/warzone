@@ -160,11 +160,18 @@
 		<sequence_manager	path="units/pd2_mod_wz/vehicles/fps_vehicle_muscle_1/fps_vehicle_muscle_1" unload="true"/>
 		<material_config	path="units/pd2_mod_wz/vehicles/fps_vehicle_muscle_1/fps_vehicle_muscle_1" unload="true"/>
 		<!-- Cargo Truck -->
-		<unit				path="units/pd2_mod_wz/vehicles/fps_vehicle_m35_truck/fps_vehicle_m35_truck" unload="true" load="true" />
-		<object				path="units/pd2_mod_wz/vehicles/fps_vehicle_m35_truck/fps_vehicle_m35_truck" unload="true"/>
-		<model				path="units/pd2_mod_wz/vehicles/fps_vehicle_m35_truck/fps_vehicle_m35_truck" unload="true"/>
-		<sequence_manager	path="units/pd2_mod_wz/vehicles/fps_vehicle_m35_truck/fps_vehicle_m35_truck" unload="true"/>
-		<material_config	path="units/pd2_mod_wz/vehicles/fps_vehicle_m35_truck/fps_vehicle_m35_truck" unload="true"/>
+		<unit						path="units/pd2_mod_wz/vehicles/fps_vehicle_m35_truck/fps_vehicle_m35_truck" unload="true" load="true" />
+		<object						path="units/pd2_mod_wz/vehicles/fps_vehicle_m35_truck/fps_vehicle_m35_truck" unload="true"/>
+		<model						path="units/pd2_mod_wz/vehicles/fps_vehicle_m35_truck/fps_vehicle_m35_truck" unload="true"/>
+		<sequence_manager			path="units/pd2_mod_wz/vehicles/fps_vehicle_m35_truck/fps_vehicle_m35_truck" unload="true"/>
+		<material_config			path="units/pd2_mod_wz/vehicles/fps_vehicle_m35_truck/fps_vehicle_m35_truck" unload="true"/>
+		<animation_def				path="units/pd2_mod_wz/vehicles/fps_vehicle_m35_truck/anims/m35_truck" unload="true" />
+		<animation_state_machine	path="units/pd2_mod_wz/vehicles/fps_vehicle_m35_truck/anims/m35_truck" unload="true" />
+		<animation_states			path="units/pd2_mod_wz/vehicles/fps_vehicle_m35_truck/anims/std" unload="true" />
+		<animation_subset			path="units/pd2_mod_wz/vehicles/fps_vehicle_m35_truck/anims/std" unload="true" />
+		<animation_def				path="units/pd2_mod_wz/vehicles/fps_vehicle_m35_truck/anims/swat_van" unload="true" />
+		<animation_state_machine	path="units/pd2_mod_wz/vehicles/fps_vehicle_m35_truck/anims/swat_van" unload="true" />
+		<animation					path="units/pd2_mod_wz/vehicles/fps_vehicle_m35_truck/anims/test_drive_fwd" unload="true" />
 		
 		<!-- Vehicle Loot -->
 		<unit				path="units/pd2_mod_wz/vehicles/vehicle_loot/veh_loot_bag_test_static/veh_loot_bag_test_static" unload="true" load="true" />
@@ -249,6 +256,21 @@
 		<unit				path="units/pd2_mod_wz/nature/veg_bushes/wz_vegetation_bush_large_c" unload="true" load="true" />
 		<object				path="units/pd2_mod_wz/nature/veg_bushes/wz_vegetation_bush_large_c" unload="true"/>
 		<model				path="units/pd2_mod_wz/nature/veg_bushes/wz_vegetation_bush_large_c" unload="true"/>
+		
+		<!--Bad, Maybe remove-->
+		<material_config	path="units/pd2_mod_wz/nature/veg_brush/veg_brush" unload="true"/>
+		<unit				path="units/pd2_mod_wz/nature/veg_brush/veg_brush_01" unload="true" load="true" />
+		<object				path="units/pd2_mod_wz/nature/veg_brush/veg_brush_01" unload="true"/>
+		<model				path="units/pd2_mod_wz/nature/veg_brush/veg_brush_01" unload="true"/>
+		<unit				path="units/pd2_mod_wz/nature/veg_brush/veg_brush_02" unload="true" load="true" />
+		<object				path="units/pd2_mod_wz/nature/veg_brush/veg_brush_02" unload="true"/>
+		<model				path="units/pd2_mod_wz/nature/veg_brush/veg_brush_02" unload="true"/>
+		<unit				path="units/pd2_mod_wz/nature/veg_brush/veg_brush_03" unload="true" load="true" />
+		<object				path="units/pd2_mod_wz/nature/veg_brush/veg_brush_03" unload="true"/>
+		<model				path="units/pd2_mod_wz/nature/veg_brush/veg_brush_03" unload="true"/>
+		<unit				path="units/pd2_mod_wz/nature/veg_brush/veg_brush_04" unload="true" load="true" />
+		<object				path="units/pd2_mod_wz/nature/veg_brush/veg_brush_04" unload="true"/>
+		<model				path="units/pd2_mod_wz/nature/veg_brush/veg_brush_04" unload="true"/>
 	</add>
 	
 	<!--Props-->
