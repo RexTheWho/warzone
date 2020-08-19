@@ -18,7 +18,7 @@
 		<variable type="vector3" name="detail_scale" value="200 200 0"/>
 		<variable type="vector3" name="detail_fadeout" value="3200 10000 0"/>
 		<variable type="vector3" name="detail_fadeout" value="1 48000 0"/>
-		<variable type="vector3" name="mask_weight" value="0.8 0.7 0.5" />
+		<variable type="vector3" name="mask_weight" value="0.8 0.7 1" />
 		<variable type="scalar" name="specular_power" value="0.1"/>
     </material>
 	
