@@ -295,6 +295,7 @@
 	<!--LANDSCAPE-->
 	<add unload_on_restart="true">
 		
+		<texture			path="units/pd2_mod_wz/terrain/bdrop/bdrop_mountains" unload="true"/>
 		<texture			path="units/pd2_mod_wz/terrain/bdrop/landscape_bdrop" unload="true"/>
 		<unit				path="units/pd2_mod_wz/terrain/bdrop/landscape_bdrop" unload="true" load="true" />
 		<object				path="units/pd2_mod_wz/terrain/bdrop/landscape_bdrop" unload="true"/>

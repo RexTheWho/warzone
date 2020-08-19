@@ -4,5 +4,9 @@
         <diffuse_texture file="units/pd2_mod_wz/terrain/bdrop/landscape_bdrop"/>
         <variable value="0.02" type="scalar" name="alpha_ref"/>
     </material>
+    <material name="mat_bdrop2" render_template="generic:ALPHA_MASKED:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF" version="2">
+        <diffuse_texture file="units/pd2_mod_wz/terrain/bdrop/bdrop_mountains"/>
+        <variable value="0.01" type="scalar" name="alpha_ref"/>
+    </material>
 	
 </materials>
