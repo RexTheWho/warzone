@@ -1,0 +1,18 @@
+<materials version="3">
+	
+    <material name="mat_water" render_template="water" version="2">
+        <diffuse_texture		file="units/world/water/water_foam_df"/>
+        <bump_normal_texture	file="units/world/water/water_2_nm"/>
+		
+        <variable type="vector3" name="water_settings" value="0.40000000596046 1.8000000715256 10927"/>
+        <variable type="vector3" name="water_settings_c" value="0.099999994039536 0.84399998188019 0"/> <!--Speed X, Y, nil-->
+        <variable type="vector3" name="water_settings_b" value="0 1.3575999736786 0.19869999587536"/>
+        <variable type="vector3" name="water_settings_d" value="71 200 0.5"/> <!--"Gloss value, Opacity depth threshold, Opacity exponent" -->
+		
+        <variable type="vector3" name="water_color_shallow" value="0.6 0.6 0.6"/>
+        <variable type="vector3" name="water_color_deep" value="0.15 0.16 0.17"/>
+		
+        <reflection_texture type="cube" global_texture="current_global_texture"/>
+    </material>
+	
+</materials>

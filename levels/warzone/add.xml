@@ -85,6 +85,14 @@
 		<model				path="units/pd2_mod_wz/terrain/rocks/wz_ledge_01" unload="true"/>
 	</add>
 	
+	<!--WATER-->
+	<add unload_on_restart="true">
+		<material_config	path="units/pd2_mod_wz/terrain/water/test_water" unload="true"/>
+		<unit				path="units/pd2_mod_wz/terrain/water/test_water" unload="true" load="true" />
+		<object				path="units/pd2_mod_wz/terrain/water/test_water" unload="true"/>
+		<model				path="units/pd2_mod_wz/terrain/water/test_water" unload="true"/>
+	</add>
+	
 	<!--TERRAIN ROADS-->
 	<add unload_on_restart="true">
 		

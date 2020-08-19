@@ -1,0 +1,17 @@
+<dynamic_object>
+    <diesel materials="units/pd2_mod_wz/terrain/water/test_water" orientation_object="rp_test_water" />
+
+    <bodies>
+        <body name="static_body" enabled="true" template="bullet_only">
+            <object name="g_test_water" collision_type="mesh_mopp" />
+        </body>
+    </bodies>
+	
+	<decal_surfaces default_material="water_deep" static="true">
+		<decal_mesh name="g_test_water" enabled="true" material="water_deep" />
+	</decal_surfaces>
+	
+    <graphics>
+		<object name="g_test_water"	enabled="true" />
+    </graphics>
+</dynamic_object>
