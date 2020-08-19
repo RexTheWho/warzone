@@ -1,0 +1,5 @@
+<table>
+	<hint event="stinger_in_custody" id="leaving_warzone" text_id="hint_leaving_warzone"/>
+	<hint event="stinger_feedback_negative" id="leaving_mission" text_id="hint_leaving_mission"/>
+	<hint event="stinger_feedback_negative" id="quitting_mission" text_id="hint_quitting_mission"/>
+</table>

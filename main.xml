@@ -65,6 +65,9 @@
 			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">
 				<options merge_mode="add" mode="add"/>
 			</mod>
+			<mod replacement="hints.hint" replacement_type="custom_xml" target_ext="hint" target_path="gamedata/hints">
+				<options merge_mode="add" mode="add"/>
+			</mod>
 		</script_data_mods>
 	</level>
 	<narrative contact="custom" icon="units/pd2_mod_wz/gui/crimenet/warzone" id="warzone">

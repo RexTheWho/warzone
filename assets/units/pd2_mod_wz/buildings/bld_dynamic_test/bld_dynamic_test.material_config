@@ -47,4 +47,9 @@
         <bump_normal_texture	file="units/world/props/shared_textures/fence_tile_nm"/>
         <variable value="0.06" type="scalar" name="alpha_ref"/>
     </material>
+	
+    <material name="mat_op_decal" render_template="decal:DIFFUSE_TEXTURE:OPACITY_TEXTURE" version="2">
+        <diffuse_texture file="units/pd2_dlc_bex/architecture/ext/ext_textures/bex_ext_decal_bottom_df" />
+        <opacity_texture file="units/pd2_dlc_bex/architecture/ext/ext_textures/bex_ext_decal_bottom_mask" />
+    </material>
 </materials>

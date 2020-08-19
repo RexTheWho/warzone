@@ -3,6 +3,10 @@
 "heist_warzone_name":				"Warzone",
 "heist_warzone_brief":				"---",
 
+"hint_leaving_warzone":				"Return to the map!",
+"hint_leaving_mission":				"Leaving the mission area!",
+"hint_quitting_mission":			"Quitting the mission!",
+
 "wz_find_something_to_do":			"No active objective",
 "wz_find_something_to_do_desc":		"No active objective, Find something to do.",
 

@@ -1,0 +1,6 @@
+<dynamic_object>
+	<diesel materials="units/pd2_mod_wz/terrain/bdrop/landscape_bdrop" orientation_object="rp_bdrop" />
+	<graphics>
+		<object name="g_bdrop" enabled="true"/>
+	</graphics>
+</dynamic_object>
