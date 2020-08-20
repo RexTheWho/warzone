@@ -1,4 +1,4 @@
 <?xml version="1.0" ?>
 <modelscript>
-    <import file="road_test.gltf" type="gltf" create_objects="true"/>
+    <import file="road_test.glb" type="gltf" create_objects="true"/>
 </modelscript>

@@ -202,6 +202,11 @@
 		<object				path="units/pd2_mod_wz/buildings/bld_warehouse_small_a/bld_warehouse_small_a" unload="true"/>
 		<model				path="units/pd2_mod_wz/buildings/bld_warehouse_small_a/bld_warehouse_small_a" unload="true"/>
 		<material_config	path="units/pd2_mod_wz/buildings/bld_warehouse_small_a/bld_warehouse_small_a" unload="true"/>
+		
+		<material_config	path="units/pd2_mod_wz/buildings/bld_generic/bld_generic" unload="true"/>
+		<unit				path="units/pd2_mod_wz/buildings/bld_generic/bld_12x6m" unload="true" load="true" />
+		<object				path="units/pd2_mod_wz/buildings/bld_generic/bld_12x6m" unload="true"/>
+		<model				path="units/pd2_mod_wz/buildings/bld_generic/bld_12x6m" unload="true"/>
 	</add>
 	
 	<add unload_on_restart="true">
