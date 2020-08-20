@@ -13,6 +13,7 @@ function PlayerDamage:respawn()
 	self._incapacitated = nil
 	self._downed_timer = nil
     self._downed_start_time = nil
+    self._downed_progression = 100
     
     self:_regenerated()
 	self:_regenerate_armor(true)
@@ -24,7 +25,5 @@ function PlayerDamage:respawn()
     self:_send_set_health()
     self:_set_health_effect()
     managers.hud:pd_stop_progress()
-
-	self._revive_health_multiplier = nil
-    SoundDevice:set_rtpc("downed_state_progression", 0)
+    self._revive_health_multiplier = nil
 end
