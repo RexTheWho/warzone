@@ -14,6 +14,12 @@
         <material_texture		file="units/pd2_dlc_bex/architecture/ext/ext_textures/bex_ext_flat_stone_bare_gsma"/>
         <reflection_texture type="cube" global_texture="current_global_texture"/>
     </material>
+
+    <material name="mat_ext_rockwall" render_template="generic:DIFFUSE_TEXTURE:GSMA_TEXTURE:NORMALMAP" version="2">
+        <diffuse_texture		file="units/pd2_dlc_bex/architecture/ext/ext_textures/bex_ext_cobblestone_wall_df"/>
+        <bump_normal_texture	file="units/pd2_dlc_bex/architecture/ext/ext_textures/bex_ext_cobblestone_wall_nm"/>
+        <material_texture		file="units/pd2_dlc_bex/architecture/ext/ext_textures/bex_ext_cobblestone_wall_gsma"/>
+    </material>
 	
     <material name="mat_ext_plaster_beige_vtxblend" render_template="generic:BLEND_DIFFUSE:BLEND_GSMA:BLEND_MASK_CONTROL:BLEND_MASK_CROSSBLEND:BLEND_NORMAL:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:GLOSS_BLURS_CUBEMAP:GSMA_TEXTURE:NORMALMAP:VERTEX_COLOR" version="2">
         <diffuse_texture		file="units/pd2_dlc_bex/architecture/ext/ext_textures/bex_plaster_worn_beige_df"/>
@@ -24,6 +30,19 @@
         <normal_layer0_texture	file="units/pd2_dlc_bex/architecture/ext/ext_textures/bex_plaster_clean_nm"/>
         <variable type="vector3" name="blend_control" value="0.25 1 0"/>
         <reflection_texture type="cube" global_texture="current_global_texture"/>
+    </material>
+	
+	
+    <material render_template="decal:DIFFUSE_TEXTURE:NORMALMAP:OPACITY_TEXTURE" name="mat_ext_decal_01" version="2">
+        <diffuse_texture file="units/pd2_dlc_bex/architecture/ext/ext_textures/bex_ext_decal_bottom_df"/>
+        <opacity_texture file="units/pd2_dlc_bex/architecture/ext/ext_textures/bex_ext_decal_bottom_mask" mip="1"/>
+        <bump_normal_texture file="units/pd2_dlc_berry/architecture/temp_textures/white_no_spec_nm" mip="9"/>
+    </material>
+	
+    <material render_template="generic:ALPHA_MASKED:DIFFUSE_TEXTURE:GSMA_ALPHA_MASKING:GSMA_TEXTURE:NORMALMAP" name="mat_ext_bullethole" version="2">
+        <diffuse_texture		file="units/pd2_dlc_pex/props/pex_ext_prop_bullet_decals/pex_ext_prop_bullet_decals_atlas_df" />
+        <bump_normal_texture	file="units/pd2_dlc_pex/props/pex_ext_prop_bullet_decals/pex_ext_prop_bullet_decals_atlas_nm"	mip="1"/>
+        <material_texture		file="units/pd2_dlc_pex/props/pex_ext_prop_bullet_decals/pex_ext_prop_bullet_decals_atlas_gsma"	mip="1"/>
     </material>
 	
 </materials>

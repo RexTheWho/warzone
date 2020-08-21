@@ -2,15 +2,19 @@
 	<diesel materials="units/pd2_mod_wz/buildings/bld_generic/bld_generic" orientation_object="rp_bld_12x6m" />
 	<bodies>
 		<body name="body_static" enabled="true" template="static">
-			<object name="g_bld_12x6m" collision_type="mesh_mopp" />
+			<object name="g_bld_12x6m"			collision_type="mesh_mopp" />
+			<object name="g_bld_12x6m_rock"		collision_type="mesh_mopp" />
 		</body>
 	</bodies>
 	
 	<decal_surfaces default_material="stone" >
-		<decal_mesh name="g_bld_12x6m" enabled="true" material="stone" />
+		<decal_mesh name="g_bld_12x6m"			enabled="true" material="stone" />
+		<decal_mesh name="g_bld_12x6m_rock"		enabled="true" material="rock" />
 	</decal_surfaces>
 	
 	<graphics>
-		<object name="g_bld_12x6m" enabled="true" shadow_caster="true" />
+		<object name="g_bld_12x6m"				enabled="true" shadow_caster="true" />
+		<object name="g_bld_12x6m_rock"			enabled="true" shadow_caster="true" />
+		<object name="g_bld_12x6m_decals"		enabled="true" />
 	</graphics>
 </dynamic_object>
