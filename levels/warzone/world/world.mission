@@ -2357,7 +2357,7 @@
 						<entry index="1" type="number" value="100031"/>
 					</entry>
 					<entry key="enabled" type="boolean" value="true"/>
-					<entry key="event" type="string" value="alerted"/>
+					<entry key="event" type="string" value="weapons_hot"/>
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="on_executed" type="table">
 						<entry index="1" type="table">
