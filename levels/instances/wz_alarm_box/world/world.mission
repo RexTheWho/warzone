@@ -356,10 +356,6 @@
 							<entry key="delay" type="number" value="0"/>
 							<entry key="id" type="number" value="100025"/>
 						</entry>
-						<entry index="4" type="table">
-							<entry key="delay" type="number" value="0"/>
-							<entry key="id" type="number" value="100033"/>
-						</entry>
 					</entry>
 					<entry key="position" type="vector3" value="300 -800 0"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
@@ -491,7 +487,7 @@
 			</entry>
 			<entry index="20" type="table">
 				<entry key="class" type="string" value="MissionScriptElement"/>
-				<entry key="editor_name" type="string" value="enemy_alerted"/>
+				<entry key="editor_name" type="string" value="first_enemy_alerted"/>
 				<entry key="id" type="number" value="100023"/>
 				<entry key="module" type="string" value="CoreMissionScriptElement"/>
 				<entry key="script" type="string" value="default"/>
@@ -505,12 +501,8 @@
 							<entry key="id" type="number" value="100024"/>
 						</entry>
 						<entry index="2" type="table">
-							<entry key="delay" type="number" value="2"/>
-							<entry key="id" type="number" value="100030"/>
-						</entry>
-						<entry index="3" type="table">
 							<entry key="delay" type="number" value="0"/>
-							<entry key="id" type="number" value="100031"/>
+							<entry key="id" type="number" value="100000"/>
 						</entry>
 					</entry>
 					<entry key="position" type="vector3" value="300 -500 0"/>
@@ -638,10 +630,6 @@
 							<entry key="delay" type="number" value="0"/>
 							<entry key="id" type="number" value="100026"/>
 						</entry>
-						<entry index="2" type="table">
-							<entry key="delay" type="number" value="5"/>
-							<entry key="id" type="number" value="100030"/>
-						</entry>
 					</entry>
 					<entry key="position" type="vector3" value="300 300 0"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
@@ -709,97 +697,6 @@
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="set_trigger_times" type="number" value="-1"/>
 					<entry key="toggle" type="string" value="on"/>
-					<entry key="trigger_times" type="number" value="0"/>
-				</entry>
-			</entry>
-			<entry index="30" type="table">
-				<entry key="class" type="string" value="ElementInstigator"/>
-				<entry key="editor_name" type="string" value="instigator_001"/>
-				<entry key="id" type="number" value="100029"/>
-				<entry key="script" type="string" value="default"/>
-				<entry key="values" type="table">
-					<entry key="base_delay" type="number" value="0"/>
-					<entry key="enabled" type="boolean" value="true"/>
-					<entry key="execute_on_startup" type="boolean" value="false"/>
-					<entry key="on_executed" type="table">
-					</entry>
-					<entry key="position" type="vector3" value="0 -500 0"/>
-					<entry key="rotation" type="quaternion" value="0 0 0 1"/>
-					<entry key="trigger_times" type="number" value="0"/>
-				</entry>
-			</entry>
-			<entry index="31" type="table">
-				<entry key="class" type="string" value="ElementInstigatorOperator"/>
-				<entry key="editor_name" type="string" value="use_random_instigator"/>
-				<entry key="id" type="number" value="100030"/>
-				<entry key="script" type="string" value="default"/>
-				<entry key="values" type="table">
-					<entry key="base_delay" type="number" value="0"/>
-					<entry key="elements" type="table">
-						<entry index="1" type="number" value="100029"/>
-					</entry>
-					<entry key="enabled" type="boolean" value="true"/>
-					<entry key="execute_on_startup" type="boolean" value="false"/>
-					<entry key="keep_on_use" type="boolean" value="false"/>
-					<entry key="on_executed" type="table">
-						<entry index="1" type="table">
-							<entry key="delay" type="number" value="0"/>
-							<entry key="id" type="number" value="100000"/>
-						</entry>
-					</entry>
-					<entry key="operation" type="string" value="use_random"/>
-					<entry key="position" type="vector3" value="0 -300 0"/>
-					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
-					<entry key="trigger_times" type="number" value="0"/>
-				</entry>
-			</entry>
-			<entry index="32" type="table">
-				<entry key="class" type="string" value="ElementInstigatorOperator"/>
-				<entry key="editor_name" type="string" value="add_instigators"/>
-				<entry key="id" type="number" value="100031"/>
-				<entry key="script" type="string" value="default"/>
-				<entry key="values" type="table">
-					<entry key="base_delay" type="number" value="0"/>
-					<entry key="elements" type="table">
-						<entry index="1" type="number" value="100029"/>
-					</entry>
-					<entry key="enabled" type="boolean" value="true"/>
-					<entry key="execute_on_startup" type="boolean" value="false"/>
-					<entry key="keep_on_use" type="boolean" value="true"/>
-					<entry key="on_executed" type="table">
-						<entry index="1" type="table">
-							<entry key="delay" type="number" value="0"/>
-							<entry key="id" type="number" value="100000"/>
-						</entry>
-					</entry>
-					<entry key="operation" type="string" value="add_first"/>
-					<entry key="position" type="vector3" value="500 -500 0"/>
-					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
-					<entry key="trigger_times" type="number" value="0"/>
-				</entry>
-			</entry>
-			<entry index="33" type="table">
-				<entry key="class" type="string" value="ElementInstigatorOperator"/>
-				<entry key="editor_name" type="string" value="clear_instigators"/>
-				<entry key="id" type="number" value="100033"/>
-				<entry key="script" type="string" value="default"/>
-				<entry key="values" type="table">
-					<entry key="base_delay" type="number" value="0"/>
-					<entry key="elements" type="table">
-						<entry index="1" type="number" value="100029"/>
-					</entry>
-					<entry key="enabled" type="boolean" value="true"/>
-					<entry key="execute_on_startup" type="boolean" value="false"/>
-					<entry key="keep_on_use" type="boolean" value="false"/>
-					<entry key="on_executed" type="table">
-						<entry index="1" type="table">
-							<entry key="delay" type="number" value="0"/>
-							<entry key="id" type="number" value="100000"/>
-						</entry>
-					</entry>
-					<entry key="operation" type="string" value="clear"/>
-					<entry key="position" type="vector3" value="600 -800 0"/>
-					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
