@@ -1,7 +1,7 @@
 <table>
 	<editor_groups/>
 	<instances>
-		<table continent="world" folder="levels/instances/mods/wz_alarm_box/world" index_size="2000" name="wz_alarm_box_001" position="-15369 -6219.54 2769.94" rotation="0 0 0.382683 0.92388" script="default" start_index="0"/>
+		<table continent="world" folder="levels/instances/mods/wz_alarm_box/world" index_size="2000" name="wz_alarm_box_001" position="-15346.1 -6197.6 2750" rotation="-0 0 -0.382683 -0.92388" script="default" start_index="0"/>
 		<table continent="world" folder="levels/instances/mods/wz_alarm_box/world" index_size="2000" name="wz_alarm_box_002" position="-15075.2 -7025.87 2757.44" rotation="0 0 0.97437 0.224951" script="default" start_index="2000"/>
 		<table continent="world" folder="levels/instances/mods/wz_alarm_box/world" index_size="2000" name="wz_alarm_box_003" position="-15961.2 -6832.96 2785.85" rotation="0 0 0.382683 0.92388" script="default" start_index="4000"/>
 		<table continent="world" folder="levels/instances/mods/wz_alarm_box/world" index_size="2000" name="wz_alarm_box_004" position="-14758.6 -6826.77 2767.96" rotation="0 0 -0.92388 0.382683" script="default" start_index="6000"/>
@@ -509,7 +509,7 @@
 			<unit_data _prev_pos="-10520 -8620 2777" _prev_rot="0.0999611 -0.0305612 0.951066 0.29077" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-4747 -380 -1310" local_rot="-0.0999611 0.0305612 -0.951066 -0.29077" name="units/pd2_mod_wz/nature/veg_bushes/wz_vegetation_bush_large_a" name_id="mex_vegetation_bush_large_a_004" position="-10520 -8620 2777" rotation="0.0999611 -0.0305612 0.951066 0.29077" unit_id="100176"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-4976.43 -6078.19 4217.23" _prev_rot="0 0 0 -1" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="796.57 2161.81 130.23" local_rot="-0 0 0 1" name="units/pd2_mod_wz/nature/veg_bushes/wz_vegetation_bush_large_a" name_id="mex_vegetation_bush_large_b_001" position="-4976.43 -6078.19 4217.23" rotation="0 0 -0 -1" unit_id="100023"/>
+			<unit_data _prev_pos="-4976.43 -6078.19 4217.23" _prev_rot="0 0 0 -1" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="796.57 2161.81 130.23" local_rot="0 0 0 1" name="units/pd2_mod_wz/nature/veg_bushes/wz_vegetation_bush_large_a" name_id="mex_vegetation_bush_large_b_001" position="-4976.43 -6078.19 4217.23" rotation="0 0 -0 -1" unit_id="100023"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="-7638.17 -5116.06 2822.02" _prev_rot="0 0 -0.707107 -0.707107" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-1865.17 3123.94 -1264.98" local_rot="0 0 0.707107 0.707107" name="units/pd2_mod_wz/nature/veg_bushes/wz_vegetation_bush_large_a" name_id="mex_vegetation_bush_large_b_002" position="-7638.17 -5116.06 2822.02" rotation="0 0 -0.707107 -0.707107" unit_id="100046"/>
