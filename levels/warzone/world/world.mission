@@ -109,7 +109,7 @@
 							<entry key="id" type="number" value="100011"/>
 						</entry>
 					</entry>
-					<entry key="position" type="vector3" value="-9839.04 -9821.78 2782.71"/>
+					<entry key="position" type="vector3" value="-9800 -9700 2900"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="state" type="string" value="standard"/>
 					<entry key="trigger_times" type="number" value="1"/>
@@ -129,7 +129,7 @@
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="on_executed" type="table">
 					</entry>
-					<entry key="position" type="vector3" value="-9929.68 -9683.67 2784.68"/>
+					<entry key="position" type="vector3" value="-9900 -9700 2900"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="show_instigator" type="boolean" value="true"/>
 					<entry key="trigger_times" type="number" value="0"/>
@@ -187,7 +187,7 @@
 					<entry key="objective" type="string" value="wz_find_something_to_do"/>
 					<entry key="on_executed" type="table">
 					</entry>
-					<entry key="position" type="vector3" value="-9905.86 -9600.83 2784.34"/>
+					<entry key="position" type="vector3" value="-9900 -9600 2900"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="state" type="string" value="complete_and_activate"/>
 					<entry key="sub_objective" type="string" value="none"/>
@@ -3349,6 +3349,25 @@
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="show_instigator" type="boolean" value="false"/>
 					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="124" type="table">
+				<entry key="class" type="string" value="ElementMusic"/>
+				<entry key="editor_name" type="string" value="music_off"/>
+				<entry key="id" type="number" value="100123"/>
+				<entry key="module" type="string" value="CoreElementMusic"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="music_event" type="string" value="Stop_all_music"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="400 400 20000"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="trigger_times" type="number" value="0"/>
+					<entry key="use_instigator" type="boolean" value="false"/>
 				</entry>
 			</entry>
 		</entry>

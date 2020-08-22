@@ -1,0 +1,4 @@
+<?xml version="1.0" ?>
+<modelscript>
+    <import file="town_elconvento.glb" type="gltf" create_objects="true"/>
+</modelscript>

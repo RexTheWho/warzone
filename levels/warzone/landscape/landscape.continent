@@ -629,7 +629,7 @@
 			<unit_data continent="landscape" mesh_variation="" name="units/pd2_mod_wz/terrain/landscape/landscape_209" name_id="landscape_209_001" position="0 0 0" rotation="-0 0 -0 -1" unit_id="300209"/>
 		</table>
 		<table>
-			<unit_data continent="landscape" mesh_variation="" name="units/pd2_mod_wz/terrain/landscape/landscape_210" name_id="landscape_210_001" position="0 0 0" rotation="-0 0 -0 -1" unit_id="300210"/>
+			<unit_data _prev_pos="0 0 0" _prev_rot="0 0 0 -1" continent="landscape" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_mod_wz/terrain/landscape/landscape_210" name_id="landscape_210_001" position="0 0 0" rotation="0 0 0 -1" unit_id="300210"/>
 		</table>
 		<table>
 			<unit_data continent="landscape" mesh_variation="" name="units/pd2_mod_wz/terrain/landscape/landscape_211" name_id="landscape_211_001" position="0 0 0" rotation="-0 0 -0 -1" unit_id="300211"/>

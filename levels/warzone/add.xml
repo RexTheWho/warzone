@@ -20,21 +20,33 @@
 		<unit				path="units/pd2_mod_wz/dev/nav_blocker/nav_blocker_chungus" unload="true" load="true" />
 		<object				path="units/pd2_mod_wz/dev/nav_blocker/nav_blocker_chungus" unload="true"/>
 		<model				path="units/pd2_mod_wz/dev/nav_blocker/nav_blocker_chungus" unload="true"/>
+		<unit				path="units/pd2_mod_wz/dev/nav_blocker/nav_blocker_100m_nodes" unload="true" load="true" />
+		<object				path="units/pd2_mod_wz/dev/nav_blocker/nav_blocker_100m_nodes" unload="true"/>
+		<model				path="units/pd2_mod_wz/dev/nav_blocker/nav_blocker_100m_nodes" unload="true"/>
 		<unit				path="units/pd2_mod_wz/dev/nav_blocker/nav_blocker_2x2x16" unload="true" load="true" />
 		<object				path="units/pd2_mod_wz/dev/nav_blocker/nav_blocker_2x2x16" unload="true"/>
 		<model				path="units/pd2_mod_wz/dev/nav_blocker/nav_blocker_2x2x16" unload="true"/>
 		<unit				path="units/pd2_mod_wz/dev/nav_blocker/nav_blocker_4x4x16" unload="true" load="true" />
 		<object				path="units/pd2_mod_wz/dev/nav_blocker/nav_blocker_4x4x16" unload="true"/>
 		<model				path="units/pd2_mod_wz/dev/nav_blocker/nav_blocker_4x4x16" unload="true"/>
+		<unit				path="units/pd2_mod_wz/dev/nav_blocker/nav_blocker_20m" unload="true" load="true" />
+		<object				path="units/pd2_mod_wz/dev/nav_blocker/nav_blocker_20m" unload="true"/>
+		<model				path="units/pd2_mod_wz/dev/nav_blocker/nav_blocker_20m" unload="true"/>
 		<unit				path="units/pd2_mod_wz/dev/nav_splitter/nav_splitter_8m" unload="true" load="true" />
 		<object				path="units/pd2_mod_wz/dev/nav_splitter/nav_splitter_8m" unload="true"/>
 		<model				path="units/pd2_mod_wz/dev/nav_splitter/nav_splitter_8m" unload="true"/>
 		<unit				path="units/pd2_mod_wz/dev/nav_splitter/nav_splitter_16m" unload="true" load="true" />
 		<object				path="units/pd2_mod_wz/dev/nav_splitter/nav_splitter_16m" unload="true"/>
 		<model				path="units/pd2_mod_wz/dev/nav_splitter/nav_splitter_16m" unload="true"/>
+		<unit				path="units/pd2_mod_wz/dev/nav_splitter/nav_splitter_20m" unload="true" load="true" />
+		<object				path="units/pd2_mod_wz/dev/nav_splitter/nav_splitter_20m" unload="true"/>
+		<model				path="units/pd2_mod_wz/dev/nav_splitter/nav_splitter_20m" unload="true"/>
 		<unit				path="units/pd2_mod_wz/dev/nav_splitter/nav_splitter_32m" unload="true" load="true" />
 		<object				path="units/pd2_mod_wz/dev/nav_splitter/nav_splitter_32m" unload="true"/>
 		<model				path="units/pd2_mod_wz/dev/nav_splitter/nav_splitter_32m" unload="true"/>
+		<unit				path="units/pd2_mod_wz/dev/nav_splitter/nav_splitter_100m" unload="true" load="true" />
+		<object				path="units/pd2_mod_wz/dev/nav_splitter/nav_splitter_100m" unload="true"/>
+		<model				path="units/pd2_mod_wz/dev/nav_splitter/nav_splitter_100m" unload="true"/>
 	</add>
 
 	<!--EFFECTS-->
@@ -100,6 +112,14 @@
 		<unit				path="units/pd2_mod_wz/terrain/roads/road_test" unload="true" load="true" />
 		<object				path="units/pd2_mod_wz/terrain/roads/road_test" unload="true"/>
 		<model				path="units/pd2_mod_wz/terrain/roads/road_test" unload="true"/>
+	</add>
+	
+	<!--TERRAIN TOWNS-->
+	<add unload_on_restart="true">
+		<material_config	path="units/pd2_mod_wz/terrain/towns/town_materials" unload="true"/>
+		<unit				path="units/pd2_mod_wz/terrain/towns/town_elconvento" unload="true" load="true" />
+		<object				path="units/pd2_mod_wz/terrain/towns/town_elconvento" unload="true"/>
+		<model				path="units/pd2_mod_wz/terrain/towns/town_elconvento" unload="true"/>
 	</add>
 	
 	<!--CHARACTERS-->

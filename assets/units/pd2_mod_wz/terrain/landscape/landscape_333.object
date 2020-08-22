@@ -1,6 +1,6 @@
 <dynamic_object>
     <diesel materials="units/pd2_mod_wz/terrain/landscape/landscape_main" orientation_object="rp_landscape" />
-    <bodies>
+<!--     <bodies>
         <body name="static_body" enabled="true" template="static">
             <object name="g_landscape_lod0" collision_type="mesh_mopp" />
         </body>
@@ -14,5 +14,5 @@
             <object name="g_landscape_lod1" enabled="true"  lod="1"  max_distance="40000" shadow_caster="true" />
             <object name="g_landscape_lod2" enabled="true" lod="2" shadow_caster="true" />
         </lod_object>
-    </graphics>
+    </graphics> -->
 </dynamic_object>

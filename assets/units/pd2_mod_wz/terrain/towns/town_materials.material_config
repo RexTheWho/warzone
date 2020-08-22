@@ -1,0 +1,14 @@
+<materials version="3">
+	
+    <material name="mat_town_grounds_vtxblend" render_template="generic:ALPHA_MASKED:DIFFUSE_TEXTURE:GSMA_ALPHA_MASKING:GSMA_TEXTURE:NORMALMAP" version="2">
+        <diffuse_texture 		file="units/pd2_dlc_mex/terrain/mex_terrain_textures/mex_soil_small_pebbles_df" />
+        <material_texture		file="units/pd2_dlc_mex/terrain/mex_terrain_textures/mex_soil_small_pebbles_gsma" />
+        <bump_normal_texture	file="units/pd2_dlc_mex/terrain/mex_terrain_textures/mex_soil_small_pebbles_nm" />
+    </material>
+	
+	<material name="mat_road_desert" version="2" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP">
+        <diffuse_texture		file="units/world/environment/desert/des_road_set/des_vil_road_df"/>
+        <bump_normal_texture	file="units/world/environment/desert/des_road_set/des_vil_road_nm"/>
+    </material>
+	
+</materials>

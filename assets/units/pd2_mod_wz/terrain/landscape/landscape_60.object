@@ -2,7 +2,7 @@
     <diesel materials="units/pd2_mod_wz/terrain/landscape/landscape_main" orientation_object="rp_landscape" />
     <bodies>
         <body name="static_body" enabled="true" template="static">
-            <object name="g_landscape_lod0" collision_type="mesh_mopp" />
+            <object name="g_landscape_lod0" collision_type="mesh_mopp" two_sided="true" />
         </body>
     </bodies>
     <decal_surfaces default_material="gravel" static="true">

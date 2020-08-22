@@ -1,0 +1,25 @@
+<dynamic_object>
+    <diesel materials="units/pd2_mod_wz/terrain/towns/town_materials" orientation_object="rp_town" />
+
+    <bodies>
+        <body name="static_body" enabled="true" template="static">
+            <object name="c_ground" collision_type="mesh_mopp" />
+        </body>
+    </bodies>
+	
+	<decal_surfaces default_material="asphalt" static="true">
+		<decal_mesh name="g_road"		enabled="true" material="asphalt" />
+		<decal_mesh name="g_ground"		enabled="true" material="gravel" />
+	</decal_surfaces>
+	
+    <graphics>
+		<object name="g_road"	enabled="true" />
+		<object name="g_ground"	enabled="true" />
+<!--
+ 		<lod_object name="lod_landscape">
+				<object name="g_road_lod0"	enabled="true"  max_distance="1000"  max_draw_lod="0" />
+				<object name="g_road_lod1"	enabled="true"  lod="1" />
+		</lod_object>
+-->
+    </graphics>
+</dynamic_object>

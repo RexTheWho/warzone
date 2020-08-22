@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<dynamic_object>
+	<diesel materials="core/material_configs/hub_elements" orientation_object="rp_rp" />
+	<bodies>
+		<body name="phys_body" enabled="true" template="graph_blocker">
+			<object name="c_c" collision_type="mesh_mopp" />
+		</body>     
+	</bodies>
+	<graphics>
+		<object name="c_c" enabled="true" instance_struct="world_tm" />
+	</graphics>
+</dynamic_object>
