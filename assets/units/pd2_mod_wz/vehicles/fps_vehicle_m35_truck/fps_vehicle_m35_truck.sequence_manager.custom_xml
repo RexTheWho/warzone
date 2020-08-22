@@ -141,15 +141,7 @@
 		<!--Ai Animations-->
 		<sequence editable_state="true" name="'test_drive_fwd'" triggable="true">
 			<function extension="'base'" function="'store_current_pos'"/>
-			<animation_redirect name="'anim_test_drive_fwd'"/>
-		</sequence>
-		<sequence editable_state="true" name="'anim_car_chw_arrive_1'" triggable="true">
-			<run_sequence name="'state_vis_show'"/>
-			<function extension="'base'" function="'store_current_pos'"/>
-			<!-- <animation_redirect name=" 'car_chw_arrive_1' "/> -->
-			<animation_redirect name=" 'car_chw_wheel_loop' "/>
-			<sound action="'play'" event="'car_loop_chew'" source="'snd'"/>
-			<!-- <run_sequence name="'done_car_anim'" start_time="1000/30"/> -->
+			<animation_redirect name="'van_swat_shoutout_a_fwd'"/>
 		</sequence>
 		
 	</unit>

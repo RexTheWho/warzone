@@ -2,7 +2,7 @@
 <dynamic_object>
 	<diesel materials="units/pd2_mod_wz/vehicles/fps_vehicle_m35_truck/fps_vehicle_m35_truck" orientation_object="rp_anim_car" />
 	<sequence_manager file="units/pd2_mod_wz/vehicles/fps_vehicle_m35_truck/fps_vehicle_m35_truck" />
-	<!-- <animation_def name="units/pd2_mod_wz/vehicles/fps_vehicle_m35_truck/anims/swat_van" /> -->
+	<animation_def name="anims/units/swat_van/swat_van" />
 	<animations>
 		<animation_group name="anim_steering_wheel_left" enabled="false">
 				<object name="anim_steering_wheel_left" />

@@ -165,13 +165,10 @@
 		<model						path="units/pd2_mod_wz/vehicles/fps_vehicle_m35_truck/fps_vehicle_m35_truck" unload="true"/>
 		<sequence_manager			path="units/pd2_mod_wz/vehicles/fps_vehicle_m35_truck/fps_vehicle_m35_truck" unload="true"/>
 		<material_config			path="units/pd2_mod_wz/vehicles/fps_vehicle_m35_truck/fps_vehicle_m35_truck" unload="true"/>
-		<animation_def				path="units/pd2_mod_wz/vehicles/fps_vehicle_m35_truck/anims/m35_truck" unload="true" />
-		<animation_state_machine	path="units/pd2_mod_wz/vehicles/fps_vehicle_m35_truck/anims/m35_truck" unload="true" />
-		<animation_states			path="units/pd2_mod_wz/vehicles/fps_vehicle_m35_truck/anims/std" unload="true" />
-		<animation_subset			path="units/pd2_mod_wz/vehicles/fps_vehicle_m35_truck/anims/std" unload="true" />
-		<animation_def				path="units/pd2_mod_wz/vehicles/fps_vehicle_m35_truck/anims/swat_van" unload="true" />
-		<animation_state_machine	path="units/pd2_mod_wz/vehicles/fps_vehicle_m35_truck/anims/swat_van" unload="true" />
-		<animation					path="units/pd2_mod_wz/vehicles/fps_vehicle_m35_truck/anims/test_drive_fwd" unload="true" />
+		<!-- <animation_def				path="anims/units/m35/m35" unload="true" load="true" /> -->
+		<!-- <animation_state_machine	path="anims/units/m35/m35" unload="true" load="true" /> -->
+		<!-- <animation_states			path="anims/units/m35/std" unload="true" load="true" /> -->
+		<!-- <animation_subset			path="anims/units/m35/std" unload="true" load="true" /> -->
 		
 		<!-- Vehicle Loot -->
 		<unit				path="units/pd2_mod_wz/vehicles/vehicle_loot/veh_loot_bag_test_static/veh_loot_bag_test_static" unload="true" load="true" />
@@ -295,6 +292,12 @@
 		<object				path="units/pd2_mod_wz/props/contraband/cocaine/coke_pile" unload="true"/>
 		<model				path="units/pd2_mod_wz/props/contraband/cocaine/coke_pile" unload="true"/>
 		<sequence_manager	path="units/pd2_mod_wz/props/contraband/cocaine/coke_pile" unload="true"/>
+		
+		<unit				path="units/pd2_mod_wz/props/alarm_box/alarm_box" unload="true" load="true" />
+		<object				path="units/pd2_mod_wz/props/alarm_box/alarm_box" unload="true"/>
+		<model				path="units/pd2_mod_wz/props/alarm_box/alarm_box" unload="true"/>
+		<sequence_manager	path="units/pd2_mod_wz/props/alarm_box/alarm_box" unload="true"/>
+		<material_config	path="units/pd2_mod_wz/props/alarm_box/alarm_box" unload="true"/>
 	</add>
 	
 	<!--LANDSCAPE-->

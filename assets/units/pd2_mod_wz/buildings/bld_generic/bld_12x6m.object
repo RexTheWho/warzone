@@ -7,9 +7,9 @@
 		</body>
 	</bodies>
 	
-	<decal_surfaces default_material="stone" >
-		<decal_mesh name="g_bld_12x6m"			enabled="true" material="stone" />
-		<decal_mesh name="g_bld_12x6m_rock"		enabled="true" material="rock" />
+	<decal_surfaces>
+		<decal_mesh name="g_bld_12x6m"			enabled="true" />
+		<decal_mesh name="g_bld_12x6m_rock"		enabled="true" />
 	</decal_surfaces>
 	
 	<graphics>

@@ -1,0 +1,4 @@
+<?xml version="1.0" ?>
+<modelscript>
+    <import file="alarm_box.glb" type="gltf" create_objects="true"/>
+</modelscript>

@@ -5,11 +5,10 @@
 	<dependencies>
 		<depends_on bnk="soundbanks/regular_vox" />
 	</dependencies>
-
 	<extensions>
 		<extension name="unit_data" class="ScriptUnitData" />
 		<extension name="base" class="CopBase" >
-			<var name="_tweak_table" value="fbi_swat" />
+			<var name="_tweak_table" value="fbi_cartel_light" />
 			<var name="_default_weapon_id" value="ak_short_npc" />
 		</extension>
 		<extension name="inventory" class="CopInventory" />

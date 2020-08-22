@@ -1,0 +1,26 @@
+<dynamic_object>
+	<diesel materials="units/pd2_mod_wz/props/alarm_box/alarm_box" orientation_object="rp_alarm_box" />
+	<sequence_manager file="units/pd2_mod_wz/props/alarm_box/alarm_box" />
+	<bodies>
+		<body name="body_hitbox" enabled="true" template="static">
+			<object name="c_alarm_box" collision_type="box" />
+		</body>
+		<body name="body_static" enabled="true" template="static">
+			<object name="c_alarm_box" collision_type="box" padding="-2.5" />
+		</body>
+	</bodies>
+	
+	<decal_surfaces default_material="steel_no_decal" static="true">
+	</decal_surfaces>
+	
+	<graphics>
+		<object name="s_alarm_box"	enabled="true" shadow_caster="true" />
+		<object name="g_alarm_box"	enabled="true" />
+		<graphic_group name="grp_gui" enabled="true" >
+			<lod_object name="lod_group">
+                <object name="g_icon"		enabled="true"  max_distance="450"  max_draw_lod="0" />
+                <object name="g_icon_lod01"	enabled="true"  lod="1" />
+			</lod_object>
+		</graphic_group>
+	</graphics>
+</dynamic_object>

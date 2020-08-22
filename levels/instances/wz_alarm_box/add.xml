@@ -1,0 +1,10 @@
+<table directory="assets">
+	<!--Props-->
+	<add unload_on_restart="true">
+		<unit				path="units/pd2_mod_wz/props/alarm_box/alarm_box" unload="true" load="true" />
+		<object				path="units/pd2_mod_wz/props/alarm_box/alarm_box" unload="true"/>
+		<model				path="units/pd2_mod_wz/props/alarm_box/alarm_box" unload="true"/>
+		<sequence_manager	path="units/pd2_mod_wz/props/alarm_box/alarm_box" unload="true"/>
+		<material_config	path="units/pd2_mod_wz/props/alarm_box/alarm_box" unload="true"/>
+	</add>
+</table>

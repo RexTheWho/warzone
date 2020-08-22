@@ -1,0 +1,39 @@
+<table>
+	<unit>
+	
+		<body name="'body_hitbox'">
+			<endurance bullet="2" explosion="1">
+				<run_sequence name="'destroy_alarmbox'"/>
+			</endurance>
+		</body>
+		
+		<sequence editable_state="true" name="'enable_interaction'" triggable="true">
+			<interaction enabled="true"/>
+			<graphic_group name="'grp_gui'" visibility="true" />
+			<body name="'body_hitbox'" enabled="true" />
+		</sequence>
+		
+		<sequence editable_state="true" name="'disable_interaction'" triggable="true">
+			<interaction enabled="false"/>
+			<graphic_group name="'grp_gui'" visibility="false" />
+			<body name="'body_hitbox'" enabled="false" />
+		</sequence>
+		
+		<sequence editable_state="true" name="'destroy_alarmbox'" triggable="true">
+			<set_damage explosion="0" />
+			<run_sequence name="'disable_interaction'" />
+		</sequence>
+		
+		<sequence editable_state="true" name="'interact'" triggable="true">
+			<run_sequence name="'disable_interaction'" />
+		</sequence>
+		
+		<sequence editable_state="true" name="'alarm'" triggable="true">
+			<run_sequence name="'disable_interaction'" />
+			<alert range="1600"/>
+			<alert range="3200" start_time="0.5" />
+			<alert range="6400" start_time="1" />
+		</sequence>
+		
+	</unit>
+</table>
