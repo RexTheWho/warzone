@@ -929,18 +929,6 @@
 			<unit_data _prev_pos="0 0 0" _prev_rot="-0 0 -0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_wz/dev/nav_blocker/nav_blocker_100m_nodes" name_id="nav_blocker_100m_nodes_001" only_exists_in_editor="true" position="0 0 0" rotation="-0 0 -0 -1" unit_id="100001"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-14450 7025 2075" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_wz/dev/nav_blocker/nav_blocker_chungus" name_id="nav_blocker_chungus_001" only_exists_in_editor="true" position="-14450 4325 2075" rotation="0 0 0 -1" unit_id="100196"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="-12325 -16350 7550" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_wz/dev/nav_blocker/nav_blocker_chungus" name_id="nav_blocker_chungus_002" only_exists_in_editor="true" position="-12325 -16350 7550" rotation="0 0 0.121869 -0.992546" unit_id="100197"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="-25875 -11250 2325" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_wz/dev/nav_blocker/nav_blocker_chungus" name_id="nav_blocker_chungus_003" only_exists_in_editor="true" position="-22975 -11250 2325" rotation="0 0 0.707107 -0.707107" unit_id="100294"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="-1500 -10900 7200" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_wz/dev/nav_blocker/nav_blocker_chungus" name_id="nav_blocker_chungus_004" only_exists_in_editor="true" position="-1500 -10900 7200" rotation="0 0 0.707107 -0.707107" unit_id="100304"/>
-		</table>
-		<table>
 			<unit_data _prev_pos="-9576.18 -15646.1 4391.9" _prev_rot="0.026637 -0.113921 0.949257 -0.29193" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_wz/terrain/rocks/wz_cliff_large" name_id="wz_cliff_large_020" position="-9576.18 -15646.1 4391.9" rotation="0.0305965 -0.112922 0.958867 -0.258624" unit_id="100307"/>
 		</table>
 		<table>
