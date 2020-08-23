@@ -139,9 +139,9 @@
 		</sequence>
 		
 		<!--Ai Animations-->
-		<sequence editable_state="true" name="'test_drive_fwd'" triggable="true">
+		<sequence editable_state="true" name="'test_drive'" triggable="true">
 			<function extension="'base'" function="'store_current_pos'"/>
-			<animation_redirect name="'van_swat_shoutout_a_fwd'"/>
+			<animation_redirect name="'anim_m35_truck_test'"/>
 		</sequence>
 		
 	</unit>

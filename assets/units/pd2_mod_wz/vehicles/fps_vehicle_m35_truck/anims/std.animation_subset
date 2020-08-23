@@ -2,7 +2,5 @@
 
 <xml>
 	<!--anim name and animation file path-->
-	<!--animation_states "<anim name="test_drive_fwd"/>" calls to here.-->
-	<!-- <anim	name="test_drive_fwd"				file="units/pd2_mod_wz/vehicles/fps_vehicle_m35_truck/anims/test_drive_fwd"					blend_set="all"/> -->
-	<anim	name="van_swat_brb_arrive_01"		file="anims/car/van_swat_brb_arrive_01"														blend_set="all"/>
+	<anim	name="anim_m35_truck_test"				file="units/pd2_mod_wz/vehicles/fps_vehicle_m35_truck/anims/m35_truck_test"					blend_set="all"/>
 </xml>
