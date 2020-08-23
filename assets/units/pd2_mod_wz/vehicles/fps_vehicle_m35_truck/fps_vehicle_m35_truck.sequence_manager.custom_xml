@@ -85,7 +85,7 @@
 		<sequence editable_state="false" name="'driving'" triggable="false">
 			<function extension="'base'" function="'store_current_pos'"/>
 			<animation_redirect name="'to_m35_truck_stop'"/>
-			<run_sequence name="'state_enable_real_wheels'"/>
+			<run_sequence name="'stop_ai_driving'"/>
 			<interaction enabled="true"/>
 			<body enabled="false" name="'body_chassis_static'"/>
 			<body enabled="false" name="'body_chassis_cover_static'"/>
@@ -141,7 +141,7 @@
 			<effect_spawner enabled="true" name="'es_smoke_full'"/>
 		</sequence>
 		
-		<!--Ai Animations-->
+		<!--Ai Driver Wheels-->
 		<sequence editable_state="true" name="'state_enable_real_wheels'" triggable="true">
 			<graphic_group name="'grp_real_wheels'" visibility="true"/>
 			<graphic_group name="'grp_fake_wheels'" visibility="false"/>
@@ -151,8 +151,51 @@
 			<graphic_group name="'grp_fake_wheels'" visibility="true"/>
 		</sequence>
 		
+		<!-- Driver Hitbox -->
+		<body name="'body_driver_hitbox'">
+			<endurance damage="1">
+				<run_sequence name="'killed_driver'"/>
+			</endurance>
+		</body>
+		
+		<sequence editable_state="true" name="'killed_driver'" triggable="true" once="true">
+			<function
+				extension="'spawn_manager'"
+				function="'spawn_run_sequence'"
+				param1="'unit_truck_driver'"
+				param2="'killed_driver_m35_truck'"
+			/>
+			<body enabled="false" name="'body_driver_hitbox'"/>
+			<run_sequence name="'stop_ai_driving'"/> <!--replace with slow stopping when animations are in-->
+		</sequence>
+		
+		<sequence editable_state="true" name="'spawn_driver'" triggable="true">
+			<body enabled="true" name="'body_driver_hitbox'"/>
+			<function
+				extension="'spawn_manager'"
+				function="'spawn_unit'"
+				param1="'unit_truck_driver'"
+				param2="'rp_anim_car'"
+				param3="'units/pd2_mod_wz/vehicles/vehicle_driver/vehicle_driver'"
+			/>
+			<function
+				extension="'spawn_manager'"
+				function="'spawn_run_sequence'"
+				param1="'unit_truck_driver'"
+				param2="'start_driver_m35_truck'"
+			/>
+		</sequence>
+		
+		<!--Ai Animations-->
+		<sequence editable_state="true" name="'stop_ai_driving'" triggable="true">
+			<function extension="'base'" function="'store_current_pos'"/>
+			<animation_redirect name="'to_m35_truck_stop'"/>
+			<run_sequence name="'state_enable_real_wheels'"/>
+			<function extension="'spawn_manager'" function="'remove_unit'" param1="'unit_truck_driver'" start_time="10"	/> <!--look into cleaner method-->
+		</sequence>
 		<sequence editable_state="true" name="'test_drive'" triggable="true">
 			<run_sequence name="'state_enable_fake_wheels'"/>
+			<run_sequence name="'spawn_driver'"/>
 			<function extension="'base'" function="'store_current_pos'"/>
 			<function extension="'vehicle_driving'" function="'_start_engine_sound'" />
 			<animation_redirect name="'to_m35_truck_test'"/>

@@ -179,6 +179,7 @@
 		<model				path="units/pd2_mod_wz/vehicles/fps_vehicle_muscle_1/fps_vehicle_muscle_1" unload="true"/>
 		<sequence_manager	path="units/pd2_mod_wz/vehicles/fps_vehicle_muscle_1/fps_vehicle_muscle_1" unload="true"/>
 		<material_config	path="units/pd2_mod_wz/vehicles/fps_vehicle_muscle_1/fps_vehicle_muscle_1" unload="true"/>
+		
 		<!-- Cargo Truck -->
 		<unit						path="units/pd2_mod_wz/vehicles/fps_vehicle_m35_truck/fps_vehicle_m35_truck" unload="true" load="true" />
 		<object						path="units/pd2_mod_wz/vehicles/fps_vehicle_m35_truck/fps_vehicle_m35_truck" unload="true"/>
@@ -192,6 +193,19 @@
 		<animation					path="units/pd2_mod_wz/vehicles/fps_vehicle_m35_truck/anims/m35_truck_test" unload="true" />
 		<animation					path="units/pd2_mod_wz/vehicles/fps_vehicle_m35_truck/anims/m35_truck_wheels_loop" unload="true" />
 		<animation					path="units/pd2_mod_wz/vehicles/fps_vehicle_m35_truck/anims/m35_truck_wheels_stop" unload="true" />
+		
+		<!-- Vehicle Driver -->
+		<unit						path="units/pd2_mod_wz/vehicles/vehicle_driver/vehicle_driver" unload="true" load="true" />
+		<object						path="units/pd2_mod_wz/vehicles/vehicle_driver/vehicle_driver" unload="true"/>
+		<model						path="units/pd2_mod_wz/vehicles/vehicle_driver/vehicle_driver" unload="true"/>
+		<sequence_manager			path="units/pd2_mod_wz/vehicles/vehicle_driver/vehicle_driver" unload="true"/>
+		<material_config			path="units/pd2_mod_wz/vehicles/vehicle_driver/vehicle_driver" unload="true"/>
+		<animation_def				path="units/pd2_mod_wz/vehicles/vehicle_driver/vehicle_driver" unload="true" />
+		<animation_state_machine	path="units/pd2_mod_wz/vehicles/vehicle_driver/vehicle_driver" unload="true" />
+		<animation_states			path="units/pd2_mod_wz/vehicles/vehicle_driver/vehicle_driver" unload="true" />
+		<animation_subset			path="units/pd2_mod_wz/vehicles/vehicle_driver/vehicle_driver" unload="true" />
+		<animation					path="units/pd2_mod_wz/vehicles/vehicle_driver/anims/anim_m35_truck_driver" unload="true" />
+		<animation					path="units/pd2_mod_wz/vehicles/vehicle_driver/anims/anim_m35_truck_killed" unload="true" />
 		
 		<!-- Vehicle Loot -->
 		<unit				path="units/pd2_mod_wz/vehicles/vehicle_loot/veh_loot_bag_test_static/veh_loot_bag_test_static" unload="true" load="true" />

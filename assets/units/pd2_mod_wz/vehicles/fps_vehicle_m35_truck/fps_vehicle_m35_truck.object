@@ -84,6 +84,10 @@
 			<object name="c_cover_box_004" collision_type="box" padding="-2.5"/>
 			<object name="c_cover_box_005" collision_type="box" padding="-2.5"/>
 		</body>
+		<body name="body_driver_hitbox" enabled="false" template="animated" >
+			<object name="anim_body" />
+			<object name="c_driver_hitbox" collision_type="box" padding="-2.5"/>
+		</body>
 	</bodies>
 
 	<decal_surfaces default_material="metal">
