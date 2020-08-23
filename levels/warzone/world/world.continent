@@ -1003,7 +1003,7 @@
 			<unit_data _prev_pos="18100 53700 1001" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_wz/buildings/bld_generic/bld_12x6m" name_id="bld_12x6m_005" position="18100 53700 1001" rotation="0 0 0.707107 -0.707107" unit_id="100334"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-10383 -4490 2798" _prev_rot="0 0 2.83122e-007 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="test_drive" name="units/pd2_mod_wz/vehicles/fps_vehicle_m35_truck/fps_vehicle_m35_truck" name_id="fps_vehicle_m35_truck_002" position="-10383 -4490 2798" rotation="0 0 1 4.37114e-008" unit_id="100196"/>
+			<unit_data _prev_pos="0 0 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="test_drive" name="units/pd2_mod_wz/vehicles/fps_vehicle_m35_truck/fps_vehicle_m35_truck" name_id="fps_vehicle_m35_truck_002" position="0 0 0" rotation="-0 0 -0 -1" unit_id="100196"/>
 		</table>
 	</statics>
 	<values>

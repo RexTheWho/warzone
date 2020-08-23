@@ -1,6 +1,7 @@
 <xml>
 	<state name="std" type="template_state" segment="base">
 		<default blend="0"/>
+		<to	name="to_m35_truck_stop"				redirect="std/empty"/>
 		<to	name="to_m35_truck_test"				redirect="std/drive/m35_truck_test"/>
 		<to	name="to_m35_truck_wheels_loop"			redirect="std/drive/m35_truck_wheels_loop"/>
 		<to	name="to_m35_truck_wheels_stop"			redirect="std/drive/m35_truck_wheels_stop"/>
@@ -23,7 +24,7 @@
 	</state>
 	
 	<!---->
-	<state name="std/drive/m35_truck_test" type="once" segment="base">
+	<state name="std/drive/m35_truck_test" type="loop" segment="base" speed="0.25">
 		<anim name="anim_m35_truck_test"/>
 		<exit name="std/empty"/>
 	</state>
