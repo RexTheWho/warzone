@@ -29,12 +29,12 @@
 		<exit name="std/empty"/>
 	</state>
 	
-	<state name="std/drive/m35_truck_wheels_loop" type="loop" segment="base" >
+	<state name="std/drive/m35_truck_wheels_loop" type="loop" segment="wheels" speed="3" >
 		<anim name="anim_m35_truck_wheels_loop"/>
-		<exit name="std/drive/m35_truck_wheels_stop"/>
+		<exit name="std/empty"/>
 	</state>
 	
-	<state name="std/drive/m35_truck_wheels_stop" type="once" segment="base" >
+	<state name="std/drive/m35_truck_wheels_stop" type="once" segment="wheels" >
 		<anim name="anim_m35_truck_wheels_stop"/>
 	</state>
 </xml>

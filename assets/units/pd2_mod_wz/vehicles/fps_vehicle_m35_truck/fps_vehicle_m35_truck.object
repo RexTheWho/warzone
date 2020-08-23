@@ -122,7 +122,7 @@
 			<object name="g_wheel_rear2_right" 		enabled="true"	shadow_caster="true" />
 		</graphic_group>
 
-		<graphic_group name="grp_fake_wheels" enabled="false">
+		<graphic_group name="grp_fake_wheels" enabled="true">
 			<object name="g_fake_wheels_front"	enabled="true"	shadow_caster="true" />
 			<object name="g_fake_wheels_rear"	enabled="true"	shadow_caster="true" />
 			<object name="g_fake_wheels_rear2"	enabled="true"	shadow_caster="true" />
@@ -198,7 +198,7 @@
 			<wheel spin_object="anim_tire_rear2_left"	turn_object=""								radius="0.56" width="0.37" mass="30" transmission_ratio="0.55" is_steering="false" max_steering="0" braking_torque="2500" handbrake_torque="2500" />
 			<wheel spin_object="anim_tire_rear2_right"	turn_object=""								radius="0.56" width="0.37" mass="30" transmission_ratio="0.55" is_steering="false" max_steering="0" braking_torque="2500" handbrake_torque="2500" />
 		</wheels>
-		<suspension max_compression="0.18" max_extension="0.22" spring_strength="55000" damper_rate="4500" supported_mass="800" />
+		<suspension max_compression="0.18" max_extension="0.22" spring_strength="55000" damper_rate="4500" supported_mass="850" />
 		<gearbox switch_time="0.1" ratio_multiplier="4.0">
 			<ratios>
 				<ratio value="-3.0" />
@@ -208,7 +208,7 @@
 				<ratio value="1.6" />
 			</ratios>
 		</gearbox>
-		<engine max_torque="300" max_rpm="2000"/>
+		<engine max_torque="350" max_rpm="2000"/>
 	</vehicle>
 	
 </dynamic_object>
