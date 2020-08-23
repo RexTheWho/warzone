@@ -139,9 +139,30 @@
 		</sequence>
 		
 		<!--Ai Animations-->
+		<sequence editable_state="true" name="'state_enable_real_wheels'" triggable="true">
+			<graphic_group name="'grp_real_wheels'" visibility="true"/>
+			<graphic_group name="'grp_fake_wheels'" visibility="false"/>
+		</sequence>
+		<sequence editable_state="true" name="'state_enable_fake_wheels'" triggable="true">
+			<graphic_group name="'grp_real_wheels'" visibility="false"/>
+			<graphic_group name="'grp_fake_wheels'" visibility="true"/>
+		</sequence>
+		
+		<sequence editable_state="true" name="'anim_m35_truck_wheels_loop'" triggable="true">
+			<animation_redirect name="'to_m35_truck_wheels_loop'"/>
+			<run_sequence name="'state_enable_real_wheels'"/>
+			<run_sequence name="'state_enable_fake_wheels'" start_time="400/30"/>
+		</sequence>
+		
 		<sequence editable_state="true" name="'test_drive'" triggable="true">
 			<function extension="'base'" function="'store_current_pos'"/>
-			<animation_redirect name="'anim_m35_truck_test'"/>
+			<animation_redirect name="'to_m35_truck_test'"/>
+		</sequence>
+		
+		<sequence editable_state="true" name="'test_drive_w_loop'" triggable="true">
+			<function extension="'base'" function="'store_current_pos'"/>
+			<animation_redirect name="'to_m35_truck_test'"/>
+			<animation_redirect name="'to_m35_truck_wheels_loop'"/>
 		</sequence>
 		
 	</unit>

@@ -1,13 +1,14 @@
 <?xml version="1.0"?>
 <unit type="vhc" slot="39" >
 	<object file="units/pd2_mod_wz/vehicles/fps_vehicle_m35_truck/fps_vehicle_m35_truck" />
+	<anim_state_machine name="units/pd2_mod_wz/vehicles/fps_vehicle_m35_truck/fps_vehicle_m35_truck"/>
 	<network sync="spawn"/>
 	
-	<anim_state_machine name="units/pd2_mod_wz/vehicles/fps_vehicle_m35_truck/anims/m35_truck"/>
 	
 	<dependencies>
-		<depends_on animation_def="units/pd2_mod_wz/vehicles/fps_vehicle_m35_truck/anims/m35_truck"/>
-		<depends_on animation_state_machine="units/pd2_mod_wz/vehicles/fps_vehicle_m35_truck/anims/m35_truck"/>
+		<!--REQUIRED!-->
+		<depends_on animation_def="units/pd2_mod_wz/vehicles/fps_vehicle_m35_truck/fps_vehicle_m35_truck"/>
+		<depends_on animation_state_machine="units/pd2_mod_wz/vehicles/fps_vehicle_m35_truck/fps_vehicle_m35_truck"/>
 	</dependencies>
 	
 	<extensions>

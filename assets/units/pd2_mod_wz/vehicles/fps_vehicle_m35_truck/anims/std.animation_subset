@@ -1,6 +1,0 @@
-<!-- Animate rootpoint if vehicle syncs in the level. -->
-
-<xml>
-	<!--anim name and animation file path-->
-	<anim	name="anim_m35_truck_test"				file="units/pd2_mod_wz/vehicles/fps_vehicle_m35_truck/anims/m35_truck_test"					blend_set="all"/>
-</xml>

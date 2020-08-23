@@ -2,7 +2,7 @@
 <dynamic_object>
 	<diesel materials="units/pd2_mod_wz/vehicles/fps_vehicle_m35_truck/fps_vehicle_m35_truck" orientation_object="rp_anim_car" />
 	<sequence_manager file="units/pd2_mod_wz/vehicles/fps_vehicle_m35_truck/fps_vehicle_m35_truck" />
-	<animation_def name="units/pd2_mod_wz/vehicles/fps_vehicle_m35_truck/anims/m35_truck" />
+	<animation_def name="units/pd2_mod_wz/vehicles/fps_vehicle_m35_truck/fps_vehicle_m35_truck" />
 	<animations>
 		<animation_group name="anim_steering_wheel_left" enabled="false">
 				<object name="anim_steering_wheel_left" />
@@ -48,7 +48,7 @@
 			<object name="c_cover_box_004" collision_type="box" padding="-2.5"/>
 			<object name="c_cover_box_005" collision_type="box" padding="-2.5"/>
 		</body>
-		<body name="body_chassis" enabled="false" template="vehicle" collision_script_filter="1" collision_script_quiet_time="0.5" collision_script_tag="vehicle_collision" give_standing_velocity="false" >
+		<body name="body_chassis" enabled="false" template="vehicle" collision_script_filter="1" collision_script_quiet_time="0.5" collision_script_tag="vehicle_collision" give_standing_velocity="true" >
 			<object name="anim_body" />
 			<object name="c_body" collision_type="convex" />
 			<object name="c_main_convex_001" collision_type="convex" padding="-2.5"/>
@@ -76,7 +76,7 @@
 			<object name="c_main_box_021" collision_type="box" padding="-2.5"/>
 			<object name="c_main_box_022" collision_type="box" padding="-2.5"/>
 		</body>
-		<body name="body_chassis_cover" enabled="false" template="vehicle" collision_script_filter="1" collision_script_quiet_time="0.5" collision_script_tag="vehicle_collision" give_standing_velocity="false" >
+		<body name="body_chassis_cover" enabled="false" template="vehicle" collision_script_filter="1" collision_script_quiet_time="0.5" collision_script_tag="vehicle_collision" give_standing_velocity="true" >
 			<object name="anim_body" />
 			<object name="c_cover_box_001" collision_type="box" padding="-2.5"/>
 			<object name="c_cover_box_002" collision_type="box" padding="-2.5"/>
@@ -102,13 +102,6 @@
 			<object name="g_m35_cover_lod0" 	enabled="true"  max_distance="6400" />
 			<object name="g_m35_cover_lod1" 	enabled="true" />
 		</lod_object>
-	
-		<object name="g_wheel_front_left" 		enabled="true"	shadow_caster="true" />
-		<object name="g_wheel_front_right" 		enabled="true"	shadow_caster="true" />
-		<object name="g_wheel_rear1_left" 		enabled="true"	shadow_caster="true" />
-		<object name="g_wheel_rear1_right" 		enabled="true"	shadow_caster="true" />
-		<object name="g_wheel_rear2_left" 		enabled="true"	shadow_caster="true" />
-		<object name="g_wheel_rear2_right" 		enabled="true"	shadow_caster="true" />
 		
 		<object name="g_steering_wheel"			enabled="true" />
 		<object name="g_steering_wheel_fps"		enabled="false" />
@@ -119,6 +112,21 @@
 		
 		<object name="s_m35"					enabled="true" shadow_caster="true" />
 		<object name="s_m35_cover"				enabled="true" shadow_caster="true" />
+
+		<graphic_group name="grp_real_wheels" enabled="true">
+			<object name="g_wheel_front_left" 		enabled="true"	shadow_caster="true" />
+			<object name="g_wheel_front_right" 		enabled="true"	shadow_caster="true" />
+			<object name="g_wheel_rear1_left" 		enabled="true"	shadow_caster="true" />
+			<object name="g_wheel_rear1_right" 		enabled="true"	shadow_caster="true" />
+			<object name="g_wheel_rear2_left" 		enabled="true"	shadow_caster="true" />
+			<object name="g_wheel_rear2_right" 		enabled="true"	shadow_caster="true" />
+		</graphic_group>
+
+		<graphic_group name="grp_fake_wheels" enabled="false">
+			<object name="g_fake_wheels_front"	enabled="true"	shadow_caster="true" />
+			<object name="g_fake_wheels_rear"	enabled="true"	shadow_caster="true" />
+			<object name="g_fake_wheels_rear2"	enabled="true"	shadow_caster="true" />
+		</graphic_group>
 
 		<graphic_group name="grp_icon_entry" enabled="true">
 			<lod_object name="lod_icon_drive">
