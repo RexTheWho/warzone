@@ -6,6 +6,8 @@
 		<table continent="world" folder="levels/instances/mods/wz_alarm_box/world" index_size="2000" name="wz_alarm_box_003" position="-15956.8 -6808.36 2773.77" rotation="0 0 0.382683 0.92388" script="default" start_index="4000"/>
 		<table continent="world" folder="levels/instances/mods/wz_alarm_box/world" index_size="2000" name="wz_alarm_box_004" position="-14758.6 -6826.77 2767.96" rotation="0 0 -0.92388 0.382683" script="default" start_index="6000"/>
 		<table continent="world" folder="levels/instances/mods/wz_alarm_box/world" index_size="2000" name="wz_alarm_box_005" position="-14900 -6968.19 2767.96" rotation="0 0 0.92388 -0.382683" script="default" start_index="8000"/>
+		<table continent="world" folder="levels/instances/mods/wz_alarm_box/world" index_size="2000" name="wz_alarm_box_006" position="17102 56415.9 1000" rotation="0 -0 -0.707107 -0.707107" script="default" start_index="10000"/>
+		<table continent="world" folder="levels/instances/mods/wz_alarm_box/world" index_size="2000" name="wz_alarm_box_007" position="18302 61315.9 1000" rotation="0 0 0.707107 -0.707107" script="default" start_index="12000"/>
 	</instances>
 	<statics>
 		<table>
@@ -1028,6 +1030,12 @@
 		</table>
 		<table>
 			<unit_data _prev_pos="15692 55516 1001" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_wz/props/fences/fence_post_rusty_02" name_id="fence_post_rusty_02_010" position="15692 55516 1001" rotation="0 0 0 -1" unit_id="100303"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="18300 62000 1000" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="-684.102 -2 0" local_rot="0 0 -8.9407e-008 1" name="units/pd2_mod_wz/buildings/bld_generic_desert/bld_generic_desert" name_id="bld_generic_desert_003" position="18300 62000 1000" rotation="0 0 0.707107 -0.707107" unit_id="100339"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="18300 60400 1000" _prev_rot="0 0 8.9407e-008 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_wz/buildings/bld_generic_desert/bld_generic_desert" name_id="bld_generic_desert_004" position="18300 60400 1000" rotation="-0 0 -8.9407e-008 1" unit_id="100340"/>
 		</table>
 	</statics>
 	<values>

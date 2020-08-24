@@ -48,7 +48,7 @@ function EditorSpecialObjective:create_element()
 	self._element.values.followup_elements = {}
 	self._element.values.spawn_instigator_ids = {}
     self._element.values.test_unit = "default"	
-    self._element.values.is_alert_point = true
+    self._element.values.is_alert_point = false
 end
 
 function EditorSpecialObjective:draw_links()
