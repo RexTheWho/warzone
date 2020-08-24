@@ -45,16 +45,16 @@ function VehicleTweakData:_init_wz_cargo_truck()
 				shooting_pos = Vector3(50, 0, 50)
 			},
 			passenger_back_left = {
-				allow_shooting = true,
 				name = "passenger_back_left",
-				has_shooting_mode = true,
-				driving = false
+				driving = false,
+				allow_shooting = true,
+				has_shooting_mode = true
 			},
 			passenger_back_right = {
-				allow_shooting = true,
 				name = "passenger_back_right",
-				has_shooting_mode = true,
-				driving = false
+				driving = false,
+				allow_shooting = true,
+				has_shooting_mode = true
 			}
 		},
 		loot_points = {
@@ -74,8 +74,8 @@ function VehicleTweakData:_init_wz_cargo_truck()
 				yaw = 100
 			},
 			passenger = {
-				pitch = 75,
-				yaw = 130
+				pitch = 80,
+				yaw = 140
 			}
 		},
 		max_speed = 180,

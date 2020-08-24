@@ -764,7 +764,7 @@
 			<unit_data _prev_pos="-15761.1 -6581.59 2965" _prev_rot="-0 -0 0.382683 -0.92388" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="interaction_enabled" name="units/payday2/architecture/ind/ind_ext_window_c_openable/ind_ext_window_c_openable" name_id="ind_ext_window_c_openable_001" position="-15761.1 -6581.59 2965" rotation="-0 -0 0.382683 -0.92388" unit_id="100259"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-9744 -5461 2779" _prev_rot="-0 0 -0 -1" continent="world" disable_on_ai_graph="true" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_mod_wz/vehicles/fps_vehicle_m35_truck/fps_vehicle_m35_truck" name_id="fps_vehicle_m35_truck_001" position="-9744 -5461 2779" rotation="-0 0 -0 -1" unit_id="100016"/>
+			<unit_data _prev_pos="-9744 -5461 2779" _prev_rot="-0 0 -0 -1" continent="world" disable_on_ai_graph="true" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="enable_cage" name="units/pd2_mod_wz/vehicles/fps_vehicle_m35_truck/fps_vehicle_m35_truck" name_id="fps_vehicle_m35_truck_001" position="-9744 -5461 2779" rotation="-0 0 -0 -1" unit_id="100016"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="0 0 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_wz/terrain/roads/road_test" name_id="road_test_001" position="0 0 0" rotation="0 0 0 -1" unit_id="100262"/>
