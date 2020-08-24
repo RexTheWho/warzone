@@ -17,9 +17,9 @@
 "hud_int_hold_grab_scrap":			"Scrap",
 "hud_action_grabbing_scrap":		"Scrap",
 
-"hud_access_camera_connection_lost":	"Connection to Agent lost",
-"hud_access_camera_reconnecting":	"Re-establishing connection",
-"hud_access_camera_reconnected":	"Connection re-established",
+"hud_access_camera_connection_lost":	" / Connection_lost / ",
+"hud_access_camera_reconnecting":	" / Reconnecting / ",
+"hud_access_camera_reconnected":	" / Reconnected_to_agent / ",
 
 "hud_carry_wz_supply_ration":		"Rations",
 "hud_carry_wz_supply_scrap":		"Scrap Parts",

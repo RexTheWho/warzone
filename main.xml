@@ -27,6 +27,8 @@
 		<hooks directory="hooks">
 			<hook file="NavFieldBuilder.lua" source_file="lib/managers/navfieldbuilder"/>
 			<hook file="CopBrain.lua" source_file="lib/units/enemies/cop/copbrain"/>
+			<hook file="CopLogicBase.lua" source_file="lib/units/enemies/cop/logics/coplogicbase"/>
+			<hook file="CopLogicBase.lua" source_file="lib/units/enemies/cop/logics/coplogicarrest"/>
 			<hook file="CopMovement.lua" source_file="lib/units/enemies/cop/copmovement"/>
 			<hook file="VehicleTweakData.lua" source_file="lib/tweak_data/vehicletweakdata"/>
 			<hook file="LevelsTweakData.lua" source_file="lib/tweak_data/levelstweakdata"/>
@@ -48,6 +50,8 @@
 			<hook file="WarzoneTweakData.lua" source_file="lib/tweak_data/tweakdatapd2"/>
 			<hook file="HUDAccessCamera.lua" source_file="lib/managers/hud/hudaccesscamera"/>
 			<hook file="PlayerFatal.lua" source_file="lib/units/beings/player/states/playerfatal"/>
+			<hook file="MissionManager.lua" source_file="lib/managers/missionmanager"/>
+			<hook file="ElementSpecialObjective.lua" source_file="lib/managers/missionmanager"/>
 		</hooks>
 		<include directory="levels/warzone">
 			<file file="world.world" type="generic_xml"/>
