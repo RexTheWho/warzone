@@ -21,6 +21,7 @@
 		
 		<sequence editable_state="true" name="'destroy_alarmbox'" triggable="true">
 			<set_damage explosion="0" />
+			<set_damage bullet="0" />
 			<run_sequence name="'disable_interaction'" />
 		</sequence>
 		

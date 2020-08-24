@@ -82,7 +82,7 @@
 			<set_variables var_door_open_l="1"/>
 		</sequence>
 		<sequence editable_state="true" name="'anim_door_left_close'" triggable="true" filter="'filter_door_l_open'">
-			<animation_group enabled="true" name="'anim_door_left'" from="20/30" to="40/30"/>
+			<animation_group enabled="true" name="'anim_door_left'" from="20/30" to="40/30" start_time="0.307"/>
 			<set_variables var_door_open_l="0"/>
 		</sequence>
 		<sequence editable_state="true" name="'anim_door_right_open'" triggable="true" filter="'filter_door_r_closed'">
@@ -90,7 +90,7 @@
 			<set_variables var_door_open_r="1"/>
 		</sequence>
 		<sequence editable_state="true" name="'anim_door_right_close'" triggable="true" filter="'filter_door_r_open'">
-			<animation_group enabled="true" name="'anim_door_right'" from="20/30" to="40/30"/>
+			<animation_group enabled="true" name="'anim_door_right'" from="20/30" to="40/30" start_time="0.307"/>
 			<set_variables var_door_open_r="0"/>
 		</sequence>
 		

@@ -25,8 +25,8 @@
 					</entry>
 					<entry key="forced" type="boolean" value="false"/>
 					<entry key="interaction_voice" type="string" value="none"/>
-					<entry key="interrupt_dis" type="number" value="0"/>
-					<entry key="interrupt_dmg" type="number" value="0.75"/>
+					<entry key="interrupt_dis" type="number" value="4"/>
+					<entry key="interrupt_dmg" type="number" value="0.25"/>
 					<entry key="interval" type="number" value="5"/>
 					<entry key="needs_pos_rsrv" type="boolean" value="true"/>
 					<entry key="on_executed" type="table">
@@ -46,7 +46,7 @@
 					</entry>
 					<entry key="test_unit" type="string" value="default"/>
 					<entry key="trigger_on" type="string" value="none"/>
-					<entry key="trigger_times" type="number" value="1"/>
+					<entry key="trigger_times" type="number" value="0"/>
 					<entry key="use_instigator" type="boolean" value="false"/>
 				</entry>
 			</entry>
@@ -500,7 +500,8 @@
 				<entry key="module" type="string" value="CoreMissionScriptElement"/>
 				<entry key="script" type="string" value="default"/>
 				<entry key="values" type="table">
-					<entry key="base_delay" type="number" value="0"/>
+					<entry key="base_delay" type="number" value="1"/>
+					<entry key="base_delay_rand" type="number" value="4"/>
 					<entry key="enabled" type="boolean" value="true"/>
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="on_executed" type="table">
@@ -548,7 +549,6 @@
 					<entry key="base_delay" type="number" value="0"/>
 					<entry key="elements" type="table">
 						<entry index="1" type="number" value="100023"/>
-						<entry index="2" type="number" value="100000"/>
 					</entry>
 					<entry key="enabled" type="boolean" value="true"/>
 					<entry key="execute_on_startup" type="boolean" value="false"/>
@@ -726,6 +726,28 @@
 					</entry>
 					<entry key="operation" type="string" value="remove"/>
 					<entry key="position" type="vector3" value="600 -800 0"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="31" type="table">
+				<entry key="class" type="string" value="ElementGlobalEventTrigger"/>
+				<entry key="editor_name" type="string" value="global_event_trigger_001"/>
+				<entry key="id" type="number" value="100030"/>
+				<entry key="module" type="string" value="CoreElementGlobalEventTrigger"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="global_event" type="string" value="police_called"/>
+					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100016"/>
+						</entry>
+					</entry>
+					<entry key="position" type="vector3" value="100 -800 0"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
