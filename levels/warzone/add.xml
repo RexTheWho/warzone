@@ -218,6 +218,14 @@
 	
 	<!--BUILDINGS-->
 	<add unload_on_restart="true">
+		
+		<!--New Style-->
+		<material_config	path="units/pd2_mod_wz/buildings/bld_generic_desert/bld_generic_desert" unload="true"/>
+		<unit				path="units/pd2_mod_wz/buildings/bld_generic_desert/bld_generic_desert" unload="true" load="true" />
+		<object				path="units/pd2_mod_wz/buildings/bld_generic_desert/bld_generic_desert" unload="true"/>
+		<model				path="units/pd2_mod_wz/buildings/bld_generic_desert/bld_generic_desert" unload="true"/>
+		
+		<!--Old Style-->
 		<unit				path="units/pd2_mod_wz/buildings/bld_dynamic_test/bld_dynamic_test" unload="true" load="true" />
 		<object				path="units/pd2_mod_wz/buildings/bld_dynamic_test/bld_dynamic_test" unload="true"/>
 		<model				path="units/pd2_mod_wz/buildings/bld_dynamic_test/bld_dynamic_test" unload="true"/>
