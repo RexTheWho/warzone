@@ -3610,6 +3610,7 @@
 			<entry index="5" type="string" value="wz_alarm_box_005"/>
 			<entry index="6" type="string" value="wz_alarm_box_006"/>
 			<entry index="7" type="string" value="wz_alarm_box_007"/>
+			<entry index="8" type="string" value="wz_alarm_box_008"/>
 		</entry>
 		<entry key="name" type="string" value="default"/>
 	</entry>

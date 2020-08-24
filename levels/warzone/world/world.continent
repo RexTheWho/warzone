@@ -8,6 +8,7 @@
 		<table continent="world" folder="levels/instances/mods/wz_alarm_box/world" index_size="2000" name="wz_alarm_box_005" position="-14900 -6968.19 2767.96" rotation="0 0 0.92388 -0.382683" script="default" start_index="8000"/>
 		<table continent="world" folder="levels/instances/mods/wz_alarm_box/world" index_size="2000" name="wz_alarm_box_006" position="17102 56415.9 1000" rotation="0 -0 -0.707107 -0.707107" script="default" start_index="10000"/>
 		<table continent="world" folder="levels/instances/mods/wz_alarm_box/world" index_size="2000" name="wz_alarm_box_007" position="18302 61315.9 1000" rotation="0 0 0.707107 -0.707107" script="default" start_index="12000"/>
+		<table continent="world" folder="levels/instances/mods/wz_alarm_box/world" index_size="2000" name="wz_alarm_box_008" position="17102 56715.9 1000" rotation="0 0 -0.707107 -0.707107" script="default" start_index="14000"/>
 	</instances>
 	<statics>
 		<table>
