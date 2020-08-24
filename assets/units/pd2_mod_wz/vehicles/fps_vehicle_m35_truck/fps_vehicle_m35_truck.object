@@ -90,7 +90,7 @@
 			<object name="c_main_box_021" collision_type="box" padding="-2.5"/>
 			<object name="c_main_box_022" collision_type="box" padding="-2.5"/>
 		</body>
-		<body name="body_chassis_cover" enabled="false" template="vehicle" collision_script_filter="1" collision_script_quiet_time="0.5" collision_script_tag="vehicle_collision" give_standing_velocity="false" >
+		<body name="body_chassis_cover" enabled="false" template="vehicle" collision_script_filter="1" collision_script_quiet_time="0.5" collision_script_tag="vehicle_collision" give_standing_velocity="true" >
 			<object name="anim_body" />
 			<object name="c_cover_box_001" collision_type="box" padding="-2.5"/>
 			<object name="c_cover_box_002" collision_type="box" padding="-2.5"/>
