@@ -762,9 +762,9 @@ function CharacterTweakData:_init_fbi(presets)
 	self.fbi_cartel_base.headshot_dmg_mul = 2
 	self.fbi_cartel_base.chatter = presets.enemy_chatter.no_chatter
 	self.fbi_cartel_base.surrender = nil
-	self.fbi_cartel_base.no_arrest = true
+	self.fbi_cartel_base.no_arrest = false
 	self.fbi_cartel_base.steal_loot = false
-	self.fbi_cartel_base.calls_in = false
+	self.fbi_cartel_base.calls_in = true
 	self.fbi_cartel_base.use_radio = false
 	
 	-- Light Cartel
