@@ -10,6 +10,12 @@
 		<animation_group name="anim_steering_wheel_right" enabled="false">
 				<object name="anim_steering_wheel_right" />
 		</animation_group>
+		<animation_group name="anim_door_left" enabled="false">
+				<object name="anim_door_left" />
+		</animation_group>
+		<animation_group name="anim_door_right" enabled="false">
+				<object name="anim_door_right" />
+		</animation_group>
 	</animations>
 	<bodies>
 		<body name="body_chassis_static" enabled="true" template="animated" >
@@ -48,6 +54,14 @@
 			<object name="c_cover_box_004" collision_type="box" padding="-2.5"/>
 			<object name="c_cover_box_005" collision_type="box" padding="-2.5"/>
 		</body>
+		<body name="body_door_left_static" enabled="true" template="animated" >
+			<object name="anim_door_left" />
+			<object name="c_m35_door_l" collision_type="box" padding="-2.5"/>
+		</body>
+		<body name="body_door_right_static" enabled="true" template="animated" >
+			<object name="anim_door_right" />
+			<object name="c_m35_door_r" collision_type="box" padding="-2.5"/>
+		</body>
 		<body name="body_chassis" enabled="false" template="vehicle" collision_script_filter="1" collision_script_quiet_time="0.5" collision_script_tag="vehicle_collision" give_standing_velocity="true" >
 			<object name="anim_body" />
 			<object name="c_body" collision_type="convex" />
@@ -76,13 +90,21 @@
 			<object name="c_main_box_021" collision_type="box" padding="-2.5"/>
 			<object name="c_main_box_022" collision_type="box" padding="-2.5"/>
 		</body>
-		<body name="body_chassis_cover" enabled="false" template="vehicle" collision_script_filter="1" collision_script_quiet_time="0.5" collision_script_tag="vehicle_collision" give_standing_velocity="true" >
+		<body name="body_chassis_cover" enabled="false" template="vehicle" collision_script_filter="1" collision_script_quiet_time="0.5" collision_script_tag="vehicle_collision" give_standing_velocity="false" >
 			<object name="anim_body" />
 			<object name="c_cover_box_001" collision_type="box" padding="-2.5"/>
 			<object name="c_cover_box_002" collision_type="box" padding="-2.5"/>
 			<object name="c_cover_box_003" collision_type="box" padding="-2.5"/>
 			<object name="c_cover_box_004" collision_type="box" padding="-2.5"/>
 			<object name="c_cover_box_005" collision_type="box" padding="-2.5"/>
+		</body>
+		<body name="body_door_left_chassis" enabled="false" template="vehicle" collision_script_filter="1" collision_script_quiet_time="0.5" collision_script_tag="vehicle_collision" give_standing_velocity="false" >
+			<object name="anim_door_left" />
+			<object name="c_m35_door_l" collision_type="box" padding="-2.5"/>
+		</body>
+		<body name="body_door_right_chassis" enabled="false" template="vehicle" collision_script_filter="1" collision_script_quiet_time="0.5" collision_script_tag="vehicle_collision" give_standing_velocity="false" >
+			<object name="anim_door_right" />
+			<object name="c_m35_door_r" collision_type="box" padding="-2.5"/>
 		</body>
 		<body name="body_driver_hitbox" enabled="false" template="animated" >
 			<object name="anim_body" />
@@ -106,11 +128,21 @@
 			<object name="g_m35_cover_lod0" 	enabled="true"  max_distance="6400" />
 			<object name="g_m35_cover_lod1" 	enabled="true" />
 		</lod_object>
+		<lod_object name="lod_m35_door_l">
+			<object name="g_m35_door_l_lod0" 	enabled="true"  max_distance="6400" />
+			<object name="g_m35_door_l_lod1" 	enabled="true" />
+		</lod_object>
+		<lod_object name="lod_m35_door_r">
+			<object name="g_m35_door_r_lod0" 	enabled="true"  max_distance="6400" />
+			<object name="g_m35_door_r_lod1" 	enabled="true" />
+		</lod_object>
 		
 		<object name="g_steering_wheel"			enabled="true" />
 		<object name="g_steering_wheel_fps"		enabled="false" />
 		
 		<object name="g_windows" 				enabled="true" />
+		<object name="g_m35_door_l_glass" 		enabled="true" />
+		<object name="g_m35_door_r_glass" 		enabled="true" />
 		<object name="g_lights" 				enabled="false" />
 		<object name="g_cone_light" 			enabled="false" />
 		

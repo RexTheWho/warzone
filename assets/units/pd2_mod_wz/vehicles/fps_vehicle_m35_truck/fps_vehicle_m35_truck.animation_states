@@ -36,5 +36,6 @@
 	
 	<state name="std/drive/m35_truck_wheels_stop" type="once" segment="wheels" >
 		<anim name="anim_m35_truck_wheels_stop"/>
+		<exit name="std/empty"/>
 	</state>
 </xml>

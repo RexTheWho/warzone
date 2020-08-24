@@ -68,6 +68,16 @@ function VehicleTweakData:_init_wz_cargo_truck()
 		damage = {
 			max_health = 1200
 		},
+		camera_limits = {
+			driver = {
+				pitch = 45,
+				yaw = 100
+			},
+			passenger = {
+				pitch = 75,
+				yaw = 130
+			}
+		},
 		max_speed = 180,
 		max_rpm = 6500,
 		loot_drop_point = "interact_loot",
