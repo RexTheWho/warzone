@@ -1,0 +1,6 @@
+<?xml version="1.0" ?>
+<modelscript>
+	<import	file="def_wall_end_l.glb" create_objects="true"/>
+	<save	file="def_wall_end_l.model"/>
+	<new/>
+</modelscript>

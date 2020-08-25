@@ -220,6 +220,7 @@
 	<add unload_on_restart="true">
 		
 		<!--New Style-->
+		<sequence_manager	path="units/pd2_mod_wz/buildings/bld_generic_desert/bld_refspawners" unload="true"/>
 		<material_config	path="units/pd2_mod_wz/buildings/bld_generic_desert/bld_generic_desert" unload="true"/>
 		<unit				path="units/pd2_mod_wz/buildings/bld_generic_desert/bld_generic_desert" unload="true" load="true" />
 		<object				path="units/pd2_mod_wz/buildings/bld_generic_desert/bld_generic_desert" unload="true"/>
@@ -233,6 +234,28 @@
 		<unit				path="units/pd2_mod_wz/buildings/bld_generic_desert/bld_cinder_wall_4m" unload="true" load="true" />
 		<object				path="units/pd2_mod_wz/buildings/bld_generic_desert/bld_cinder_wall_4m" unload="true"/>
 		<model				path="units/pd2_mod_wz/buildings/bld_generic_desert/bld_cinder_wall_4m" unload="true"/>
+		<unit				path="units/pd2_mod_wz/buildings/bld_generic_desert/bld_cinder_wall_2m" unload="true" load="true" />
+		<object				path="units/pd2_mod_wz/buildings/bld_generic_desert/bld_cinder_wall_2m" unload="true"/>
+		<model				path="units/pd2_mod_wz/buildings/bld_generic_desert/bld_cinder_wall_2m" unload="true"/>
+		<unit				path="units/pd2_mod_wz/buildings/bld_generic_desert/bld_cinder_wall_2m_b" unload="true" load="true" />
+		<object				path="units/pd2_mod_wz/buildings/bld_generic_desert/bld_cinder_wall_2m_b" unload="true"/>
+		<model				path="units/pd2_mod_wz/buildings/bld_generic_desert/bld_cinder_wall_2m_b" unload="true"/>
+		<unit				path="units/pd2_mod_wz/buildings/bld_generic_desert/bld_painted_wall_4m" unload="true" load="true" />
+		<object				path="units/pd2_mod_wz/buildings/bld_generic_desert/bld_painted_wall_4m" unload="true"/>
+		<model				path="units/pd2_mod_wz/buildings/bld_generic_desert/bld_painted_wall_4m" unload="true"/>
+		<unit				path="units/pd2_mod_wz/buildings/bld_generic_desert/bld_painted_wall_4m" unload="true" load="true" />
+		<object				path="units/pd2_mod_wz/buildings/bld_generic_desert/bld_painted_wall_4m" unload="true"/>
+		<model				path="units/pd2_mod_wz/buildings/bld_generic_desert/bld_painted_wall_4m" unload="true"/>
+		<unit				path="units/pd2_mod_wz/buildings/bld_generic_desert/bld_refspawner_4x4m" unload="true" load="true" />
+		<object				path="units/pd2_mod_wz/buildings/bld_generic_desert/bld_refspawner_4x4m" unload="true"/>
+		<model				path="units/pd2_mod_wz/buildings/bld_generic_desert/bld_refspawner_4x4m" unload="true"/>
+		
+		
+		<!--New Style-->
+		<material_config	path="units/pd2_mod_wz/buildings/bld_defences/def_materials" unload="true"/>
+		<unit				path="units/pd2_mod_wz/buildings/bld_defences/def_wall_end_l" unload="true" load="true" />
+		<object				path="units/pd2_mod_wz/buildings/bld_defences/def_wall_end_l" unload="true"/>
+		<model				path="units/pd2_mod_wz/buildings/bld_defences/def_wall_end_l" unload="true"/>
 		
 		<!--Old Style-->
 		<unit				path="units/pd2_mod_wz/buildings/bld_dynamic_test/bld_dynamic_test" unload="true" load="true" />

@@ -1,0 +1,18 @@
+<table>
+	<unit>
+		<variables>
+			<var_door_opened value="0"/>
+		</variables>
+		<filter name="'filter_door'">
+			<check value="vars.var_door_opened == 0"/>
+		</filter>
+		<sequence editable_state="true" name="'open'" triggable="true" filter="'filter_door'">
+			<animation_group enabled="true" name="'anim_bld_slamopen'" from="0/30" speed="1" to="30/30"/>
+			<set_variables var_door_opened="1"/>
+		</sequence>
+		<sequence editable_state="true" name="'close'" triggable="true" >
+			<animation_group enabled="true" name="'anim_bld_slamopen'" from="30/30" speed="1" to="60/30"/>
+			<set_variables var_door_opened="0"/>
+		</sequence>
+	</unit>
+</table>

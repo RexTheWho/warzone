@@ -1,0 +1,6 @@
+<materials version="3">
+    <material name="shadow_caster" render_template="shadow_caster_only" version="2"/>
+    <material name="mat_metal" version="2" render_template="generic:DIFFUSE_TEXTURE" decal_material="steel" >
+        <diffuse_texture		file="units/world/street/shared_textures/metal_props_df"/>
+    </material>
+</materials>

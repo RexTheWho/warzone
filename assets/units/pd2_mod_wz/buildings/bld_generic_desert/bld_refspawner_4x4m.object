@@ -1,0 +1,35 @@
+<dynamic_object>
+	<diesel materials="units/pd2_mod_wz/buildings/bld_generic_desert/bld_generic_desert" orientation_object="rp_bld_refspawner_4x4m" />
+	<sequence_manager file="units/pd2_mod_wz/buildings/bld_generic_desert/bld_refspawners" />
+	<animations>
+		<animation_group name="anim_bld_slamopen" enabled="false">
+				<object name="anim_bld_refspawner_4x4m_slamopen" />
+		</animation_group>
+	</animations>
+	<bodies>
+		<body name="body_navblock" enabled="true" template="graph_blocker">
+			<!--Here to generate navigation a bit better around the doorway-->
+			<object name="c_bld_refspawner_4x4m_navfunnel" collision_type="mesh_mopp" />
+		</body>
+		<body name="body_moverblocker" enabled="true" template="mover_blocker">
+			<!--Here to stop players from walking into the doorway-->
+			<object name="c_bld_refspawner_4x4m_movercol" collision_type="box" padding="-2.5"/>
+		</body>
+		<body name="body_static" enabled="true" template="static">
+			<object name="c_bld_refspawner_4x4m" collision_type="mesh_mopp" />
+		</body>
+		<body name="body_animated" enabled="true" template="animated" remove_ray_type="mover walk">
+			<object name="anim_bld_refspawner_4x4m_slamopen" />
+			<object name="g_bld_refspawner_4x4m_door" collision_type="box" padding="-2.5" />
+		</body>
+	</bodies>
+	
+	<decal_surfaces>
+		<decal_mesh name="g_bld_refspawner_4x4m" enabled="true" />
+	</decal_surfaces>
+	
+	<graphics>
+		<object name="g_bld_refspawner_4x4m" enabled="true" shadow_caster="true" />
+		<object name="g_bld_refspawner_4x4m_door" enabled="true" shadow_caster="true" />
+	</graphics>
+</dynamic_object>

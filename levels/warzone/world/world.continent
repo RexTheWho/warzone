@@ -1027,9 +1027,6 @@
 			<unit_data _prev_pos="17100 55500 1000" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_wz/buildings/bld_generic_desert/bld_generic_desert" name_id="bld_generic_desert_001" position="17100 55500 1000" rotation="0 0 -0.707107 -0.707107" unit_id="100338"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="17100 57300 1000" _prev_rot="0 0 1 -0" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_wz/buildings/bld_generic_desert/bld_generic_desert" name_id="bld_generic_desert_002" position="17100 57500 1000" rotation="0 0 1 -0" unit_id="100334"/>
-		</table>
-		<table>
 			<unit_data _prev_pos="18300 62000 1000" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="-684.102 -2 0" local_rot="0 0 -8.9407e-008 1" name="units/pd2_mod_wz/buildings/bld_generic_desert/bld_generic_desert" name_id="bld_generic_desert_003" position="18300 62000 1000" rotation="0 0 0.707107 -0.707107" unit_id="100339"/>
 		</table>
 		<table>
@@ -1043,6 +1040,27 @@
 		</table>
 		<table>
 			<unit_data _prev_pos="15900 55500 1000" _prev_rot="-0 0 -0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_wz/buildings/bld_generic_desert/bld_cinder_wall_4m" name_id="bld_cinder_wall_4m_001" position="15900 55500 1000" rotation="0 0 0 -1" unit_id="100303"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="17100 55500 1000" _prev_rot="-0 0 -0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_wz/buildings/bld_defences/def_wall_end_l" name_id="def_wall_end_l_001" position="17100 55500 1000" rotation="-0 0 -0 -1" unit_id="100343"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="17100 57500 1000" _prev_rot="0 0 1 4.37114e-008" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="close" name="units/pd2_mod_wz/buildings/bld_generic_desert/bld_refspawner_4x4m" name_id="bld_refspawner_4x4m_001" position="17100 57500 1000" rotation="0 0 1 4.37114e-008" unit_id="100344"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="17100 56700 1000" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_wz/buildings/bld_generic_desert/bld_cinder_wall_4m" name_id="bld_cinder_wall_4m_003" position="17100 56700 1000" rotation="0 0 -0.707107 -0.707107" unit_id="100334"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="17100 56700 1300" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="-400 0 0" local_rot="0 0 0 1" name="units/pd2_mod_wz/buildings/bld_generic_desert/bld_roof_4x4m" name_id="bld_roof_4x4m_002" position="17100 56700 1300" rotation="0 0 -0.707107 -0.707107" unit_id="100345"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="17100 57100 1300" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_wz/buildings/bld_generic_desert/bld_roof_4x4m" name_id="bld_roof_4x4m_003" position="17100 57100 1300" rotation="0 0 -0.707107 -0.707107" unit_id="100346"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="16700 57100 1300" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_wz/buildings/bld_generic_desert/bld_roof_4x4m" name_id="bld_roof_4x4m_004" position="16700 57100 1300" rotation="0 0 -0.707107 -0.707107" unit_id="100347"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="16800 56700 1300" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="-400 0 0" local_rot="0 0 0 1" name="units/pd2_mod_wz/buildings/bld_generic_desert/bld_roof_4x4m" name_id="bld_roof_4x4m_005" position="16700 56700 1300" rotation="0 0 -0.707107 -0.707107" unit_id="100348"/>
 		</table>
 	</statics>
 	<values>

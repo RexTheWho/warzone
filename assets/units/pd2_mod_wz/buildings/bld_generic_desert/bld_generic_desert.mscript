@@ -12,4 +12,13 @@
 	<import	file="bld_cinder_wall_4m.glb" create_objects="true"/>
 	<save	file="bld_cinder_wall_4m.model"/>
 	<new/>
+	<import	file="bld_cinder_wall_2m.glb" create_objects="true"/>
+	<save	file="bld_cinder_wall_2m.model"/>
+	<new/>
+	<import	file="bld_cinder_wall_2m_b.glb" create_objects="true"/>
+	<save	file="bld_cinder_wall_2m_b.model"/>
+	<new/>
+	<import	file="bld_painted_wall_4m.glb" create_objects="true"/>
+	<save	file="bld_painted_wall_4m.model"/>
+	<new/>
 </modelscript>

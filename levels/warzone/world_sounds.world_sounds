@@ -58,5 +58,19 @@
 	<entry key="sound_emitters" type="table">
 	</entry>
 	<entry key="sound_environments" type="table">
+		<entry index="1" type="table">
+			<entry key="ambience_event" type="string" value="ambience_int_office_large"/>
+			<entry key="depth" type="number" value="23000"/>
+			<entry key="environment" type="string" value="pd2_acoustics_flat"/>
+			<entry key="height" type="number" value="6000"/>
+			<entry key="name" type="string" value="envarea_town_elconvento"/>
+			<entry key="position" type="vector3" value="5300 49500 0"/>
+			<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+			<entry key="type" type="string" value="box"/>
+			<entry key="use_ambience" type="boolean" value="true"/>
+			<entry key="use_environment" type="boolean" value="true"/>
+			<entry key="use_occasional" type="boolean" value="false"/>
+			<entry key="width" type="number" value="29000"/>
+		</entry>
 	</entry>
 </generic_scriptdata>
