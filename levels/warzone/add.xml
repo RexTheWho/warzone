@@ -225,12 +225,21 @@
 		<unit				path="units/pd2_mod_wz/buildings/bld_generic_desert/bld_generic_desert" unload="true" load="true" />
 		<object				path="units/pd2_mod_wz/buildings/bld_generic_desert/bld_generic_desert" unload="true"/>
 		<model				path="units/pd2_mod_wz/buildings/bld_generic_desert/bld_generic_desert" unload="true"/>
+		<unit				path="units/pd2_mod_wz/buildings/bld_generic_desert/bld_garage" unload="true" load="true" />
+		<object				path="units/pd2_mod_wz/buildings/bld_generic_desert/bld_garage" unload="true"/>
+		<model				path="units/pd2_mod_wz/buildings/bld_generic_desert/bld_garage" unload="true"/>
 		<unit				path="units/pd2_mod_wz/buildings/bld_generic_desert/bld_stairs_4x4m" unload="true" load="true" />
 		<object				path="units/pd2_mod_wz/buildings/bld_generic_desert/bld_stairs_4x4m" unload="true"/>
 		<model				path="units/pd2_mod_wz/buildings/bld_generic_desert/bld_stairs_4x4m" unload="true"/>
 		<unit				path="units/pd2_mod_wz/buildings/bld_generic_desert/bld_roof_4x4m" unload="true" load="true" />
 		<object				path="units/pd2_mod_wz/buildings/bld_generic_desert/bld_roof_4x4m" unload="true"/>
 		<model				path="units/pd2_mod_wz/buildings/bld_generic_desert/bld_roof_4x4m" unload="true"/>
+		<unit				path="units/pd2_mod_wz/buildings/bld_generic_desert/bld_brick_wall_2m" unload="true" load="true" />
+		<object				path="units/pd2_mod_wz/buildings/bld_generic_desert/bld_brick_wall_2m" unload="true"/>
+		<model				path="units/pd2_mod_wz/buildings/bld_generic_desert/bld_brick_wall_2m" unload="true"/>
+		<unit				path="units/pd2_mod_wz/buildings/bld_generic_desert/bld_brick_wall_2m_b" unload="true" load="true" />
+		<object				path="units/pd2_mod_wz/buildings/bld_generic_desert/bld_brick_wall_2m_b" unload="true"/>
+		<model				path="units/pd2_mod_wz/buildings/bld_generic_desert/bld_brick_wall_2m_b" unload="true"/>
 		<unit				path="units/pd2_mod_wz/buildings/bld_generic_desert/bld_cinder_wall_4m" unload="true" load="true" />
 		<object				path="units/pd2_mod_wz/buildings/bld_generic_desert/bld_cinder_wall_4m" unload="true"/>
 		<model				path="units/pd2_mod_wz/buildings/bld_generic_desert/bld_cinder_wall_4m" unload="true"/>
@@ -240,12 +249,15 @@
 		<unit				path="units/pd2_mod_wz/buildings/bld_generic_desert/bld_cinder_wall_2m_b" unload="true" load="true" />
 		<object				path="units/pd2_mod_wz/buildings/bld_generic_desert/bld_cinder_wall_2m_b" unload="true"/>
 		<model				path="units/pd2_mod_wz/buildings/bld_generic_desert/bld_cinder_wall_2m_b" unload="true"/>
+		<unit				path="units/pd2_mod_wz/buildings/bld_generic_desert/bld_painted_wall_2m" unload="true" load="true" />
+		<object				path="units/pd2_mod_wz/buildings/bld_generic_desert/bld_painted_wall_2m" unload="true"/>
+		<model				path="units/pd2_mod_wz/buildings/bld_generic_desert/bld_painted_wall_2m" unload="true"/>
 		<unit				path="units/pd2_mod_wz/buildings/bld_generic_desert/bld_painted_wall_4m" unload="true" load="true" />
 		<object				path="units/pd2_mod_wz/buildings/bld_generic_desert/bld_painted_wall_4m" unload="true"/>
 		<model				path="units/pd2_mod_wz/buildings/bld_generic_desert/bld_painted_wall_4m" unload="true"/>
-		<unit				path="units/pd2_mod_wz/buildings/bld_generic_desert/bld_painted_wall_4m" unload="true" load="true" />
-		<object				path="units/pd2_mod_wz/buildings/bld_generic_desert/bld_painted_wall_4m" unload="true"/>
-		<model				path="units/pd2_mod_wz/buildings/bld_generic_desert/bld_painted_wall_4m" unload="true"/>
+		<unit				path="units/pd2_mod_wz/buildings/bld_generic_desert/bld_refspawner_int" unload="true" load="true" />
+		<object				path="units/pd2_mod_wz/buildings/bld_generic_desert/bld_refspawner_int" unload="true"/>
+		<model				path="units/pd2_mod_wz/buildings/bld_generic_desert/bld_refspawner_int" unload="true"/>
 		<unit				path="units/pd2_mod_wz/buildings/bld_generic_desert/bld_refspawner_4x4m" unload="true" load="true" />
 		<object				path="units/pd2_mod_wz/buildings/bld_generic_desert/bld_refspawner_4x4m" unload="true"/>
 		<model				path="units/pd2_mod_wz/buildings/bld_generic_desert/bld_refspawner_4x4m" unload="true"/>

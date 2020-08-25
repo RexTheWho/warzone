@@ -1,10 +1,4 @@
 <table name="warzone">
-	<AddFiles directory="assets">
-		<texture force="true" load="true" path="units/pd2_mod_wz/gui/crimenet/warzone"/>
-	</AddFiles>
-	<Localization default="english.txt" directory="loc">
-		<loc file="english.txt" language="english"/>
-	</Localization>
 	<instance id="wz_alarm_box">
 		<add file="levels/instances/wz_alarm_box/add.xml"/>
 		<include directory="levels/instances/wz_alarm_box">
@@ -22,6 +16,29 @@
 		<packages/>
 		<script_data_mods directory="scriptdata"/>
 	</instance>
+	<instance id="wz_town_spawnroom">
+		<add file="levels/instances/wz_town_spawnroom/add.xml"/>
+		<include directory="levels/instances/wz_town_spawnroom">
+			<file file="world.world" type="generic_xml"/>
+			<file file="continents.continents" type="custom_xml"/>
+			<file file="mission.mission" type="custom_xml"/>
+			<file file="nav_manager_data.nav_data" type="generic_xml"/>
+			<file file="world_sounds.world_sounds" type="generic_xml"/>
+			<file file="world_cameras.world_cameras" type="custom_xml"/>
+			<file file="world/world.continent" type="custom_xml"/>
+			<file file="world/world.mission" type="generic_xml"/>
+			<file file="cover_data.cover_data" type="custom_xml"/>
+			<file file="environments/default.environment" type="custom_xml"/>
+		</include>
+		<packages/>
+		<script_data_mods directory="scriptdata"/>
+	</instance>
+	<AddFiles directory="assets">
+		<texture force="true" load="true" path="units/pd2_mod_wz/gui/crimenet/warzone"/>
+	</AddFiles>
+	<Localization default="english.txt" directory="loc">
+		<loc file="english.txt" language="english"/>
+	</Localization>
 	<level ai_group_type="wzcartel" briefing_dialog="" disable_mutators="true" id="warzone" intro_event="" music="heist" team_ai_off="true">
 		<add file="levels/warzone/add.xml"/>
 		<hooks directory="hooks">
@@ -53,10 +70,10 @@
 			<hook file="ElementSpecialObjective.lua" source_file="lib/managers/missionmanager"/>
 		</hooks>
 		<include directory="levels/warzone">
+			<file file="nav_manager_data.nav_data" type="generic_xml"/>
 			<file file="world.world" type="generic_xml"/>
 			<file file="continents.continents" type="custom_xml"/>
 			<file file="mission.mission" type="custom_xml"/>
-			<file file="nav_manager_data.nav_data" type="generic_xml"/>
 			<file file="world_sounds.world_sounds" type="generic_xml"/>
 			<file file="world_cameras.world_cameras" type="custom_xml"/>
 			<file file="world/world.continent" type="custom_xml"/>

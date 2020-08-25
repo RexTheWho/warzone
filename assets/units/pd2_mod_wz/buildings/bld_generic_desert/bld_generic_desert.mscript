@@ -3,11 +3,20 @@
 	<import	file="bld_generic_desert.glb" create_objects="true"/>
 	<save	file="bld_generic_desert.model"/>
 	<new/>
+	<import	file="bld_garage.glb" create_objects="true"/>
+	<save	file="bld_garage.model"/>
+	<new/>
 	<import	file="bld_roof_4x4m.glb" create_objects="true"/>
 	<save	file="bld_roof_4x4m.model"/>
 	<new/>
 	<import	file="bld_stairs_4x4m.glb" create_objects="true"/>
 	<save	file="bld_stairs_4x4m.model"/>
+	<new/>
+	<import	file="bld_brick_wall_2m.glb" create_objects="true"/>
+	<save	file="bld_brick_wall_2m.model"/>
+	<new/>
+	<import	file="bld_brick_wall_2m_b.glb" create_objects="true"/>
+	<save	file="bld_brick_wall_2m_b.model"/>
 	<new/>
 	<import	file="bld_cinder_wall_4m.glb" create_objects="true"/>
 	<save	file="bld_cinder_wall_4m.model"/>
@@ -17,6 +26,9 @@
 	<new/>
 	<import	file="bld_cinder_wall_2m_b.glb" create_objects="true"/>
 	<save	file="bld_cinder_wall_2m_b.model"/>
+	<new/>
+	<import	file="bld_painted_wall_2m.glb" create_objects="true"/>
+	<save	file="bld_painted_wall_2m.model"/>
 	<new/>
 	<import	file="bld_painted_wall_4m.glb" create_objects="true"/>
 	<save	file="bld_painted_wall_4m.model"/>

@@ -107,7 +107,7 @@
 					<entry key="as_subtitle" type="boolean" value="false"/>
 					<entry key="base_delay" type="number" value="0"/>
 					<entry key="debug_string" type="string" value="AI going for the alarm!"/>
-					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="enabled" type="boolean" value="false"/>
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="on_executed" type="table">
 					</entry>
@@ -260,7 +260,7 @@
 					<entry key="as_subtitle" type="boolean" value="false"/>
 					<entry key="base_delay" type="number" value="0"/>
 					<entry key="debug_string" type="string" value="alarm disabled (Will not re-enable until player leaves bounds)"/>
-					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="enabled" type="boolean" value="false"/>
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="on_executed" type="table">
 					</entry>
@@ -401,7 +401,7 @@
 					<entry key="as_subtitle" type="boolean" value="false"/>
 					<entry key="base_delay" type="number" value="0"/>
 					<entry key="debug_string" type="string" value="failed sounding alarm"/>
-					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="enabled" type="boolean" value="false"/>
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="on_executed" type="table">
 					</entry>
@@ -755,7 +755,7 @@
 					<entry key="as_subtitle" type="boolean" value="false"/>
 					<entry key="base_delay" type="number" value="0"/>
 					<entry key="debug_string" type="string" value="alarm visible"/>
-					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="enabled" type="boolean" value="false"/>
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="on_executed" type="table">
 					</entry>
@@ -775,7 +775,7 @@
 					<entry key="as_subtitle" type="boolean" value="false"/>
 					<entry key="base_delay" type="number" value="0"/>
 					<entry key="debug_string" type="string" value="alarm invisible"/>
-					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="enabled" type="boolean" value="false"/>
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="on_executed" type="table">
 					</entry>
@@ -795,7 +795,7 @@
 					<entry key="as_subtitle" type="boolean" value="false"/>
 					<entry key="base_delay" type="number" value="0"/>
 					<entry key="debug_string" type="string" value="ene near alarm"/>
-					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="enabled" type="boolean" value="false"/>
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="on_executed" type="table">
 					</entry>
@@ -815,7 +815,7 @@
 					<entry key="as_subtitle" type="boolean" value="false"/>
 					<entry key="base_delay" type="number" value="0"/>
 					<entry key="debug_string" type="string" value="ene clear of alarm"/>
-					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="enabled" type="boolean" value="false"/>
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="on_executed" type="table">
 					</entry>

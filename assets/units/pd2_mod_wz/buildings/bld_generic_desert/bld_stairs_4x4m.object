@@ -4,7 +4,7 @@
 		<body name="body_static" enabled="true" template="static">
 			<object name="c_bld_stairs_4x4m_mesh" collision_type="mesh_mopp" />
 		</body>
-		<body name="body_mover_blocker" enabled="true" template="mover_blocker">
+		<body name="nav_walk" enabled="true" template="nav_walk_collision">
 			<object name="c_bld_stairs_4x4m_mover" collision_type="mesh_mopp" />
 		</body>
 	</bodies>

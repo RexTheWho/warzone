@@ -1,0 +1,12 @@
+<table>
+	<editor_groups/>
+	<instances/>
+	<statics>
+		<table>
+			<unit_data _prev_pos="0 0 0" _prev_rot="-0 0 -0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_mod_wz/buildings/bld_generic_desert/bld_refspawner_int" name_id="bld_refspawner_int_001" position="0 0 0" rotation="-0 0 -0 -1" unit_id="100001"/>
+		</table>
+	</statics>
+	<values>
+		<workviews/>
+	</values>
+</table>

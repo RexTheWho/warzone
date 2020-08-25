@@ -1,10 +1,12 @@
 Hooks:PostHook(MissionScript,"_create_elements","wz_get_alert_points",function(self, elements)
-	for id, element in pairs(self._element_groups["ElementSpecialObjective"]) do
-		if element:value("is_alert_point") then
-			self._alert_points = self._alert_points or {}
-			self._alert_points[id] = element
-		end
-	end
+    if self._element_groups.ElementSpecialObjective ~= nil then
+        for id, element in pairs(self._element_groups["ElementSpecialObjective"]) do
+            if element:value("is_alert_point") then
+                self._alert_points = self._alert_points or {}
+                self._alert_points[id] = element
+            end
+        end
+    end
 end)
 
 function MissionManager:find_alert_point(position)

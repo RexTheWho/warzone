@@ -1,0 +1,9 @@
+<table directory="assets">
+	<add unload_on_restart="true">
+		<material_config path="units/pd2_mod_wz/buildings/bld_generic_desert/bld_generic_desert" unload="true"/>
+		<model path="units/pd2_mod_wz/buildings/bld_generic_desert/bld_refspawner_int" unload="true"/>
+		<object path="units/pd2_mod_wz/buildings/bld_generic_desert/bld_refspawner_int" unload="true"/>
+		<sequence_manager path="units/pd2_mod_wz/buildings/bld_generic_desert/bld_refspawners" unload="true"/>
+		<unit load="true" path="units/pd2_mod_wz/buildings/bld_generic_desert/bld_refspawner_int" unload="true"/>
+	</add>
+</table>

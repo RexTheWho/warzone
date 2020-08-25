@@ -15,4 +15,13 @@
         <variable type="scalar" name="alpha_ref" value="0.15"/>
     </material>
 	
+    <material name="mat_des_main_vtx" version="2" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:VERTEX_COLOR" decal_material="concrete" >
+        <diffuse_texture		file="units/world/architecture/desert/des_vil_house/des_vil_house_walls_df"/>
+        <bump_normal_texture	file="units/world/architecture/desert/des_vil_house/des_vil_house_walls_nm"/>
+    </material>
+    <material name="mat_des_extra_vtx" version="2" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:VERTEX_COLOR" decal_material="concrete" >
+        <diffuse_texture		file="units/world/architecture/desert/des_vil_house/des_vil_house_extras_df"/>
+        <bump_normal_texture	file="units/world/architecture/desert/des_vil_house/des_vil_house_extras_nm"/>
+    </material>
+	
 </materials>

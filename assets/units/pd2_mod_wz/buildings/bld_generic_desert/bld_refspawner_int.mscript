@@ -1,0 +1,5 @@
+<?xml version="1.0" ?>
+<modelscript>
+    <import		file="bld_refspawner_int.glb" type="gltf" create_objects="true"/>
+	<animation	file="bld_refspawner_int.animation"/>
+</modelscript>
