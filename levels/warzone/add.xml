@@ -237,6 +237,9 @@
 		<unit				path="units/pd2_mod_wz/buildings/bld_generic_desert/bld_brick_wall_2m" unload="true" load="true" />
 		<object				path="units/pd2_mod_wz/buildings/bld_generic_desert/bld_brick_wall_2m" unload="true"/>
 		<model				path="units/pd2_mod_wz/buildings/bld_generic_desert/bld_brick_wall_2m" unload="true"/>
+		<unit				path="units/pd2_mod_wz/buildings/bld_generic_desert/bld_brick_wall_2m_rope" unload="true" load="true" />
+		<object				path="units/pd2_mod_wz/buildings/bld_generic_desert/bld_brick_wall_2m_rope" unload="true"/>
+		<model				path="units/pd2_mod_wz/buildings/bld_generic_desert/bld_brick_wall_2m_rope" unload="true"/>
 		<unit				path="units/pd2_mod_wz/buildings/bld_generic_desert/bld_brick_wall_2m_b" unload="true" load="true" />
 		<object				path="units/pd2_mod_wz/buildings/bld_generic_desert/bld_brick_wall_2m_b" unload="true"/>
 		<model				path="units/pd2_mod_wz/buildings/bld_generic_desert/bld_brick_wall_2m_b" unload="true"/>

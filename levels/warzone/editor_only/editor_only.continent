@@ -1109,16 +1109,16 @@
 			<unit_data _prev_pos="13700 54400 1100" _prev_rot="0 0 0 -1" continent="editor_only" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="600 0 0" local_rot="0 0 0 1" name="units/pd2_mod_wz/dev/nav_blocker/nav_blocker_2x2x16" name_id="nav_blocker_2x2x16_213" only_exists_in_editor="true" position="12900 54400 1100" rotation="0 0 0 -1" unit_id="200383"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="14900 59400 1100" _prev_rot="0 0 0.707107 -0.707107" continent="editor_only" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_wz/dev/nav_splitter/nav_splitter_8m" name_id="nav_splitter_8m_057" only_exists_in_editor="true" position="14900 59400 1100" rotation="0 0 0.707107 -0.707107" unit_id="200384"/>
+			<unit_data _prev_pos="14900 59400 1100" _prev_rot="0 0 0.707107 -0.707107" continent="editor_only" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_wz/dev/nav_splitter/nav_splitter_8m" name_id="nav_splitter_8m_057" only_exists_in_editor="true" position="14900 59453 1100" rotation="0 0 0.707107 -0.707107" unit_id="200384"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="13500 59400 1100" _prev_rot="0 0 0.707107 -0.707107" continent="editor_only" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_wz/dev/nav_splitter/nav_splitter_8m" name_id="nav_splitter_8m_058" only_exists_in_editor="true" position="13600 59400 1100" rotation="0 0 0.707107 -0.707107" unit_id="200385"/>
+			<unit_data _prev_pos="13600 59453 1100" _prev_rot="0 0 0.707107 -0.707107" continent="editor_only" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_wz/dev/nav_splitter/nav_splitter_8m" name_id="nav_splitter_8m_058" only_exists_in_editor="true" position="13600 59453 1100" rotation="0 0 0.707107 -0.707107" unit_id="200385"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="14200 58800 1100" _prev_rot="0 0 1 -0" continent="editor_only" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 1300 0" local_rot="0 0 0 1" name="units/pd2_mod_wz/dev/nav_splitter/nav_splitter_8m" name_id="nav_splitter_8m_059" only_exists_in_editor="true" position="14300 58800 1100" rotation="0 0 1 0" unit_id="200386"/>
+			<unit_data _prev_pos="14300 58800 1100" _prev_rot="0 0 1 -0" continent="editor_only" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_wz/dev/nav_splitter/nav_splitter_8m" name_id="nav_splitter_8m_059" only_exists_in_editor="true" position="14244 58800 1100" rotation="0 0 1 -0" unit_id="200386"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="14300 60100 1100" _prev_rot="0 0 1 -0" continent="editor_only" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_wz/dev/nav_splitter/nav_splitter_8m" name_id="nav_splitter_8m_060" only_exists_in_editor="true" position="14300 60100 1100" rotation="0 0 1 -0" unit_id="200387"/>
+			<unit_data _prev_pos="14300 60100 1100" _prev_rot="0 0 1 -0" continent="editor_only" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 -1300 0" local_rot="0 0 0 1" name="units/pd2_mod_wz/dev/nav_splitter/nav_splitter_8m" name_id="nav_splitter_8m_060" only_exists_in_editor="true" position="14244 60100 1100" rotation="0 0 1 -0" unit_id="200387"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="13700 58900 1100" _prev_rot="0 0 0 -1" continent="editor_only" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 1000 0" local_rot="0 0 0 1" name="units/pd2_mod_wz/dev/nav_blocker/nav_blocker_2x2x16" name_id="nav_blocker_2x2x16_214" only_exists_in_editor="true" position="13700 58900 1100" rotation="0 0 0 -1" unit_id="200388"/>
@@ -1146,39 +1146,6 @@
 		</table>
 		<table>
 			<unit_data _prev_pos="18400 61900 1100" _prev_rot="0 0 0 -1" continent="editor_only" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_wz/dev/nav_blocker/nav_blocker_2x2x16" name_id="nav_blocker_2x2x16_218" only_exists_in_editor="true" position="18400 61900 1100" rotation="0 0 0 -1" unit_id="200258"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="15700 55500 1100" _prev_rot="0 0 0 -1" continent="editor_only" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_wz/dev/nav_blocker/nav_blocker_4x4x16" name_id="nav_blocker_2x2x16_219" only_exists_in_editor="true" position="15700 55700 1100" rotation="0 0 0 -1" unit_id="200259"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="15700 55700 1100" _prev_rot="0 0 0 -1" continent="editor_only" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_wz/dev/nav_blocker/nav_blocker_4x4x16" name_id="nav_blocker_2x2x16_220" only_exists_in_editor="true" position="15300 55700 1100" rotation="0 0 0 -1" unit_id="200395"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="15300 55700 1100" _prev_rot="0 0 0 -1" continent="editor_only" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_wz/dev/nav_blocker/nav_blocker_4x4x16" name_id="nav_blocker_2x2x16_221" only_exists_in_editor="true" position="14900 55700 1100" rotation="0 0 0 -1" unit_id="200396"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="14500 55700 1100" _prev_rot="0 0 0 -1" continent="editor_only" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_wz/dev/nav_blocker/nav_blocker_4x4x16" name_id="nav_blocker_2x2x16_222" only_exists_in_editor="true" position="14500 55700 1100" rotation="0 0 0 -1" unit_id="200397"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="14500 55700 1100" _prev_rot="0 0 0 -1" continent="editor_only" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_wz/dev/nav_blocker/nav_blocker_4x4x16" name_id="nav_blocker_2x2x16_223" only_exists_in_editor="true" position="14800 56100 1100" rotation="0 0 0 -1" unit_id="200398"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="14800 56100 1100" _prev_rot="0 0 0 -1" continent="editor_only" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_wz/dev/nav_blocker/nav_blocker_4x4x16" name_id="nav_blocker_2x2x16_224" only_exists_in_editor="true" position="15100 56500 1100" rotation="0 0 0 -1" unit_id="200399"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="15100 56500 1100" _prev_rot="0 0 0 -1" continent="editor_only" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_wz/dev/nav_blocker/nav_blocker_4x4x16" name_id="nav_blocker_2x2x16_225" only_exists_in_editor="true" position="15300 56900 1100" rotation="0 0 0 -1" unit_id="200400"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="15500 57300 1100" _prev_rot="0 0 0 -1" continent="editor_only" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_wz/dev/nav_blocker/nav_blocker_4x4x16" name_id="nav_blocker_2x2x16_226" only_exists_in_editor="true" position="15600 57300 1100" rotation="0 0 0 -1" unit_id="200401"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="15600 57300 1100" _prev_rot="0 0 0 -1" continent="editor_only" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_wz/dev/nav_blocker/nav_blocker_4x4x16" name_id="nav_blocker_2x2x16_227" only_exists_in_editor="true" position="15700 57500 1100" rotation="0 0 0 -1" unit_id="200402"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="13900 55400 1100" _prev_rot="0 0 0 -1" continent="editor_only" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_wz/dev/nav_blocker/nav_blocker_2x2x16" name_id="nav_blocker_2x2x16_220" only_exists_in_editor="true" position="14100 55500 1100" rotation="0 0 0 -1" unit_id="200403"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="14100 55500 1100" _prev_rot="0 0 0 -1" continent="editor_only" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_wz/dev/nav_blocker/nav_blocker_2x2x16" name_id="nav_blocker_2x2x16_221" only_exists_in_editor="true" position="14300 55600 1100" rotation="0 0 0 -1" unit_id="200404"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="13900 54400 1100" _prev_rot="0 0 0 -1" continent="editor_only" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_wz/dev/nav_blocker/nav_blocker_2x2x16" name_id="nav_blocker_2x2x16_222" only_exists_in_editor="true" position="14900 54400 1100" rotation="0 0 0 -1" unit_id="200405"/>
@@ -1416,6 +1383,9 @@
 		</table>
 		<table>
 			<unit_data _prev_pos="16700 56500 1300" _prev_rot="0 0 1 -4.37114e-008" continent="editor_only" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_2x3m" name_id="dev_nav_splitter_2x3m_002" only_exists_in_editor="true" position="16700 56500 1300" rotation="0 0 1 4.37114e-008" unit_id="200471"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="15125.2 55509 1000" _prev_rot="0 0 0 -1" continent="editor_only" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_wz/dev/nav_splitter/nav_splitter_8m" name_id="nav_splitter_8m_051" only_exists_in_editor="true" position="15125.2 55509 1000" rotation="0 0 0 -1" unit_id="200259"/>
 		</table>
 	</statics>
 	<values>
