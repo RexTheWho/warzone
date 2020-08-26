@@ -1,0 +1,4 @@
+<?xml version="1.0" ?>
+<modelscript>
+	<import	file="climbing_rope.glb" create_objects="true"/>
+</modelscript>

@@ -398,6 +398,12 @@
 		<model				path="units/pd2_mod_wz/props/alarm_box/alarm_box" unload="true"/>
 		<sequence_manager	path="units/pd2_mod_wz/props/alarm_box/alarm_box" unload="true"/>
 		<material_config	path="units/pd2_mod_wz/props/alarm_box/alarm_box" unload="true"/>
+		
+		<unit				path="units/pd2_mod_wz/props/climbing_rope/climbing_rope" unload="true" load="true" />
+		<object				path="units/pd2_mod_wz/props/climbing_rope/climbing_rope" unload="true"/>
+		<model				path="units/pd2_mod_wz/props/climbing_rope/climbing_rope" unload="true"/>
+		<sequence_manager	path="units/pd2_mod_wz/props/climbing_rope/climbing_rope" unload="true"/>
+		<material_config	path="units/pd2_mod_wz/props/climbing_rope/climbing_rope" unload="true"/>
 	</add>
 	
 	<!--LANDSCAPE-->
