@@ -72,10 +72,10 @@
 			<hook file="ElementSpecialObjective.lua" source_file="lib/managers/missionmanager"/>
 		</hooks>
 		<include directory="levels/warzone">
-			<file file="nav_manager_data.nav_data" type="generic_xml"/>
 			<file file="world.world" type="generic_xml"/>
 			<file file="continents.continents" type="custom_xml"/>
 			<file file="mission.mission" type="custom_xml"/>
+			<file file="nav_manager_data.nav_data" type="generic_xml"/>
 			<file file="world_sounds.world_sounds" type="generic_xml"/>
 			<file file="world_cameras.world_cameras" type="custom_xml"/>
 			<file file="world/world.continent" type="custom_xml"/>
@@ -102,6 +102,7 @@
 			<value_node value="levels/narratives/bain/cage/editor_only/editor_only"/>
 			<value_node value="levels/narratives/locke/mex/mexico/mexico"/>
 			<value_node value="levels/narratives/vlad/jolly/world/world"/>
+			<value_node value="levels/instances/unique/hvh/hvh_chance/world/world"/>
 		</packages>
 		<script_data_mods directory="scriptdata">
 			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">
