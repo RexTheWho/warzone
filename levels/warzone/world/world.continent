@@ -1002,9 +1002,6 @@
 			<unit_data _prev_pos="-19886 -2353 2191" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_wz/nature/veg_bushes/wz_vegetation_bush_large_a" name_id="wz_vegetation_bush_large_a_010" position="-19886 -2353 2191" rotation="0 0 0 -1" unit_id="100332"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="20000 63000 1000" _prev_rot="0 0 1 -4.37114e-008" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_wz/terrain/towns/town_elconvento" name_id="town_elconvento_001" position="20000 63000 1000" rotation="0 0 1 -4.37114e-008" unit_id="100333"/>
-		</table>
-		<table>
 			<unit_data _prev_pos="0 0 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="test_drive" name="units/pd2_mod_wz/vehicles/fps_vehicle_m35_truck/fps_vehicle_m35_truck" name_id="fps_vehicle_m35_truck_002" position="0 0 0" rotation="-0 0 -0 -1" unit_id="100196"/>
 		</table>
 		<table>
@@ -1485,12 +1482,6 @@
 			<unit_data _prev_pos="19000 56200 1000" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_wz/buildings/bld_defences/def_wall_end_l" name_id="def_wall_end_l_002" position="19000 56200 1000" rotation="0 0 0.707107 0.707107" unit_id="100487"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="19000 56200 1000" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_wz/buildings/bld_defences/def_wall_end_l" name_id="def_wall_end_l_003" position="19000 56800 1000" rotation="0 0 -0.707107 -0.707107" unit_id="100488"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="18000 55500 1000" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_wz/buildings/bld_defences/def_wall_end_l" name_id="def_wall_end_l_004" position="18000 55400 1000" rotation="0 0 0 -1" unit_id="100489"/>
-		</table>
-		<table>
 			<unit_data _prev_pos="18200 57000 950" _prev_rot="0 0 1 -4.37114e-008" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc2/csgo_models/props/props_utilities/electric_cables06" name_id="electric_cables06_001" position="18200 57000 950" rotation="0 0 1 -4.37114e-008" unit_id="100490"/>
 		</table>
 		<table>
@@ -1557,13 +1548,25 @@
 			<unit_data _prev_pos="12008.4 57978.2 1000" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/air_prop_runway_fence/air_prop_runway_fence_cloth" name_id="air_prop_runway_fence_cloth_011" position="12408.4 57978.2 1000" rotation="0 0 0 -1" unit_id="100511"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="17169.9 58648.9 1000" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/architecture/street/decals/ground/decal_ground_grate3" name_id="decal_ground_grate3_001" position="17169.9 58648.9 1000" rotation="0 0 0 -1" unit_id="100512"/>
+			<unit_data _prev_pos="17169.9 58648.9 1000" _prev_rot="0 0 0 -1" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/architecture/street/decals/ground/decal_ground_grate3" name_id="decal_ground_grate3_001" position="17169.9 58648.9 1001" rotation="-0 0 -0 -1" unit_id="100512"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="17961.1 56840.7 1000" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/architecture/street/decals/ground/decal_ground_grate3" name_id="decal_ground_grate3_002" position="17961.1 56840.7 1000" rotation="0 0 -0.707107 -0.707107" unit_id="100513"/>
+			<unit_data _prev_pos="17961.1 56840.7 1000" _prev_rot="0 0 -0.707107 -0.707107" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="791.199 -1808.2 0" local_rot="0 0 0.707107 0.707107" name="units/world/architecture/street/decals/ground/decal_ground_grate3" name_id="decal_ground_grate3_002" position="17961.1 56840.7 1001" rotation="0 0 -0.707107 -0.707107" unit_id="100513"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="16700 57500 1000" _prev_rot="0 0 1 -4.37114e-008" continent="world" editable_gui="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_wz/buildings/bld_generic_desert/bld_brick_wall_2m_rope" name_id="bld_cinder_wall_4m_006" position="16700 57500 1000" rotation="0 0 1 -4.37114e-008" unit_id="100352"/>
+			<unit_data _prev_pos="16700 57500 1000" _prev_rot="0 0 1 -4.37114e-008" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_wz/buildings/bld_generic_desert/bld_brick_wall_2m_rope" name_id="bld_cinder_wall_4m_006" position="16700 57500 1000" rotation="0 0 1 -4.37114e-008" unit_id="100352"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="18000 55400 1000" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_wz/buildings/bld_defences/def_wall_end_r" name_id="def_wall_end_l_004" position="18200 55400 1000" rotation="0 0 0 -1" unit_id="100489"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="19000 56800 1000" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_wz/buildings/bld_defences/def_wall_end_r" name_id="def_wall_end_l_003" position="19000 57000 1000" rotation="0 0 -0.707107 -0.707107" unit_id="100488"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="19000 56600 1000" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_wz/buildings/bld_defences/def_vehicle_block" name_id="def_vehicle_block_001" position="19000 56600 1000" rotation="0 0 -0.707107 -0.707107" unit_id="100514"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="18285 56948 1001" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_wz/equipment/munition_crate/munition_crate" name_id="munition_crate_002" position="18285 56948 1001" rotation="0 0 0.0348995 -0.999391" unit_id="100333"/>
 		</table>
 	</statics>
 	<values>

@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<modelscript>
+	<import	file="def_wall_end_l.glb" create_objects="true"/>
+	<save	file="def_wall_end_l.model"/>
+	<new/>
+	<import	file="def_wall_end_r.glb" create_objects="true"/>
+	<save	file="def_wall_end_r.model"/>
+	<new/>
+	<import	file="def_vehicle_block.glb" create_objects="true"/>
+	<save	file="def_vehicle_block.model"/>
+	<new/>
+</modelscript>

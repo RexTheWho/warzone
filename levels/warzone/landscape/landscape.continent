@@ -1201,6 +1201,9 @@
 		<table>
 			<unit_data continent="landscape" mesh_variation="" name="units/pd2_mod_wz/terrain/landscape/landscape_400" name_id="landscape_400_001" position="0 0 0" rotation="-0 0 -0 -1" unit_id="300400"/>
 		</table>
+		<table>
+			<unit_data _prev_pos="20000 63000 1000" _prev_rot="0 0 1 4.37114e-008" continent="landscape" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_wz/terrain/towns/town_elconvento" name_id="town_elconvento_001" position="20000 63000 1000" rotation="0 0 1 4.37114e-008" unit_id="300000"/>
+		</table>
 	</statics>
 	<values>
 		<workviews/>

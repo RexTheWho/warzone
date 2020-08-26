@@ -13,7 +13,9 @@
 			<file file="cover_data.cover_data" type="custom_xml"/>
 			<file file="environments/default.environment" type="custom_xml"/>
 		</include>
-		<packages/>
+		<packages>
+			<value_node value="levels/narratives/classics/pal/lights/lights"/>
+		</packages>
 		<script_data_mods directory="scriptdata"/>
 	</instance>
 	<instance id="wz_town_spawnroom">

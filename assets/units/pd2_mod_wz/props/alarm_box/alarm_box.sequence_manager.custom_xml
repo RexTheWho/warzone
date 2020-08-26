@@ -1,11 +1,16 @@
 <table>
 	<unit>
 	
-		<body name="'body_hitbox'">
-			<endurance bullet="1" explosion="1">
-				<run_sequence name="'destroy_alarmbox'"/>
-			</endurance>
-		</body>
+		<variables>
+			<var_state value="0"/>
+		</variables>
+		
+		<filter name="'filter_first_interaction'">
+			<check value="vars.var_state == 0"/>
+		</filter>
+		<filter name="'filter_second_interaction'">
+			<check value="vars.var_state == 1"/>
+		</filter>
 		
 		<sequence editable_state="true" name="'hide'" triggable="true">
 			<graphic_group name="'grp_box'" visibility="false" />
@@ -13,36 +18,44 @@
 		</sequence>
 		<sequence editable_state="true" name="'show'" triggable="true">
 			<graphic_group name="'grp_box'" visibility="true" />
-			<graphic_group name="'grp_gui'" visibility="true" />
+			<graphic_group name="'grp_gui'" visibility="false" />
+			<animation_group enabled="true" name="'anim_open_close'" from="0" to="0"/>
+			<set_variables var_state="0"/>
+			<function extension="'interaction'" function="'set_tweak_data'" param1="'open_slash_close_sec_box'"/>
 		</sequence>
 		
 		<sequence editable_state="true" name="'enable_interaction'" triggable="true">
 			<interaction enabled="true"/>
 			<graphic_group name="'grp_gui'" visibility="true" />
-			<body name="'body_hitbox'" enabled="true" />
 		</sequence>
 		
 		<sequence editable_state="true" name="'disable_interaction'" triggable="true">
 			<interaction enabled="false"/>
 			<graphic_group name="'grp_gui'" visibility="false" />
-			<body name="'body_hitbox'" enabled="false" />
-		</sequence>
-		
-		<sequence editable_state="true" name="'destroy_alarmbox'" triggable="true">
-			<set_damage explosion="0" />
-			<set_damage bullet="0" />
-			<run_sequence name="'disable_interaction'" />
 		</sequence>
 		
 		<sequence editable_state="true" name="'interact'" triggable="true">
-			<run_sequence name="'disable_interaction'" />
+			<run_sequence name="'open_anim'"		filter="'filter_first_interaction'" />
+			<run_sequence name="'destroy_alarmbox'"	filter="'filter_second_interaction'" />
 		</sequence>
+		
+		<sequence editable_state="true" name="'open_anim'" triggable="true">
+			<set_variables var_state="1" start_time="0.7"/>
+			<run_sequence name="'enable_interaction'" start_time="0.7"/>
+			<sound action="'play'" event="'small_metal_door_open_02'" object="'anim_open_close'"/>
+			<animation_group enabled="true" name="'anim_open_close'" from="0/30" to="25/30"/>
+			<function extension="'interaction'" function="'set_tweak_data'" param1="'hold_disable_alarm'"/>
+		</sequence>
+		
+		<sequence editable_state="true" name="'destroy_alarmbox'" triggable="true">
+			<run_sequence name="'disable_interaction'" />
+			<animation_group enabled="true" name="'anim_open_close'" from="25/30" speed="0.2" to="30/30"/>
+			<sound action="'play'" event="'switch_box_open'" object="'anim_open_close'"/>
+		</sequence>
+		
 		
 		<sequence editable_state="true" name="'alarm'" triggable="true">
 			<run_sequence name="'disable_interaction'" />
-			<alert range="1600"/>
-			<alert range="3200" start_time="0.5" />
-			<alert range="6400" start_time="1" />
 		</sequence>
 		
 	</unit>

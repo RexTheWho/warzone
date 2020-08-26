@@ -1,0 +1,6 @@
+<unit type="war" slot="1">
+	<object file="units/pd2_mod_wz/buildings/bld_defences/def_wall_end_r" />
+	<extensions>
+		<extension name="unit_data" class="ScriptUnitData" />
+	</extensions>
+</unit>

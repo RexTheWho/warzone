@@ -271,6 +271,12 @@
 		<unit				path="units/pd2_mod_wz/buildings/bld_defences/def_wall_end_l" unload="true" load="true" />
 		<object				path="units/pd2_mod_wz/buildings/bld_defences/def_wall_end_l" unload="true"/>
 		<model				path="units/pd2_mod_wz/buildings/bld_defences/def_wall_end_l" unload="true"/>
+		<unit				path="units/pd2_mod_wz/buildings/bld_defences/def_wall_end_r" unload="true" load="true" />
+		<object				path="units/pd2_mod_wz/buildings/bld_defences/def_wall_end_r" unload="true"/>
+		<model				path="units/pd2_mod_wz/buildings/bld_defences/def_wall_end_r" unload="true"/>
+		<unit				path="units/pd2_mod_wz/buildings/bld_defences/def_vehicle_block" unload="true" load="true" />
+		<object				path="units/pd2_mod_wz/buildings/bld_defences/def_vehicle_block" unload="true"/>
+		<model				path="units/pd2_mod_wz/buildings/bld_defences/def_vehicle_block" unload="true"/>
 		
 		<!--Old Style-->
 		<unit				path="units/pd2_mod_wz/buildings/bld_dynamic_test/bld_dynamic_test" unload="true" load="true" />

@@ -1,4 +1,5 @@
 <?xml version="1.0" ?>
 <modelscript>
-    <import file="alarm_box.glb" type="gltf" create_objects="true"/>
+    <import		file="alarm_box.glb" type="gltf" create_objects="true"/>
+	<animation	file="alarm_box.animation"/>
 </modelscript>
