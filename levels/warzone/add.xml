@@ -221,6 +221,8 @@
 		
 		<!--New Style-->
 		<sequence_manager	path="units/pd2_mod_wz/buildings/bld_generic_desert/bld_refspawners" unload="true"/>
+		<texture			path="units/pd2_mod_wz/buildings/textures/rope_df" unload="true"/>
+		<texture			path="units/pd2_mod_wz/buildings/textures/rope_nm" unload="true"/>
 		<material_config	path="units/pd2_mod_wz/buildings/bld_generic_desert/bld_generic_desert" unload="true"/>
 		<unit				path="units/pd2_mod_wz/buildings/bld_generic_desert/bld_generic_desert" unload="true" load="true" />
 		<object				path="units/pd2_mod_wz/buildings/bld_generic_desert/bld_generic_desert" unload="true"/>
