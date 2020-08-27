@@ -14,6 +14,13 @@
 	</decal_surfaces>
 	
 	<graphics>
-		<object name="g_rope" enabled="true" shadow_caster="true" />
+		<lod_object name="lod_rope">
+            <object name="g_rope"		enabled="true"  max_distance="2400"  max_draw_lod="0" shadow_caster="true" />
+            <object name="g_rope_lod1"	enabled="true"  lod="1" />
+		</lod_object>
+		<lod_object name="lod_icon">
+            <object name="g_icon"		enabled="true"  max_distance="600"  max_draw_lod="0" />
+            <object name="g_icon_lod1"	enabled="true"  lod="1" />
+		</lod_object>
 	</graphics>
 </dynamic_object>
