@@ -10,17 +10,23 @@
 	</bodies>
 	
 	<decal_surfaces>
-		<decal_mesh name="g_rope" enabled="true" />
+		<decal_mesh name="s_rope" enabled="true" decal_material="cloth_no_decal" />
 	</decal_surfaces>
 	
 	<graphics>
+		<object name="s_rope" enabled="true" shadow_caster="true" />
+		
 		<lod_object name="lod_rope">
-            <object name="g_rope"		enabled="true"  max_distance="2400"  max_draw_lod="0" shadow_caster="true" />
+            <object name="g_rope"		enabled="true"  max_distance="2400"  max_draw_lod="0" />
             <object name="g_rope_lod1"	enabled="true"  lod="1" />
 		</lod_object>
-		<lod_object name="lod_icon">
-            <object name="g_icon"		enabled="true"  max_distance="600"  max_draw_lod="0" />
-            <object name="g_icon_lod1"	enabled="true"  lod="1" />
-		</lod_object>
+		
+		<graphic_group name="grp_gui" enabled="true" >
+			<lod_object name="lod_group">
+                <object name="g_icon"		enabled="true"  max_distance="450"  max_draw_lod="0" />
+                <object name="g_icon_lod01"	enabled="true"  lod="1" />
+			</lod_object>
+		</graphic_group>
+		
 	</graphics>
 </dynamic_object>

@@ -26,6 +26,8 @@
 "hud_carry_wz_supply_munition":		"Munitions",
 "int_open_parachute":				"Press $BTN_INTERACT to deploy parachute",
 
+"hud_int_hold_climbing_rope":		"Press $BTN_INTERACT to climb",
+
 
 "":""
 }
