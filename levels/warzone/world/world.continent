@@ -1634,6 +1634,9 @@
 		<table>
 			<unit_data _prev_pos="19000 57300 1305" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="enabled" name="units/pd2_mod_wz/props/climbing_rope/climbing_rope" name_id="climbing_rope_006" position="19000 57300 1305" rotation="0 0 0.707107 0.707107" unit_id="100536"/>
 		</table>
+		<table>
+			<unit_data _prev_pos="17100 54100 1000" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="state_interaction_enabled" name="units/pd2_mod_wz/vehicles/fps_vehicle_jeep_willy/fps_vehicle_jeep_willy" name_id="fps_vehicle_jeep_willy_001" position="17100 54100 1100" rotation="0 0 0 -1" unit_id="100537"/>
+		</table>
 	</statics>
 	<values>
 		<workviews/>

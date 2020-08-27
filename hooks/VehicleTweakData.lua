@@ -2,6 +2,7 @@
 Hooks:PostHook(VehicleTweakData,"init","wz_init",function(self, tweak_data)
 
 	self:_init_wz_cargo_truck()
+	self:_init_wz_jeep_willy()
 	
 end)
 
@@ -83,6 +84,78 @@ function VehicleTweakData:_init_wz_cargo_truck()
 		loot_drop_point = "interact_loot",
 		max_loot_bags = 0,
 		interact_distance = 400,
+		driver_camera_offset = Vector3(0, 0.2, 2.5),
+		fov = 75
+	}
+end
+
+function VehicleTweakData:_init_wz_jeep_willy()
+	self.wz_jeep_willy = {
+		name = "",
+		hud_label_offset = 0,
+		animations = {
+			passenger_back_right = "drive_muscle_back_right",
+			vehicle_id = "muscle",
+			passenger_back_left = "drive_muscle_back_left",
+			passenger_front = "drive_muscle_passanger",
+			driver = "drive_muscle_driver"
+		},
+		sound = {
+			broken_engine = "falcogini_engine_broken_loop",
+			bump = "car_bumper_01",
+			lateral_slip_treshold = 0.35,
+			bump_rtpc = "car_bump_vel",
+			bump_treshold = 8,
+			slip_stop = "car_skid_stop_01",
+			slip = "car_skid_01",
+			hit_rtpc = "car_hit_vel",
+			engine_rpm_rtpc = "car_falcogini_rpm",
+			longitudal_slip_treshold = 0.98,
+			engine_speed_rtpc = "car_falcogini_speed",
+			door_close = "car_door_open",
+			engine_sound_event = "drive_truck",
+			hit = "car_hit_gen_01"
+		},
+		seats = {
+			driver = {
+				name = "driver",
+				fov = 75,
+				driving = true
+			},
+			passenger_front = {
+				name = "passenger_front",
+				has_shooting_mode = false,
+				allow_shooting = true,
+				driving = false
+			},
+			passenger_back_right = {
+				name = "passenger_back_right",
+				has_shooting_mode = false,
+				allow_shooting = true,
+				driving = false
+			},
+			passenger_back_left = {
+				name = "passenger_back_left",
+				has_shooting_mode = false,
+				allow_shooting = true,
+				driving = false
+			}
+		},
+		loot_points = {
+			loot = {
+				name = "loot"
+			}
+		},
+		repair_point = "v_repair_engine",
+		trunk_point = "interact_trunk",
+		damage = {
+			max_health = 10
+		},
+		max_speed = 160,
+		max_rpm = 8000,
+		loot_drop_point = "v_repair_engine",
+		max_loot_bags = 4,
+		interact_distance = 350,
 		driver_camera_offset = Vector3(0, 0.2, 2.5),
 		fov = 75
 	}

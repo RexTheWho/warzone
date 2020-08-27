@@ -1,0 +1,5 @@
+<?xml version="1.0" ?>
+<modelscript>
+    <import file="fps_vehicle_jeep_willy.glb" type="gltf" create_objects="true"/>
+	<animation file="fps_vehicle_jeep_willy.animation"/>
+</modelscript>

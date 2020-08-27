@@ -1,0 +1,57 @@
+<table>
+	<unit>
+		
+		<!--FPS-->
+		<sequence editable_state="false" name="'local_driving_enter'" triggable="false">
+			<object enabled="false" name="'g_steering_wheel'"/>
+			<object enabled="true" name="'g_steering_wheel_fps'"/>
+		</sequence>
+		<sequence editable_state="false" name="'local_driving_exit'" triggable="false">
+			<object enabled="true" name="'g_steering_wheel'"/>
+			<object enabled="false" name="'g_steering_wheel_fps'"/>
+		</sequence>
+		
+		
+		<sequence editable_state="false" name="'not_driving'" triggable="false">
+			<interaction enabled="true"/>
+			<body enabled="true" name="'body_static_vehicle'"/>
+			<body enabled="false" name="'body_chassis'"/>
+			<slot slot="39"/>
+		</sequence>
+		<sequence editable_state="false" name="'driving'" triggable="false">
+			<interaction enabled="true"/>
+			<body enabled="false" name="'body_static_vehicle'"/>
+			<body enabled="true" name="'body_chassis'"/>
+			<slot slot="39"/>
+		</sequence>
+		
+		
+		<sequence editable_state="true" name="'state_interaction_enabled'" triggable="true">
+			<interaction enabled="true"/>
+		</sequence>
+		<sequence editable_state="true" name="'state_interaction_disabled'" triggable="true">
+			<interaction enabled="false"/>
+		</sequence>
+		
+		
+		<sequence editable_state="true" name="'state_vis_icon_entry_enabled'" triggable="true">
+			<graphic_group name="'grp_icon_entry'" visibility="true"/>
+		</sequence>
+		<sequence editable_state="true" name="'state_vis_icon_entry_disabled'" triggable="true">
+			<graphic_group name="'grp_icon_entry'" visibility="false"/>
+		</sequence>
+		<sequence editable_state="true" name="'state_vis_icon_loot_enabled'" triggable="true">
+			<graphic_group name="'grp_icon_loot'" visibility="true"/>
+		</sequence>
+		<sequence editable_state="true" name="'state_vis_icon_loot_disabled'" triggable="true">
+			<graphic_group name="'grp_icon_loot'" visibility="false"/>
+		</sequence>
+		<sequence editable_state="true" name="'state_vis_icon_repair_enabled'" triggable="true">
+			<graphic_group name="'grp_icon_repair'" visibility="true"/>
+		</sequence>
+		<sequence editable_state="true" name="'state_vis_icon_repair_disabled'" triggable="true">
+			<graphic_group name="'grp_icon_repair'" visibility="false"/>
+		</sequence>
+		
+	</unit>
+</table>
