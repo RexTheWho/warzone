@@ -26,12 +26,12 @@
 		<extension name="attention" class="AIAttentionObject">
 			<var name="_attention_obj_name" value="attention" />
 		</extension>
-		<extension name="camera" class="VehicleCamera" >
+<!-- 		<extension name="camera" class="VehicleCamera" >
 			<var name="_camera_object_names" type="table" >
 				<var value="v_driver"/>
 			</var>
  			<var name="_back_camera_object_name" value="v_look_back"/>
-		</extension>
+		</extension> -->
 		<extension class="VehicleDrivingExt" name="vehicle_driving" >
 			<!--
 				Dino: Not used for now, this parameter has no effect - for future use

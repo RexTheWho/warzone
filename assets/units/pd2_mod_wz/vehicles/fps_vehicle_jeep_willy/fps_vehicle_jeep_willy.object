@@ -33,15 +33,19 @@
 		<graphic_group name="grp_icon_entry" enabled="true">
 			<lod_object name="lod_icon_drive">
 				<object name="g_icon_door_drive_lod0" enabled="true"  max_distance="450" />
+				<object name="g_icon_door_drive_lod1" enabled="true" />
 			</lod_object>
 			<lod_object name="lod_icon_front_r_pass">
 				<object name="g_icon_door_front_r_pass_lod0" enabled="true"  max_distance="450" />
+				<object name="g_icon_door_front_r_pass_lod1" enabled="true" />
 			</lod_object>
 			<lod_object name="lod_icon_rear_l_pass">
 				<object name="g_icon_door_rear_l_pass_lod0" enabled="true"  max_distance="450" />
+				<object name="g_icon_door_rear_l_pass_lod1" enabled="true" />
 			</lod_object>
 			<lod_object name="lod_icon_rear_r_pass">
 				<object name="g_icon_door_rear_r_pass_lod0" enabled="true"  max_distance="450" />
+				<object name="g_icon_door_rear_r_pass_lod1" enabled="true" />
 			</lod_object>
 		</graphic_group>
 

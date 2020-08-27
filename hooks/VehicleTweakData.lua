@@ -94,9 +94,9 @@ function VehicleTweakData:_init_wz_jeep_willy()
 		name = "",
 		hud_label_offset = 0,
 		animations = {
-			passenger_back_right = "drive_muscle_back_right",
+			passenger_back_right = "drive_boat_rib_1_back_right",
 			vehicle_id = "muscle",
-			passenger_back_left = "drive_muscle_back_left",
+			passenger_back_left = "drive_boat_rib_1_back_left",
 			passenger_front = "drive_muscle_passanger",
 			driver = "drive_muscle_driver"
 		},
