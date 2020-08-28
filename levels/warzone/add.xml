@@ -180,15 +180,6 @@
 		<sequence_manager	path="units/pd2_mod_wz/vehicles/fps_vehicle_muscle_1/fps_vehicle_muscle_1" unload="true"/>
 		<material_config	path="units/pd2_mod_wz/vehicles/fps_vehicle_muscle_1/fps_vehicle_muscle_1" unload="true"/>
 		
-		<!-- WW2 Willy Jeep -->
-		<unit				path="units/pd2_mod_wz/vehicles/fps_vehicle_jeep_willy/fps_vehicle_jeep_willy" unload="true" load="true" />
-		<object				path="units/pd2_mod_wz/vehicles/fps_vehicle_jeep_willy/fps_vehicle_jeep_willy" unload="true"/>
-		<model				path="units/pd2_mod_wz/vehicles/fps_vehicle_jeep_willy/fps_vehicle_jeep_willy" unload="true"/>
-		<sequence_manager	path="units/pd2_mod_wz/vehicles/fps_vehicle_jeep_willy/fps_vehicle_jeep_willy" unload="true"/>
-		<material_config	path="units/pd2_mod_wz/vehicles/fps_vehicle_jeep_willy/fps_vehicle_jeep_willy" unload="true"/>
-		<texture			path="units/pd2_mod_wz/vehicles/fps_vehicle_jeep_willy/fps_vehicle_jeep_willy_df" unload="true"/>
-		<texture			path="units/pd2_mod_wz/vehicles/fps_vehicle_jeep_willy/fps_vehicle_jeep_willy_nm" unload="true"/>
-		
 		<!-- Cargo Truck -->
 		<unit						path="units/pd2_mod_wz/vehicles/fps_vehicle_m35_truck/fps_vehicle_m35_truck" unload="true" load="true" />
 		<object						path="units/pd2_mod_wz/vehicles/fps_vehicle_m35_truck/fps_vehicle_m35_truck" unload="true"/>
@@ -202,6 +193,22 @@
 		<animation					path="units/pd2_mod_wz/vehicles/fps_vehicle_m35_truck/anims/m35_truck_test" unload="true" />
 		<animation					path="units/pd2_mod_wz/vehicles/fps_vehicle_m35_truck/anims/m35_truck_wheels_loop" unload="true" />
 		<animation					path="units/pd2_mod_wz/vehicles/fps_vehicle_m35_truck/anims/m35_truck_wheels_stop" unload="true" />
+		
+		<!-- WW2 Willy Jeep -->
+		<unit				path="units/pd2_mod_wz/vehicles/fps_vehicle_jeep_willy/fps_vehicle_jeep_willy" unload="true" load="true" />
+		<object				path="units/pd2_mod_wz/vehicles/fps_vehicle_jeep_willy/fps_vehicle_jeep_willy" unload="true"/>
+		<model				path="units/pd2_mod_wz/vehicles/fps_vehicle_jeep_willy/fps_vehicle_jeep_willy" unload="true"/>
+		<sequence_manager	path="units/pd2_mod_wz/vehicles/fps_vehicle_jeep_willy/fps_vehicle_jeep_willy" unload="true"/>
+		<material_config	path="units/pd2_mod_wz/vehicles/fps_vehicle_jeep_willy/fps_vehicle_jeep_willy" unload="true"/>
+		<texture			path="units/pd2_mod_wz/vehicles/fps_vehicle_jeep_willy/fps_vehicle_jeep_willy_df" unload="true"/>
+		<texture			path="units/pd2_mod_wz/vehicles/fps_vehicle_jeep_willy/fps_vehicle_jeep_willy_nm" unload="true"/>
+		
+		<!-- Motorcross Bike -->
+		<unit				path="units/pd2_mod_wz/vehicles/fps_vehicle_motorcross_bike/fps_vehicle_motorcross_bike" unload="true" load="true" />
+		<object				path="units/pd2_mod_wz/vehicles/fps_vehicle_motorcross_bike/fps_vehicle_motorcross_bike" unload="true"/>
+		<model				path="units/pd2_mod_wz/vehicles/fps_vehicle_motorcross_bike/fps_vehicle_motorcross_bike" unload="true"/>
+		<sequence_manager	path="units/pd2_mod_wz/vehicles/fps_vehicle_motorcross_bike/fps_vehicle_motorcross_bike" unload="true"/>
+		<material_config	path="units/pd2_mod_wz/vehicles/fps_vehicle_motorcross_bike/fps_vehicle_motorcross_bike" unload="true"/>
 		
 		<!-- Vehicle Driver -->
 		<unit						path="units/pd2_mod_wz/vehicles/vehicle_driver/vehicle_driver" unload="true" load="true" />

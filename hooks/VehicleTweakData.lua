@@ -3,6 +3,7 @@ Hooks:PostHook(VehicleTweakData,"init","wz_init",function(self, tweak_data)
 
 	self:_init_wz_cargo_truck()
 	self:_init_wz_jeep_willy()
+	self:_init_wz_motorcross_bike()
 	
 end)
 
@@ -158,6 +159,59 @@ function VehicleTweakData:_init_wz_jeep_willy()
 		interact_distance = 350,
 		driver_camera_offset = Vector3(0, 0.2, 2.5),
 		fov = 75
+	}
+end
+
+function VehicleTweakData:_init_wz_motorcross_bike()
+	self.wz_motorcross_bike = {
+		name = "",
+		hud_label_offset = 220,
+		animations = {
+			driver = "drive_bike_1_driver",
+			vehicle_id = "bike_1"
+		},
+		sound = {
+			slip = "mc_skid",
+			hit_rtpc = "car_hit_vel",
+			lateral_slip_treshold = 0.25,
+			bump_rtpc = "car_bump_vel",
+			bump_treshold = 6,
+			slip_stop = "mc_skid_stop",
+			bump = "mc_bumper_01",
+			engine_rpm_rtpc = "car_falcogini_rpm",
+			engine_start = "mc_harley_start",
+			longitudal_slip_treshold = 0.95,
+			engine_speed_rtpc = "car_falcogini_speed",
+			engine_sound_event = "mc_harley",
+			hit = "mc_hit_gen_01"
+		},
+		seats = {
+			driver = {
+				driving = true,
+				name = "driver"
+			}
+		},
+		loot_points = {
+			loot_left = {
+				name = "loot"
+			}
+		},
+		damage = {
+			max_health = 10
+		},
+		max_speed = 180,
+		max_rpm = 3000,
+		loot_drop_point = "v_repair_engine",
+		max_loot_bags = 0,
+		interact_distance = 250,
+		driver_camera_offset = Vector3(0, -4, 5),
+		fov = 75,
+		camera_limits = {
+			driver = {
+				pitch = 30,
+				yaw = 30
+			}
+		}
 	}
 end
 

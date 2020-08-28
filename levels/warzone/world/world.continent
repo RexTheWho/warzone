@@ -1641,6 +1641,9 @@
 				</_destroy_listener_holder>
 			</unit_data>
 		</table>
+		<table>
+			<unit_data _prev_pos="16811 53999 1001" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="state_interaction_enabled" name="units/pd2_mod_wz/vehicles/fps_vehicle_motorcross_bike/fps_vehicle_motorcross_bike" name_id="fps_vehicle_motorcross_bike_001" position="16811 53999 1001" rotation="-0 0 -0 -1" unit_id="100538"/>
+		</table>
 	</statics>
 	<values>
 		<workviews/>

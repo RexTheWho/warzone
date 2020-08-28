@@ -1,0 +1,86 @@
+<dynamic_object>
+	<diesel materials="units/pd2_mod_wz/vehicles/fps_vehicle_motorcross_bike/fps_vehicle_motorcross_bike" orientation_object="rp_anim_car" />
+	<sequence_manager file="units/pd2_mod_wz/vehicles/fps_vehicle_motorcross_bike/fps_vehicle_motorcross_bike" />
+
+	<animations>
+		<animation_group name="anim_steering_wheel_left" enabled="false">
+			<object name="anim_steering_wheel_left" />
+		</animation_group>
+		<animation_group name="anim_steering_wheel_right" enabled="false">
+			<object name="anim_steering_wheel_right" />
+		</animation_group>
+		<animation_group name="anim_tilt_left" enabled="false">
+			<object name="anim_tilt_left" />
+		</animation_group>
+		<animation_group name="anim_tilt_right" enabled="false">
+			<object name="anim_tilt_right" />
+		</animation_group>
+	</animations>
+
+	<decal_surfaces>
+		<decal_mesh name="g_vehicle_jeep_willy" enabled="true" />
+	</decal_surfaces>
+
+
+	<bodies>
+		<body name="body_chassis" enabled="false" template="vehicle" collision_script_filter="1" collision_script_quiet_time="0.5" collision_script_tag="vehicle_collision" give_standing_velocity="false">
+			<object name="anim_body" />
+			<object name="c_box" collision_type="box" padding="-2.5" />
+		</body>
+		
+		<body name="body_chassis_static" enabled="true" template="animated" >
+			<object name="c_mesh" collision_type="mesh_mopp" />
+		</body>
+	</bodies>
+	
+
+	<graphics>
+		<graphic_group name="grp_icon_entry" enabled="true">
+			<lod_object name="lod_icon_drive">
+				<object name="g_icon_door_drive_lod0" enabled="true"  max_distance="450" />
+				<object name="g_icon_door_drive_lod1" enabled="true" />
+			</lod_object>
+		</graphic_group>
+
+		<graphic_group name="grp_icon_repair" enabled="true">
+			<lod_object name="lod_icon_repair">
+				<object name="g_icon_repair_lod0" enabled="true"  max_distance="450" />
+				<object name="g_icon_repair_lod1" enabled="true" />
+			</lod_object>
+		</graphic_group>
+
+		<object name="g_motorcross"			enabled="true" />
+		<object name="g_wheel_front"		enabled="true" />
+		<object name="g_wheel_rear"			enabled="true" />
+		<object name="g_handle_bars"		enabled="true" />
+		<object name="g_handle_bars_fps"	enabled="false" />
+	</graphics>
+
+	
+	<vehicle name="vhc_vehicle">
+		<chassis body="body_chassis" mass="2500" center_of_mass_offset="0.0 0.0 0.0" inertia_multiplier="1.0 1.1 1.1" downforce_strength="15.0" drag_strength="4.0"/>
+		<wheels>
+			<!-- <wheel spin_object="anim_tire_front_spin" 	turn_object=""	radius="0.358" width="0.8" mass="100" 	transmission_ratio="0.4" is_steering="true" 	max_steering="40" 	braking_torque="3000" 	handbrake_torque="4000" /> -->
+			<!-- <wheel spin_object="anim_tire_rear_spin" 	turn_object=""	radius="0.358" width="0.8" mass="100" 	transmission_ratio="0.4" is_steering="false" 	max_steering="0" 	braking_torque="2000" 	handbrake_torque="3000" /> -->
+			<wheel spin_object="anim_tire_front_right" 	turn_object=""	radius="0.358" width="0.8" mass="50" 	transmission_ratio="0.4" is_steering="true" 	max_steering="20" 	braking_torque="3000" 	handbrake_torque="4000" />
+			<wheel spin_object="anim_tire_front_left"   turn_object="" 	radius="0.358" width="0.8" mass="50" 	transmission_ratio="0.4" is_steering="true" 	max_steering="20" 	braking_torque="3000" 	handbrake_torque="4000" />
+			<wheel spin_object="anim_tire_rear_right" 	turn_object=""	radius="0.358" width="0.8" mass="50" 	transmission_ratio="0.4" is_steering="false" 	max_steering="0" 	braking_torque="3000" 	handbrake_torque="4000" />
+			<wheel spin_object="anim_tire_rear_left"   	turn_object="" 	radius="0.358" width="0.8" mass="50" 	transmission_ratio="0.4" is_steering="false" 	max_steering="0" 	braking_torque="3000" 	handbrake_torque="4000" />
+		</wheels>
+		<suspension max_compression="0.05" max_extension="0.05" spring_strength="55000" damper_rate="5000" supported_mass="625" />
+		<gearbox switch_time="0.1" ratio_multiplier="4.0">
+			<ratios>
+				<ratio value="-2.0" />
+				<ratio value="0.0" />
+				<ratio value="3.75" />
+				<ratio value="2.50" />
+				<ratio value="1.90" />
+				<ratio value="1.65" />
+				<ratio value="1.25" />
+				<ratio value="0.78" />
+			</ratios>
+		</gearbox>
+		<engine max_torque="800" max_rpm="9000"/>
+	</vehicle>
+	
+</dynamic_object>
