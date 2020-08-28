@@ -173,7 +173,7 @@ function VehicleTweakData:_init_wz_motorcross_bike()
 		sound = {
 			slip = "mc_skid",
 			hit_rtpc = "car_hit_vel",
-			lateral_slip_treshold = 0.25,
+			lateral_slip_treshold = 0.35,
 			bump_rtpc = "car_bump_vel",
 			bump_treshold = 6,
 			slip_stop = "mc_skid_stop",
@@ -204,12 +204,12 @@ function VehicleTweakData:_init_wz_motorcross_bike()
 		loot_drop_point = "v_repair_engine",
 		max_loot_bags = 0,
 		interact_distance = 250,
-		driver_camera_offset = Vector3(0, -4, 5),
+		driver_camera_offset = Vector3(0, 0, 0),
 		fov = 75,
 		camera_limits = {
 			driver = {
 				pitch = 30,
-				yaw = 30
+				yaw = 55
 			}
 		}
 	}
