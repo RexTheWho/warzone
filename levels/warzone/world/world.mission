@@ -4264,6 +4264,24 @@
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
+			<entry index="151" type="table">
+				<entry key="class" type="string" value="ElementVehicleSpawner"/>
+				<entry key="editor_name" type="string" value="vehicle_spawner_001"/>
+				<entry key="id" type="number" value="100150"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="17409 53617 1001"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="state" type="string" value="inactive"/>
+					<entry key="trigger_times" type="number" value="0"/>
+					<entry key="vehicle" type="string" value="wz_jeep_willy"/>
+				</entry>
+			</entry>
 		</entry>
 		<entry key="instances" type="table">
 			<entry index="1" type="string" value="wz_alarm_box_001"/>

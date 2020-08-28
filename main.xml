@@ -41,7 +41,7 @@
 	<Localization default="english.txt" directory="loc">
 		<loc file="english.txt" language="english"/>
 	</Localization>
-	<level ai_group_type="wzcartel" briefing_dialog="" disable_mutators="true" id="warzone" intro_event="" music="heist" team_ai_off="false">
+	<level ai_group_type="wzcartel" briefing_dialog="" disable_mutators="true" id="warzone" intro_event="" music="heist" team_ai_off="true">
 		<add file="levels/warzone/add.xml"/>
 		<hooks directory="hooks">
 			<hook file="CopBrain.lua" source_file="lib/units/enemies/cop/copbrain"/>
@@ -70,6 +70,7 @@
 			<hook file="PlayerFatal.lua" source_file="lib/units/beings/player/states/playerfatal"/>
 			<hook file="MissionManager.lua" source_file="lib/managers/missionmanager"/>
 			<hook file="ElementSpecialObjective.lua" source_file="lib/managers/missionmanager"/>
+			<hook file="ElementVehicleSpawner.lua" source_file="lib/managers/mission/elementvehiclespawner"/>
 		</hooks>
 		<include directory="levels/warzone">
 			<file file="world.world" type="generic_xml"/>
