@@ -111,10 +111,10 @@ function VehicleTweakData:_init_wz_jeep_willy()
 			slip = "car_skid_01",
 			hit_rtpc = "car_hit_vel",
 			engine_rpm_rtpc = "car_falcogini_rpm",
-			longitudal_slip_treshold = 0.98,
+			longitudal_slip_treshold = 0.8,
 			engine_speed_rtpc = "car_falcogini_speed",
 			door_close = "car_door_open",
-			engine_sound_event = "drive_truck",
+			engine_sound_event = "muscle",
 			hit = "car_hit_gen_01"
 		},
 		seats = {
