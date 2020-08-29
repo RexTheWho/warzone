@@ -1,5 +1,4 @@
 function CopLogicArrest._call_the_police(data, my_data, paniced)
-    log(tostring(my_data.is_on_alert_SO))
     if not my_data.is_on_alert_SO then
 		CopLogicBase.register_alert_SO(data)
 		--CopLogicArrest._say_call_the_police(data, my_data)

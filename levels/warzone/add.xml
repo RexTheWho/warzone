@@ -1,5 +1,10 @@
 <table directory="assets">
 
+	<!--HUD STUFF-->
+	<add unload_on_restart="true">
+		<texture			path="guis/textures/map_markers" unload="true"/>
+	</add>
+
 	<!--DEV STUFF-->
 	<add unload_on_restart="true">
 		<unit				path="units/pd2_dlc_jerry/props/jry_equipment_parachute/jry_equipment_parachute_ragdoll" unload="true" load="true" />

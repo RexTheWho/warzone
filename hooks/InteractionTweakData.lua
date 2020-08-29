@@ -12,8 +12,7 @@ Hooks:PostHook(InteractionTweakData,"init","wz_init",function(self)
 	
 	self.climbing_rope = {
 		text_id = "hud_int_hold_climbing_rope",
-		interact_distance = 200,
-		timer = 0.1,
+		interact_distance = 100,
 		axis = "y",
 		start_active = true,
 		sound_start = "bar_rescue",

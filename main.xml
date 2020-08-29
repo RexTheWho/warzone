@@ -66,8 +66,9 @@
 			<hook file="IngameFatalState.lua" source_file="lib/states/ingamefatalstate"/>
 			<hook file="PlayerDamage.lua" source_file="lib/units/beings/player/playerdamage"/>
 			<hook file="WarzoneTweakData.lua" source_file="lib/tweak_data/tweakdatapd2"/>
-			<hook file="HUDAccessCamera.lua" source_file="lib/managers/hud/hudaccesscamera"/>
+			<hook file="HudMapScreen.lua" source_file="lib/managers/hudmanagerpd2"/>
 			<hook file="PlayerFatal.lua" source_file="lib/units/beings/player/states/playerfatal"/>
+			<hook file="DayNightManager.lua" source_file="lib/setups/gamesetup"/>
 			<hook file="MissionManager.lua" source_file="lib/managers/missionmanager"/>
 			<hook file="ElementSpecialObjective.lua" source_file="lib/managers/missionmanager"/>
 			<hook file="ElementVehicleSpawner.lua" source_file="lib/managers/mission/elementvehiclespawner"/>
@@ -91,6 +92,7 @@
 			<file file="environments/wz_t1200.environment" type="custom_xml"/>
 			<file file="environments/wz_t1800.environment" type="custom_xml"/>
 			<file file="environments/default.environment" type="custom_xml"/>
+			<file file="environments/wz_mapscreen.environment" type="custom_xml"/>
 		</include>
 		<outro_event>
 			<value_node value=""/>

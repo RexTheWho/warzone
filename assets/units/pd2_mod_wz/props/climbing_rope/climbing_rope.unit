@@ -3,7 +3,7 @@
 	<extensions>
 		<extension name="unit_data" class="ScriptUnitData" />
 		<extension name="damage" class="UnitDamage" />
-		<extension name="interaction" class="UseInteractionExt">
+		<extension name="interaction" class="ClimbingRopeInteractionExt">
 			<var name="tweak_data" value="climbing_rope"/>
 			<var name="_interact_object" value="interact"/>
 		</extension>
