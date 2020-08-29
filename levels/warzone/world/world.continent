@@ -17,6 +17,7 @@
 		<table continent="world" folder="levels/instances/mods/wz_alarm_box/world" index_size="200" name="wz_alarm_box_009" position="17100 59600 1000" rotation="0 0 -0.707107 -0.707107" script="default" start_index="18800"/>
 		<table continent="world" folder="levels/instances/mods/wz_alarm_box/world" index_size="200" name="wz_alarm_box_010" position="18900 57800 1000" rotation="0 0 1 4.37114e-008" script="default" start_index="19000"/>
 		<table continent="world" folder="levels/instances/mods/wz_alarm_box/world" index_size="200" name="wz_alarm_box_011" position="18600 56200 1000" rotation="0 0 1 4.37114e-008" script="default" start_index="19200"/>
+		<table continent="world" folder="levels/instances/mods/wz_town_spawnroom/world" index_size="200" name="wz_town_spawnroom_006" position="14700 60950 1000" rotation="0 0 -0.707107 -0.707107" script="default" start_index="19400"/>
 	</instances>
 	<statics>
 		<table>
@@ -1086,9 +1087,6 @@
 			<unit_data _prev_pos="20700 62200 1000" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="400 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/ind/ind_cinderblock_wall_4m_a" name_id="ind_cinderblock_wall_4m_a_010" position="20700 61400 1000" rotation="0 0 -0.707107 -0.707107" unit_id="100359"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="17100 57500 800" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/ind/ind_cinderblock_wall_4m_a" name_id="ind_cinderblock_wall_4m_a_011" position="17100 57500 800" rotation="0 0 -0.707107 -0.707107" unit_id="100360"/>
-		</table>
-		<table>
 			<unit_data _prev_pos="18299 60400 1200" _prev_rot="-0.5 0.5 0.5 -0.5" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc1/props/str_prop_alley_graffiti/str_prop_alley_graffiti_ishwah" name_id="str_prop_alley_graffiti_ishwah_001" position="18299 60400 1200" rotation="-0.5 0.5 0.5 -0.5" unit_id="100361"/>
 		</table>
 		<table>
@@ -1171,9 +1169,6 @@
 		</table>
 		<table>
 			<unit_data _prev_pos="17100 59000 1000" _prev_rot="0 0 1.06581e-014 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="close" name="units/pd2_mod_wz/buildings/bld_generic_desert/bld_refspawner_4x4m" name_id="bld_refspawner_4x4m_002" position="17100 59000 1000" rotation="0 0 -0.707107 -0.707107" unit_id="100395"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="15900 59000 800" _prev_rot="0 0 -5.96046e-008 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/ind/ind_cinderblock_wall_4m_a" name_id="ind_cinderblock_wall_4m_a_013" position="15900 59000 800" rotation="0 0 -5.96046e-008 -1" unit_id="100396"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="16300 59800 1000" _prev_rot="0 0 1 8.9407e-008" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_wz/buildings/bld_generic_desert/bld_cinder_wall_4m" name_id="bld_cinder_wall_4m_023" position="16300 59800 1000" rotation="0 0 0.707107 -0.707107" unit_id="100397"/>
@@ -1284,40 +1279,22 @@
 			<unit_data _prev_pos="14401 58801 800" _prev_rot="0 0 1.49012e-007 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/ind/ind_cinderblock_wall_4m_a" name_id="ind_cinderblock_wall_4m_a_031" position="14501 58801 800" rotation="0 0 1.49012e-007 -1" unit_id="100435"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="13700 61800 1000" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_wz/buildings/bld_generic_desert/bld_generic_desert" name_id="bld_generic_desert_002" position="13700 61800 1000" rotation="0 0 0.707107 -0.707107" unit_id="100425"/>
+			<unit_data _prev_pos="13700 61750 1000" _prev_rot="0 0 0.707107 -0.707107" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_wz/buildings/bld_generic_desert/bld_generic_desert" name_id="bld_generic_desert_002" position="13700 61750 1000" rotation="0 0 0.707107 -0.707107" unit_id="100425"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="14900 61000 1000" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_wz/buildings/bld_generic_desert/bld_painted_wall_4m" name_id="bld_generic_desert_004" position="14700 61000 1000" rotation="0 0 -0.707107 -0.707107" unit_id="100429"/>
+			<unit_data _prev_pos="14500 60950 1000" _prev_rot="0 0 4.37114e-008 -1" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_wz/buildings/bld_generic_desert/bld_painted_wall_2m" name_id="bld_generic_desert_003" position="14100 60950 1000" rotation="0 0 4.37114e-008 -1" unit_id="100426"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="14500 61000 1000" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_wz/buildings/bld_generic_desert/bld_painted_wall_2m" name_id="bld_generic_desert_003" position="14500 61000 1000" rotation="0 0 0 -1" unit_id="100426"/>
+			<unit_data _prev_pos="13700 60950 1000" _prev_rot="-0 0 -0 -1" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_wz/buildings/bld_generic_desert/bld_painted_wall_4m" name_id="bld_generic_desert_006" position="13700 60950 1000" rotation="-0 0 -0 -1" unit_id="100436"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="13700 61000 1000" _prev_rot="0 0 1 -0" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_wz/buildings/bld_generic_desert/bld_painted_wall_4m" name_id="bld_generic_desert_006" position="13700 61000 1000" rotation="0 0 -4.37114e-008 -1" unit_id="100436"/>
+			<unit_data _prev_pos="14700 61750 1000" _prev_rot="0 0 1 -4.37114e-008" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="1000 800 0" local_rot="-0 0 -1 4.37114e-008" name="units/pd2_mod_wz/buildings/bld_generic_desert/bld_cinder_wall_2m" name_id="bld_generic_desert_004" position="14700 61750 1000" rotation="0 0 1 -4.37114e-008" unit_id="100434"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="14100 61000 1000" _prev_rot="0 0 1 -0" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_wz/buildings/bld_generic_desert/bld_painted_wall_4m" name_id="bld_generic_desert_007" position="14100 61000 1000" rotation="0 0 -4.37114e-008 -1" unit_id="100437"/>
+			<unit_data _prev_pos="14700 61350 1000" _prev_rot="0 0 -0.707107 -0.707107" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_wz/buildings/bld_generic_desert/bld_cinder_wall_2m_b" name_id="bld_generic_desert_005" position="14700 61350 1000" rotation="0 0 -0.707107 -0.707107" unit_id="100430"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="14700 61800 800" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/ind/ind_cinderblock_wall_4m_a" name_id="ind_cinderblock_wall_4m_a_001" position="14700 61800 1000" rotation="0 0 -0.707107 -0.707107" unit_id="100438"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="14700 62200 800" _prev_rot="0 0 1 -0" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/ind/ind_cinderblock_wall_4m_a" name_id="ind_cinderblock_wall_4m_a_002" position="14700 62200 800" rotation="0 0 1 -0" unit_id="100439"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="14100 62200 1000" _prev_rot="0 0 1 -0" continent="world" local_pos="600 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/ind/ind_cinderblock_wall_4m_a" name_id="ind_cinderblock_wall_4m_a_022" position="14100 62200 800" rotation="0 0 1 -0" unit_id="100441"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="13700 62200 1000" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/ind/ind_cinderblock_wall_4m_a" name_id="ind_cinderblock_wall_4m_a_025" position="13700 62200 1000" rotation="0 0 0.707107 -0.707107" unit_id="100442"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="14700 61800 1000" _prev_rot="0 0 1 -4.37114e-008" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_wz/buildings/bld_generic_desert/bld_cinder_wall_2m" name_id="bld_generic_desert_004" position="14700 61800 1000" rotation="0 0 1 -4.37114e-008" unit_id="100434"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="14700 61400 1000" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_wz/buildings/bld_generic_desert/bld_cinder_wall_2m_b" name_id="bld_generic_desert_005" position="14700 61400 1000" rotation="0 0 -0.707107 -0.707107" unit_id="100430"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="14700 61600 1000" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_wz/buildings/bld_generic_desert/bld_cinder_wall_2m" name_id="bld_generic_desert_006" position="14700 61600 1000" rotation="0 0 -0.707107 -0.707107" unit_id="100440"/>
+			<unit_data _prev_pos="14700 61550 1000" _prev_rot="0 0 -0.707107 -0.707107" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_wz/buildings/bld_generic_desert/bld_cinder_wall_2m" name_id="bld_generic_desert_006" position="14700 61550 1000" rotation="0 0 -0.707107 -0.707107" unit_id="100440"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="18416.3 61924.7 1000" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_wz/nature/veg_bushes/wz_vegetation_bush_large_a" name_id="wz_vegetation_bush_large_a_012" position="18416.3 61924.7 1000" rotation="0 0 0 -1" unit_id="100443"/>
@@ -1643,6 +1620,45 @@
 		</table>
 		<table>
 			<unit_data _prev_pos="16811 53999 1001" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="state_interaction_enabled" name="units/pd2_mod_wz/vehicles/fps_vehicle_motorcross_bike/fps_vehicle_motorcross_bike" name_id="fps_vehicle_motorcross_bike_001" position="16811 53999 1001" rotation="-0 0 -0 -1" unit_id="100538"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="17100 57500 1000" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_wz/buildings/bld_generic_desert/bld_cinder_wall_4m_short" name_id="bld_cinder_wall_4m_short_001" position="17100 57500 1000" rotation="0 0 -0.707107 -0.707107" unit_id="100539"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="15900 59000 1000" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_wz/buildings/bld_generic_desert/bld_cinder_wall_4m_short" name_id="bld_cinder_wall_4m_short_002" position="15900 59000 1000" rotation="0 0 0 -1" unit_id="100360"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="14100 62150 1000" _prev_rot="0 0 1 8.74228e-008" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="400 1200 0" local_rot="0 0 -1 -8.74228e-008" name="units/pd2_mod_wz/buildings/bld_generic_desert/bld_cinder_wall_4m_short" name_id="bld_cinder_wall_4m_short_003" position="14100 62150 1000" rotation="0 -0 1 8.74228e-008" unit_id="100396"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="14700 61750 1000" _prev_rot="0 0 -0.707107 -0.707107" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="1000 800 0" local_rot="0 0 0.707107 0.707107" name="units/pd2_mod_wz/buildings/bld_generic_desert/bld_cinder_wall_4m_short" name_id="bld_cinder_wall_4m_short_004" position="14700 61750 1000" rotation="0 0 -0.707107 -0.707107" unit_id="100439"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="14700 62150 1000" _prev_rot="0 0 1 8.74228e-008" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="1000 1200 0" local_rot="0 0 -1 -8.74228e-008" name="units/pd2_mod_wz/buildings/bld_generic_desert/bld_cinder_wall_4m_short" name_id="bld_cinder_wall_4m_short_005" position="14700 62150 1000" rotation="0 -0 1 8.74228e-008" unit_id="100438"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="13700 62150 1000" _prev_rot="0 0 0.707107 -0.707107" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 1200 0" local_rot="-0 0 -0.707107 0.707107" name="units/pd2_mod_wz/buildings/bld_generic_desert/bld_cinder_wall_4m_short" name_id="bld_cinder_wall_4m_short_006" position="13700 62150 1000" rotation="0 0 0.707107 -0.707107" unit_id="100441"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="14700 60950 1000" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="close" name="units/pd2_mod_wz/buildings/bld_generic_desert/bld_refspawner_4x4m" name_id="bld_refspawner_4x4m_006" position="14700 60950 1000" rotation="0 0 -0.707107 -0.707107" unit_id="100437"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="17100 57500 1000" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_wz/buildings/bld_generic_desert/bld_cinder_wall_4m_short" name_id="bld_cinder_wall_4m_short_007" position="17100 61500 1000" rotation="0 0 -0.707107 -0.707107" unit_id="100429"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="17251 57900 1000" _prev_rot="0 0 -0.669131 -0.743145" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/ind_prop_military_ibc/ind_prop_military_ibc" name_id="ind_prop_military_ibc_005" position="17251 57900 1000" rotation="0 0 -0.669131 -0.743145" unit_id="100442"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="17141.5 57948.7 1000" _prev_rot="0 0 0.993572 0.113203" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/ind_prop_military_ibc/ind_prop_military_ibc" name_id="ind_prop_military_ibc_006" position="17141.5 57948.7 1000" rotation="0 0 0.993572 0.113203" unit_id="100540"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="18222 57866 1000" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/desert/des_prop_barrel_01/des_prop_barrel_01" name_id="des_prop_barrel_01_001" position="18222 57866 1000" rotation="0 0 0.292372 -0.956305" unit_id="100541"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="18250 57850 1000" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/desert/des_prop_barrel_01/des_prop_barrel_01" name_id="des_prop_barrel_01_002" position="18150 57900 1000" rotation="0 0 0 -1" unit_id="100542"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="18402 57857 1000" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/desert/des_prop_barrel_01/des_prop_barrel_01" name_id="des_prop_barrel_01_003" position="18402 57857 1000" rotation="0 0 -0.374607 -0.927184" unit_id="100543"/>
 		</table>
 	</statics>
 	<values>

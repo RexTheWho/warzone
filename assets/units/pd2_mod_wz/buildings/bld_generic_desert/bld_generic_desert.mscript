@@ -24,6 +24,9 @@
 	<import	file="bld_cinder_wall_4m.glb" create_objects="true"/>
 	<save	file="bld_cinder_wall_4m.model"/>
 	<new/>
+	<import	file="bld_cinder_wall_4m_short.glb" create_objects="true"/>
+	<save	file="bld_cinder_wall_4m_short.model"/>
+	<new/>
 	<import	file="bld_cinder_wall_2m.glb" create_objects="true"/>
 	<save	file="bld_cinder_wall_2m.model"/>
 	<new/>

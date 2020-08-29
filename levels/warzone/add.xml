@@ -264,6 +264,9 @@
 		<unit				path="units/pd2_mod_wz/buildings/bld_generic_desert/bld_cinder_wall_4m" unload="true" load="true" />
 		<object				path="units/pd2_mod_wz/buildings/bld_generic_desert/bld_cinder_wall_4m" unload="true"/>
 		<model				path="units/pd2_mod_wz/buildings/bld_generic_desert/bld_cinder_wall_4m" unload="true"/>
+		<unit				path="units/pd2_mod_wz/buildings/bld_generic_desert/bld_cinder_wall_4m_short" unload="true" load="true" />
+		<object				path="units/pd2_mod_wz/buildings/bld_generic_desert/bld_cinder_wall_4m_short" unload="true"/>
+		<model				path="units/pd2_mod_wz/buildings/bld_generic_desert/bld_cinder_wall_4m_short" unload="true"/>
 		<unit				path="units/pd2_mod_wz/buildings/bld_generic_desert/bld_cinder_wall_2m" unload="true" load="true" />
 		<object				path="units/pd2_mod_wz/buildings/bld_generic_desert/bld_cinder_wall_2m" unload="true"/>
 		<model				path="units/pd2_mod_wz/buildings/bld_generic_desert/bld_cinder_wall_2m" unload="true"/>
